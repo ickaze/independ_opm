@@ -1,0 +1,8 @@
+﻿start_tick,end_tick,start_s_4MHz,end_s_4MHz,channel,kc,audible,label
+128,640,1.048576,5.24288,0,48,M2+C1+C2,TL only; M1 D1R=0; NO re-key
+640,1152,5.24288,9.437184,0,48,M2,TL only; M1 D1R=0; NO re-key
+1152,1664,9.437184,13.631488,0,48,M2+C1+C2,TL only; M1 D1R=0; NO re-key
+1664,2176,13.631488,17.825792,0,48,C1,TL only; M1 D1R=0; NO re-key
+2176,2688,17.825792,22.020096,0,48,M2+C1+C2,TL only; M1 D1R=0; NO re-key
+2688,3200,22.020096,26.2144,0,48,C2,TL only; M1 D1R=0; NO re-key
+3200,3712,26.2144,30.408704,0,48,M2+C1+C2,TL only; M1 D1R=0; NO re-key

@@ -1,0 +1,17 @@
+X68Sound src020615: original source reference
+Author: m_puusan
+Reference: user-supplied X68Sound_src020615.zip, X68Sound/lfo.h and readme.txt.
+Distribution: http://mpuusan.web.fc2.com/x68sound/down_X68Sound_src020615.htm
+
+Applicable scope: detail::LfoClock, detail::lfo_value, the LFO portions of
+Ym2151::write_register and synthesize, and reference-derived LFO tests.
+The original host PRNG, platform code, stored waveform tables and complete
+operator engine are not included. The native clock/64 integration and the
+user-requested provisional 17-bit random source are adaptations.
+
+Original permission (readme.txt):
+[使用許諾契約]
+・本ソースの改変および改変物の公開、自作ソフト等への組み込みおよびそのソフトの
+　配布は自由です。m_puusanへの報告は必要ありません。  
+・本ソフトウェアの使用または使用不能から生じるいかなる損害（利益やデータの損失、
+　その他の金銭的損失など）に関してm_puusanは一切責任を負わないこととします。 

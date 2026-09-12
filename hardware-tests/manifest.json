@@ -1,0 +1,44 @@
+[
+  {
+    "file": "01SOLO.MDX",
+    "seconds_4MHz": 20.97152,
+    "ticks": 2560,
+    "writes": 183
+  },
+  {
+    "file": "02LIVE.MDX",
+    "seconds_4MHz": 31.45728,
+    "ticks": 3840,
+    "writes": 94
+  },
+  {
+    "file": "03CHSCAN.MDX",
+    "seconds_4MHz": 119.537664,
+    "ticks": 14592,
+    "writes": 1163
+  },
+  {
+    "file": "04PITCH.MDX",
+    "seconds_4MHz": 60.817408,
+    "ticks": 7424,
+    "writes": 603
+  },
+  {
+    "file": "05SINE.MDX",
+    "seconds_4MHz": 119.537664,
+    "ticks": 14592,
+    "writes": 1195
+  },
+  {
+    "file": "06PAIR.MDX",
+    "seconds_4MHz": 39.845888,
+    "ticks": 4864,
+    "writes": 323
+  },
+  {
+    "file": "07LOAD.MDX",
+    "seconds_4MHz": 18.874368,
+    "ticks": 2304,
+    "writes": 304
+  }
+]

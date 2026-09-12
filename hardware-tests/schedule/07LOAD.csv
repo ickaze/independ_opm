@@ -1,0 +1,5 @@
+﻿start_tick,end_tick,start_s_4MHz,end_s_4MHz,channel,kc,audible,label
+128,640,1.048576,5.24288,0,48,M2+C1+C2,ch0 only
+640,1152,5.24288,9.437184,0,48,M2+C1+C2,other channels running; pan OFF
+1152,1664,9.437184,13.631488,0,48,M2+C1+C2,other channels also audible; +24 TL
+1664,2176,13.631488,17.825792,0,48,M2+C1+C2,other channels running; pan OFF again

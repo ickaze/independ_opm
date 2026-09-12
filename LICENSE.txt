@@ -1,0 +1,16 @@
+The entire package is not designated CC0.
+The X68Sound-derived LFO scope is identified in THIRD_PARTY_NOTICES.txt,
+which reproduces the original source permission. No third-party rights
+are purported to be waived by this package.
+
+The following grant applies to original portions only:
+
+Permission is granted to use, copy, modify, distribute, and sublicense the original
+code and original demo content in this package for any purpose, including commercial
+use, without requiring attribution or inclusion of this notice.
+
+THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+This permission does not cover third-party documents, photographs, trademarks,
+or any other material merely linked to from this package.
