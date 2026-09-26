@@ -1,0 +1,12 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+LFRQ=0E; saw AM AMD=127 AMS=1,280,22253,2.29376,182.296576,True
+LFRQ=0F; saw AM AMD=127 AMS=1,22253,44226,182.296576,362.299392,True
+tail silence,44226,44354,362.299392,363.347968,False

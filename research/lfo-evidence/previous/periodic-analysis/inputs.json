@@ -1,0 +1,218 @@
+[
+  {
+    "file": "upload/13CAL.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 31.723979,
+    "sha256": "9ace413250b8c914cb4cdcc3bc81074fc657ae789d526f25688f64fbe896d115",
+    "bytes": 5808910
+  },
+  {
+    "file": "upload/14WAVE.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 185.39524,
+    "sha256": "b7931989352efa46c1dccfcf4fde4933304f4517b1dde1cffbe632823d9caa99",
+    "bytes": 39085049
+  },
+  {
+    "file": "upload/15AMDEP.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 213.884031,
+    "sha256": "dd4c91a2b957ff17c26fa388fe61a90cb617f93145d53640529cc875840081ee",
+    "bytes": 45461458
+  },
+  {
+    "file": "upload/16PMDEP.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 416.356229,
+    "sha256": "506232272adb466d0b33cc1d5addd71a6a506908d13417a25b7270594a4b210f",
+    "bytes": 94462755
+  },
+  {
+    "file": "upload/17F80.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.348146,
+    "sha256": "77d2abfb77977c0af2c12e6e48acb21b02452268f7288256b23eb49b0f17fa34",
+    "bytes": 41013827
+  },
+  {
+    "file": "upload/18F90.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.351625,
+    "sha256": "e82c4ab0da543687e343e1a2f3abb30e278f7c8bef94cf03a98a17ccce049a79",
+    "bytes": 41157393
+  },
+  {
+    "file": "upload/19FA0.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.363937,
+    "sha256": "9d2859bd30f6dd673963ffcaee822db90a128a6e31f5d0a3277b160a266067ce",
+    "bytes": 41391823
+  },
+  {
+    "file": "upload/20FB0.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.358156,
+    "sha256": "e31fa37bda070e1470f0265b095bdfaef5d3a5003c838d8915d1b149040f7740",
+    "bytes": 41616744
+  },
+  {
+    "file": "upload/21FC0.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.362687,
+    "sha256": "257f5fbbaeacae3c972e300869218f3ab16f6b5fa20cdb4c762a38e13073e49f",
+    "bytes": 42088714
+  },
+  {
+    "file": "upload/22FD0.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.371302,
+    "sha256": "e82780477b6690255a5710fe554dc9139990a05f8387e4e1194541da0968cc71",
+    "bytes": 42604748
+  },
+  {
+    "file": "upload/23FE0.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.337979,
+    "sha256": "c7fde4460fde68d2c1e766ae5f576818dc878769e0ca7123b550e12d296dc880",
+    "bytes": 43381277
+  },
+  {
+    "file": "upload/24FF0.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 197.362906,
+    "sha256": "61211a575a589367182f5bf8ff0ce4585e1c44941fd423255bada9dd0fcffa97",
+    "bytes": 44185214
+  },
+  {
+    "file": "upload/takes/initial/25F00.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 13.526042,
+    "sha256": "b92f79db8bd78de786ac5d87363f78736d2ccac9bfd4576075e5c59061259711",
+    "bytes": 358057
+  },
+  {
+    "file": "upload/26F10.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 1200.032812,
+    "sha256": "264be1baa18cf0781bdebe20ed9673ac45fe7356bb9fd8b4e33b1511701056b5",
+    "bytes": 242855576
+  },
+  {
+    "file": "upload/27F20.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 773.435354,
+    "sha256": "b33c37b96253278e5270686f0b1cf578d75b8ff743cc3d48ac83934a4f869df7",
+    "bytes": 156047095
+  },
+  {
+    "file": "upload/28F30.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 421.381865,
+    "sha256": "db16072e7eb2fbae75ad16f58a95a13f4996268d491cf68c0bfc7308f9b12e52",
+    "bytes": 84713915
+  },
+  {
+    "file": "upload/29F40.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 245.444667,
+    "sha256": "645bc1ec7e6323bad29d9b1c96553bf301c8fb0b13bd2db93b6b88cfa30fe4e6",
+    "bytes": 49130600
+  },
+  {
+    "file": "upload/30F50.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 165.373208,
+    "sha256": "a2bb8aa6f676dfd1f14ec5e83fe571ca8ed8a1dbff7659b81d89a567d1fa59ec",
+    "bytes": 33069575
+  },
+  {
+    "file": "upload/31F60.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 165.372844,
+    "sha256": "d1ef1b454e1ad6c3ddd6a3dbc1ea8246a461cd626fefbea0a5f00e8b036b437c",
+    "bytes": 33853737
+  },
+  {
+    "file": "upload/32F70.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 255.789937,
+    "sha256": "1859c0325acf6c303f520c544fcd753e53647516e6871532035f08a9ad748d39",
+    "bytes": 37973359
+  },
+  {
+    "file": "upload/33STATE.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 123.903865,
+    "sha256": "33fa9b46ba12e3f34c327af0cbef2c5dff2306d0ed8545e1dd968ebdbb52db93",
+    "bytes": 25788665
+  },
+  {
+    "file": "upload/34CHAN.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 133.808083,
+    "sha256": "463b9eee511761771faa4a6f68bd0a586e7efa96a3e564f8b6f2012934ff7a0c",
+    "bytes": 29363729
+  },
+  {
+    "file": "upload/35JOINT.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 65.439094,
+    "sha256": "5b2b3ef16b12d91ddbbbaa07e086840d8988f5efad9a61c00c2598e7a4ef7b74",
+    "bytes": 13395831
+  },
+  {
+    "file": "upload/36CLOCK.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 417.811115,
+    "sha256": "fb8b8cc357b169021d81dc46667196febbd577dfda257db0a68a88988a07ca72",
+    "bytes": 85521409
+  }
+]

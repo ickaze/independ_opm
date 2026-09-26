@@ -1,0 +1,309 @@
+{
+  "01SOLO": [
+    {
+      "start": 0.1,
+      "end": 4.3,
+      "delay_us": -2.8804849668237087,
+      "residual_rms": 0.025374215521125922,
+      "rail_samples": 0
+    },
+    {
+      "start": 4.82,
+      "end": 9.02,
+      "delay_us": 10.418832268245835,
+      "residual_rms": 2.508078212188024e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 9.540000000000001,
+      "end": 13.74,
+      "delay_us": -5.583454021173162,
+      "residual_rms": 1.983805331429449e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 14.26,
+      "end": 18.47,
+      "delay_us": -5.584211935035035,
+      "residual_rms": 1.6154147252356926e-05,
+      "rail_samples": 0
+    }
+  ],
+  "02LIVE": [
+    {
+      "start": 0.15,
+      "end": 4.344304,
+      "delay_us": -0.3582491676524566,
+      "residual_rms": 0.04790167262700171,
+      "rail_samples": 0
+    },
+    {
+      "start": 4.344304,
+      "end": 8.538608,
+      "delay_us": 10.419129307569724,
+      "residual_rms": 0.0004081189857903166,
+      "rail_samples": 0
+    },
+    {
+      "start": 8.538608,
+      "end": 12.732912,
+      "delay_us": -2.091310402476772,
+      "residual_rms": 0.04422471611698698,
+      "rail_samples": 0
+    },
+    {
+      "start": 12.732912,
+      "end": 16.927215999999998,
+      "delay_us": -5.582339715744112,
+      "residual_rms": 3.008475603066097e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 16.927215999999998,
+      "end": 21.121519999999997,
+      "delay_us": -0.35658681595214237,
+      "residual_rms": 0.04787962885990342,
+      "rail_samples": 0
+    },
+    {
+      "start": 21.121519999999997,
+      "end": 25.315824,
+      "delay_us": -5.581268830313143,
+      "residual_rms": 7.342312150044061e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 25.315824,
+      "end": 29.510127999999998,
+      "delay_us": -2.106051873492089,
+      "residual_rms": 0.043861229546358585,
+      "rail_samples": 0
+    }
+  ],
+  "03CHSCAN": [
+    {
+      "start": 2.62,
+      "end": 5.76,
+      "delay_us": -3.401110058958629,
+      "residual_rms": 0.02707096690940771,
+      "rail_samples": 0
+    },
+    {
+      "start": 6.29,
+      "end": 9.44,
+      "delay_us": 10.418169507522137,
+      "residual_rms": 2.9014147665869773e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 9.950000000000001,
+      "end": 13.11,
+      "delay_us": -5.583579544876515,
+      "residual_rms": 2.908221816697505e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 13.620000000000001,
+      "end": 16.78,
+      "delay_us": -5.583910610083604,
+      "residual_rms": 2.2318052150723344e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 17.29,
+      "end": 20.45,
+      "delay_us": -3.386427601499706,
+      "residual_rms": 0.02727501895420703,
+      "rail_samples": 0
+    },
+    {
+      "start": 20.96,
+      "end": 24.12,
+      "delay_us": 10.417891847540373,
+      "residual_rms": 2.8681827386705368e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 24.64,
+      "end": 27.8,
+      "delay_us": -5.58343340758793,
+      "residual_rms": 2.968533995174505e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 28.310000000000002,
+      "end": 31.46,
+      "delay_us": -5.583829598933002,
+      "residual_rms": 2.257772782172648e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 31.98,
+      "end": 35.13,
+      "delay_us": -3.3640251562112757,
+      "residual_rms": 0.02745793705180757,
+      "rail_samples": 0
+    },
+    {
+      "start": 35.65,
+      "end": 38.800000000000004,
+      "delay_us": 10.418069291101512,
+      "residual_rms": 2.940340531750123e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 39.31,
+      "end": 42.46,
+      "delay_us": -5.583506750823971,
+      "residual_rms": 3.2037041919366895e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 42.99,
+      "end": 46.13,
+      "delay_us": -5.583894769983429,
+      "residual_rms": 2.2919013133446223e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 46.65,
+      "end": 49.800000000000004,
+      "delay_us": -3.3566752219872384,
+      "residual_rms": 0.027448189879267892,
+      "rail_samples": 0
+    },
+    {
+      "start": 50.32,
+      "end": 53.47,
+      "delay_us": 10.417896755730307,
+      "residual_rms": 2.9099084685402385e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 53.980000000000004,
+      "end": 57.14,
+      "delay_us": -5.583587713250439,
+      "residual_rms": 2.9029289328487207e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 57.65,
+      "end": 60.81,
+      "delay_us": -5.583800609663106,
+      "residual_rms": 2.2697413321601672e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 61.33,
+      "end": 64.49,
+      "delay_us": -3.3840484757403035,
+      "residual_rms": 0.02725325706220365,
+      "rail_samples": 0
+    },
+    {
+      "start": 65.0,
+      "end": 68.16,
+      "delay_us": 10.417818702679455,
+      "residual_rms": 2.8716439444963197e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 68.68,
+      "end": 71.83,
+      "delay_us": -5.583490279741694,
+      "residual_rms": 3.2091577722713e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 72.35000000000001,
+      "end": 75.5,
+      "delay_us": -5.584290479909261,
+      "residual_rms": 2.280635482993791e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 76.01,
+      "end": 79.17,
+      "delay_us": -3.3848113306854395,
+      "residual_rms": 0.02727076882066006,
+      "rail_samples": 0
+    },
+    {
+      "start": 79.69,
+      "end": 82.84,
+      "delay_us": 10.418086430350618,
+      "residual_rms": 2.923760582957648e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 83.35000000000001,
+      "end": 86.52,
+      "delay_us": -5.5835369001917945,
+      "residual_rms": 2.7947311626540953e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 87.03,
+      "end": 90.19,
+      "delay_us": -5.5839820552362305,
+      "residual_rms": 2.2983621079189326e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 90.7,
+      "end": 93.86,
+      "delay_us": -3.381148357638159,
+      "residual_rms": 0.02725021375953272,
+      "rail_samples": 0
+    },
+    {
+      "start": 94.37,
+      "end": 97.53,
+      "delay_us": 10.41838955230087,
+      "residual_rms": 2.9288095574532045e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 98.04,
+      "end": 101.19,
+      "delay_us": -5.583652927679928,
+      "residual_rms": 3.1832208645613444e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 101.71000000000001,
+      "end": 104.86,
+      "delay_us": -5.584044491921786,
+      "residual_rms": 2.3408467385927755e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 105.38,
+      "end": 108.53,
+      "delay_us": -5.437684363422636,
+      "residual_rms": 0.018073800635822763,
+      "rail_samples": 0
+    },
+    {
+      "start": 109.04,
+      "end": 112.19,
+      "delay_us": -5.583471388848529,
+      "residual_rms": 2.6509988318103206e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 112.71000000000001,
+      "end": 115.86,
+      "delay_us": -5.583482036731925,
+      "residual_rms": 3.1963691929818535e-05,
+      "rail_samples": 0
+    },
+    {
+      "start": 116.38,
+      "end": 119.54,
+      "delay_us": 10.418285165778826,
+      "residual_rms": 2.300224850011902e-05,
+      "rail_samples": 0
+    }
+  ]
+}

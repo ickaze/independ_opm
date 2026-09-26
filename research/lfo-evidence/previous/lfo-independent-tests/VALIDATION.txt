@@ -1,0 +1,29 @@
+13CAL PASS 247 writes 29.721s
+14WAVE PASS 317 writes 183.386s
+15AMDEP PASS 709 writes 211.870s
+16PMDEP PASS 1225 writes 414.384s
+17F80 PASS 254 writes 195.363s
+18F90 PASS 254 writes 195.363s
+19FA0 PASS 254 writes 195.363s
+20FB0 PASS 254 writes 195.363s
+21FC0 PASS 254 writes 195.363s
+22FD0 PASS 254 writes 195.363s
+23FE0 PASS 254 writes 195.363s
+24FF0 PASS 254 writes 195.363s
+25F00 PASS 251 writes 2883.387s
+26F10 PASS 251 writes 1443.430s
+27F20 PASS 251 writes 771.424s
+28F30 PASS 251 writes 419.365s
+29F40 PASS 251 writes 243.466s
+30F50 PASS 251 writes 163.381s
+31F60 PASS 251 writes 163.381s
+32F70 PASS 251 writes 163.381s
+33STATE PASS 241 writes 121.897s
+34CHAN PASS 2776 writes 131.793s
+35JOINT PASS 277 writes 63.431s
+36CLOCK PASS 379 writes 387.514s
+PASS: all MDX streams, nominal traces, finite ends, schedules and measurement constraints
+
+PASS: 256 frequencies, 512 AMD/AMS pairs, 1024 PMD/PMS pairs, 64 operator enable conditions; 8.3 filenames
+
+Structural and stimulus checks only; hardware playback not yet tested.

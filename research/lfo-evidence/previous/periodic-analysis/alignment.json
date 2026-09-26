@@ -1,0 +1,239 @@
+[
+  {
+    "name": "13CAL",
+    "recorded_s": 31.724,
+    "planned_s": 29.720576,
+    "active_start": 1.255,
+    "active_end": 27.619,
+    "scale": 0.9994601611024845,
+    "offset": -1.0375217391304346,
+    "truncated": false
+  },
+  {
+    "name": "14WAVE",
+    "recorded_s": 185.396,
+    "planned_s": 183.386112,
+    "active_start": 1.253,
+    "active_end": 181.306,
+    "scale": 1.0000512319848258,
+    "offset": -1.0408775138775141,
+    "truncated": false
+  },
+  {
+    "name": "15AMDEP",
+    "recorded_s": 213.885,
+    "planned_s": 211.869696,
+    "active_start": 1.237,
+    "active_end": 209.781,
+    "scale": 1.0000797976821842,
+    "offset": -1.0569430367314867,
+    "truncated": false
+  },
+  {
+    "name": "16PMDEP",
+    "recorded_s": 416.357,
+    "planned_s": 414.384128,
+    "active_start": 1.237,
+    "active_end": 412.273,
+    "scale": 0.9999859089754066,
+    "offset": -1.0567276785714284,
+    "truncated": false
+  },
+  {
+    "name": "17F80",
+    "recorded_s": 197.349,
+    "planned_s": 195.362816,
+    "active_start": 1.252,
+    "active_end": 193.258,
+    "scale": 0.9999245913769197,
+    "offset": -1.041587030716723,
+    "truncated": false
+  },
+  {
+    "name": "18F90",
+    "recorded_s": 197.352,
+    "planned_s": 195.362816,
+    "active_start": 1.251,
+    "active_end": 193.263,
+    "scale": 0.9999558380439418,
+    "offset": -1.0426587030716719,
+    "truncated": false
+  },
+  {
+    "name": "19FA0",
+    "recorded_s": 197.364,
+    "planned_s": 195.362816,
+    "active_start": 1.247,
+    "active_end": 193.264,
+    "scale": 0.999981876933127,
+    "offset": -1.0467184300341292,
+    "truncated": false
+  },
+  {
+    "name": "20FB0",
+    "recorded_s": 197.359,
+    "planned_s": 195.362816,
+    "active_start": 1.255,
+    "active_end": 193.277,
+    "scale": 1.000007915822312,
+    "offset": -1.0387781569965866,
+    "truncated": false
+  },
+  {
+    "name": "21FC0",
+    "recorded_s": 197.363,
+    "planned_s": 195.362816,
+    "active_start": 1.254,
+    "active_end": 193.278,
+    "scale": 1.0000183313779862,
+    "offset": -1.0398020477815697,
+    "truncated": false
+  },
+  {
+    "name": "22FD0",
+    "recorded_s": 197.372,
+    "planned_s": 195.362816,
+    "active_start": 1.251,
+    "active_end": 193.282,
+    "scale": 1.0000547858228455,
+    "offset": -1.0428856655290097,
+    "truncated": false
+  },
+  {
+    "name": "23FE0",
+    "recorded_s": 197.338,
+    "planned_s": 195.362816,
+    "active_start": 1.236,
+    "active_end": 193.258,
+    "scale": 1.0000079158223123,
+    "offset": -1.057778156996587,
+    "truncated": false
+  },
+  {
+    "name": "24FF0",
+    "recorded_s": 197.363,
+    "planned_s": 195.362816,
+    "active_start": 1.248,
+    "active_end": 193.256,
+    "scale": 0.9999350069325939,
+    "offset": -1.0456109215017062,
+    "truncated": false
+  },
+  {
+    "name": "25F00",
+    "recorded_s": 13.527,
+    "planned_s": 2883.387392,
+    "status": "no test signal",
+    "peak": 1.9855305311011762e-07
+  },
+  {
+    "name": "26F10",
+    "recorded_s": 1200.033,
+    "planned_s": 1443.4304,
+    "active_start": 1.25,
+    "active_end": 1198.967,
+    "scale": 0.99988,
+    "offset": -1.0434847487999996,
+    "truncated": true
+  },
+  {
+    "name": "27F20",
+    "recorded_s": 773.436,
+    "planned_s": 771.424256,
+    "active_start": 1.25,
+    "active_end": 769.333,
+    "scale": 1.000001406100016,
+    "offset": -1.0437632252559723,
+    "truncated": false
+  },
+  {
+    "name": "28F30",
+    "recorded_s": 421.382,
+    "planned_s": 419.364864,
+    "active_start": 1.246,
+    "active_end": 417.277,
+    "scale": 1.0000203642818113,
+    "offset": -1.0478067107750473,
+    "truncated": false
+  },
+  {
+    "name": "29F40",
+    "recorded_s": 245.445,
+    "planned_s": 243.46624,
+    "active_start": 1.236,
+    "active_end": 241.354,
+    "scale": 0.9999754126936068,
+    "offset": -1.0577036026200874,
+    "truncated": false
+  },
+  {
+    "name": "30F50",
+    "recorded_s": 165.374,
+    "planned_s": 163.381248,
+    "active_start": 1.257,
+    "active_end": 161.288,
+    "scale": 0.9999505620233159,
+    "offset": -1.036646601146601,
+    "truncated": false
+  },
+  {
+    "name": "31F60",
+    "recorded_s": 165.373,
+    "planned_s": 163.381248,
+    "active_start": 1.239,
+    "active_end": 161.282,
+    "scale": 1.0000255437877508,
+    "offset": -1.0548185913185908,
+    "truncated": false
+  },
+  {
+    "name": "32F70",
+    "recorded_s": 255.79,
+    "planned_s": 163.381248,
+    "active_start": 1.235,
+    "active_end": 161.298,
+    "scale": 1.0001505133951423,
+    "offset": -1.059105241605241,
+    "truncated": false
+  },
+  {
+    "name": "33STATE",
+    "recorded_s": 123.904,
+    "planned_s": 121.89696,
+    "active_start": 1.255,
+    "active_end": 119.806,
+    "scale": 0.9999694318122928,
+    "offset": -1.0386898839137646,
+    "truncated": false
+  },
+  {
+    "name": "34CHAN",
+    "recorded_s": 133.809,
+    "planned_s": 131.792896,
+    "active_start": 1.253,
+    "active_end": 129.69,
+    "scale": 0.9998944340919963,
+    "offset": -1.0405178571428573,
+    "truncated": false
+  },
+  {
+    "name": "35JOINT",
+    "recorded_s": 65.44,
+    "planned_s": 63.430656,
+    "active_start": 1.246,
+    "active_end": 61.346,
+    "scale": 1.0001943805385138,
+    "offset": -1.0482058623040214,
+    "truncated": false
+  },
+  {
+    "name": "36CLOCK",
+    "recorded_s": 417.812,
+    "planned_s": 387.514368,
+    "active_start": 1.25,
+    "active_end": 385.408,
+    "scale": 0.9999634746966692,
+    "offset": -1.0436762197202318,
+    "truncated": false
+  }
+]

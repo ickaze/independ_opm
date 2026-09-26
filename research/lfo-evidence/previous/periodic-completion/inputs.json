@@ -1,0 +1,26 @@
+[
+  {
+    "file": "upload/25R1.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 740.301146,
+    "sha256": "1cab4ab49c06f40492ef3df2bf5d5ddb19aa2523bd4678ee9c1fdf1687a67ea1"
+  },
+  {
+    "file": "upload/25R2.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 724.665198,
+    "sha256": "bb52b5630669d33382d1ffbf90b2d36211c8953b7287ffea9ec7b319133274e8"
+  },
+  {
+    "file": "upload/25R3.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 375.238906,
+    "sha256": "641626d7f91ccd30f0ae90e84a6574c3605226530e6b415c5e796d6c5cab5991"
+  }
+]

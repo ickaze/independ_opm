@@ -1,0 +1,7 @@
+37AMSAW PASS 1080 writes 771.949s
+38AMSQR PASS 1080 writes 771.949s
+39AMTRI PASS 1080 writes 771.949s
+40PMSAW PASS 954 writes 771.949s
+41PMTRI PASS 954 writes 771.949s
+42STATE PASS 904 writes 219.808s
+PASS: all MDX streams, nominal traces, finite ends, schedules and measurement constraints

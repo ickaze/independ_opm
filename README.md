@@ -1,31 +1,24 @@
-# Independent OPM 0.10b
+# Independent OPM 0.11b（実測LFO置き換え版）
 
-YM2151のレジスタ入力からステレオ音声を生成する、独自実装のC++17音源コアです。
-**発音する機能エミュレータです。実チップとのビット一致・サイクル一致は未達成です。**
+YM2151のレジスタ入力からステレオ音声を生成するC++17コアです。本配布は **0BSD**。版番号は0.11bを維持しています。
 
-## 0.10bの変更
+Copyright (C) 2026 by I.C.KaZe
 
-0.9を起点に、ユーザー提供のX68Sound src020615原版からLFOを再作成しました。詳細・参照範囲・ライセンス判断は [再作成報告](REBUILD_0.10b.md) を参照してください。
 
-F0h〜FFhは16内部サンプルごとに倍の位相加算、18h書込みは同値でも時間カウンタを再始動します。矩形AMの最大値256を扱うため、inspect_lfoのphase/amはuint16_tになりました。17bit LFSRは指定された暫定モデルを維持します。
+## 変更
 
-原版との256周波数×3波形の比較と既存3テスト群が通過。全体のCC0化はしていません。LICENSE.txtとTHIRD_PARTY_NOTICES.txtを参照してください。
+- コアとDLLに全内部状態の保存・復元APIを追加。[使用方法](docs/STATE_API.md)。
 
-## 0.9の変更
+- 08hキーオンのC1/M2取り違えを修正。ALG5/6/7のOP=3音色の発音を訂正。[原因・検証結果](docs/KEY_ON_MAPPING_FIX.md)。DLLまたは組み込みコアを再ビルドしてください。
 
-04〜07の実機録音を追加解析し、測定出力モードをALG7へ拡張しました。M1/M2/C1/C2の全出力とch7境界を反映しています。APIは `set_measured_output_timing(true)`。旧API名は互換用に残り、同じALG5/ALG7モードを有効にします。CLIの `--gmc-opt04-4mhz` も両ALGに適用されます。ALG0〜4/6は未検証のため既存出力を維持します。
+- 周期LFOを実機録音の追加段列・波形・深度から再実装。
+- 矩形AM最大値255、PMの整数感度処理へ変更。
+- 乱数の1回更新をsequence_stepへ改名。計算式と16回更新の最適化は維持。
+- 参照比較テストを撤去し、実録音による回帰試験へ移行。
 
-[追加解析報告](measurements-4mhz-04-07/REPORT.md) に音程・ペア・負荷試験の結果と限界を記載しました。
+[実装と暫定仕様](docs/PERIODIC_REPLACEMENT.md)、[開発・訂正履歴](docs/history/README.md)、[ライセンス](docs/LICENSING.md)、[検証ログ](docs/VALIDATION_REPLACEMENT.txt) を同梱しています。
 
-## 0.8の変更
-
-4MHz録音から確認したALG5のキャリア別・チャンネル別出力タイミングを、任意で有効にできる本体APIとCLIモードへ実装しました。ch7の境界も反映しています。
-
-```bat
-bin\opm_render.exe hardware-tests\traces\01SOLO.trace model.wav 21 4000000 96000 0.7 --gmc-opt04-4mhz
-```
-
-測定表、適用範囲、前回測定音色の訂正は [解析報告](measurements-4mhz/REPORT.md) を参照してください。既定の出力は変更しません。測定モードのAPIは `set_measured_alg5_timing(true)`、共通取り込み遅延はCLI側で処理します。GCCで既存3テスト群および全8ALG×8chの新モード検証を通過。Windows/MSVCでは未検証です。
+8ch/32OP、8アルゴリズム、タイマ・BUSY・IRQ、ホスト側リサンプラに対応。ALG5/ALG7の実測出力タイミングはset_measured_output_timing(true)で有効にできます。
 
 ## Windows 11 / Visual Studio 2022
 
@@ -71,7 +64,7 @@ MDX/PDX/VGMのファイル読込は今回のツールにはありません。
 
 ## 組み込み
 
-include/ym2151.hpp、src/ym2151.cpp、src/envelope_times.hpp の3ファイルで利用できます。
+include/ym2151.hpp、include/measured_lfo.hpp、src/ym2151.cpp、src/envelope_times.hpp、src/state_codec.hppで利用できます。
 音源コアはC++標準ライブラリのみを使用します。
 
 ```cpp
@@ -97,9 +90,7 @@ write_register()は統合用の直接APIであり、BUSY拒否を省略します
 Resamplerを使用すると、33タップの窓付きsincでホストのサンプルレートへ変換できます。
 src/main.cppに、イベント時刻を維持した使用例があります。
 フィルタ遅延はネイティブ16サンプルです。
-保存・復元は同一実行ファイル内でオブジェクトをコピーします。
-ホスト出力まで再現する場合はResamplerと時刻余りも一緒にコピーしてください。
-ディスク保存用のバイナリ形式は未定義です。
+保存・復元はsave_state()/load_state()でバージョン付きバイナリへ行えます。DLLではResamplerと時刻余りも保存します。[状態保存API](docs/STATE_API.md)を参照してください。
 
 ## 実装範囲
 
@@ -110,59 +101,23 @@ src/main.cppに、イベント時刻を維持した使用例があります。
 - CSMの簡易キーオンパルス
 - ステレオPCM、ホスト側リサンプラ、trace→WAV、内蔵デモ
 
-## 精度上の制限
+## 精度の制限
 
-Yamahaの公開マニュアルの仕様をもとに実装しています。
-波形はstd::sin、位相は32bit。実チップの波形ROM・対数演算・切捨て・内部パイプラインは再現していません。
-アタックは公開時間表の各RATEの値を使用し、高速ディケイも表の値を使用します。低速ディケイとアタックの曲線形状は近似で、内部ステップ列とは一致しません。
-DT1はマニュアルの丸められた周波数差から単位値を推定。DT2も公開されたセント値を使用しています。
-通常FM変調の倍率、無効KCの扱い、ノイズの分周・多項式、ランダムLFO、CSMパルス幅は暫定モデルです。
-バス書込は即時適用であり、実チップの内部書込遅延やスロット順は未再現です。
-CSMでのTLラッチなど詳細動作、未公開TEST機能、YM3012シリアル形式・DAC・アナログ回路は未再現です。
-浮動小数点のため、異なるコンパイラやCPUでのビット一致は保証しません。
+実機とのビット一致・サイクル一致は未達成です。解析的sin、浮動小数音程、エンベロープの一部や内部パイプラインは近似です。LFOの未確定状態遷移、ランダムのFREQ下位4ビット、深いAMSの丸めなどは置き換え仕様を参照してください。
 
-**高精度版としての完成ではなく、動作する独自コアの初版です。**
-他のエミュレータとの比較は行っていません。実機データによる検証も未実施です。
+実録音による検証は実施済みですが、全レジスタ・全音程の完全一致を意味しません。Windows/MSVCでの実行は未検証です。
 
-## 検証
+## 0.11b 検証資料更新
 
-Linux/GCCでコンパイルし tests/test_core.cpp を実行済み。
-440Hzは出力波形のゼロ交差でも確認。左右分離、減衰終了、タイマ期限、BUSY期限、
-状態コピー、クロック刻み変更の一致、全アルゴリズムの有限出力、リサンプラのDCゲインを検査しています。
-8アルゴリズムを順に使う6秒/48kHzのdemo.wavを同梱。クリッピングは0サンプルです。
-Windows/MSVCのビルド・実行、実機との音色一致、GUI操作は未検証です。
+docs/evidence/index.html からLFO・AL5/7左右タイミングの日本語/英語資料を開けます。録音名はMDXのベース名へ統一。連続録音と26A/Bの未確認対応は docs/RECORDING_NAMES.md を参照。元録音は tools/prepare_recordings.py でハッシュ照合して配置できます。
 
-## 参照元
+## Windows DLL (Win32 / x64)
 
-- Yamaha YM2151 (OPM) Application Manual（Yamaha原著スキャン）
-  https://github.com/electrified/rc2014-ym2151/blob/main/docs/LSI-_______%20Yamaha%20YM2151%20(OPM)%20Application%20Manual.pdf
-  印刷ページ5〜21、特に図2.2〜2.16。リポジトリのエミュレータやプレーヤーのコードは参照していません。
+外部アプリ向けのC ABIを追加しました。`build_dll_windows.bat` でVS2022から32/64bitをビルドできます。
+API: `include/independent_opm.h`、仕様: `docs/DLL_API.md`、C使用例: `examples/dll_client.c`。
+MDX/PDXの解析器は含まず、レジスタ入力とPCM出力を提供します。Windowsバイナリは未同梱。
+Build both architectures with VS2022 using `build_dll_windows.bat`. See `docs/DLL_API.md`.
 
-## 0.7：出力サンプル対応の校正機能
+## 開発方針と文書の読み方
 
-チャンネル別・出力OP別に、左右それぞれ現サンプル/前サンプルを選択する
-set_output_sample_delays(channel,left_mask,right_mask)を実装。
-マスクのbit0/1/2/3はレジスタ順M1/M2/C1/C2です。全アルゴリズムの出力キャリアに適用します。
-既定は両マスク0で従来の出力。どのOPが実機でずれるかは未確定なので自動では有効化しません。
-これは時分割演算のサンプル境界を検証するための出力モデルです。
-32スロットの演算順・各2クロックの内部回路・パイプライン全体を復元したものではありません。
-FM接続、エンベロープ、レジスタ書込の内部タイミングは従来の近似を維持します。
-OP履歴と設定はオブジェクトコピーに含まれ、resetで設定も履歴も初期化します。
-設定切替のフェードはありません。発音前に設定してください。
-
-CLIの最後にプロファイルファイルを指定可能。1行は「ch 左前サンプルmask 右前サンプルmask」。
-chは0〜7、maskは0〜15。ch昇順で記述。#以降はコメント。
-例としてch0のALG5で左右の一部成分の時刻を変える比較設定：
-
-```
-0 0x0e 0x02
-```
-
-これはLのM2/C1/C2を前サンプルに、RのM2のみ前サンプルにします。
-実機の確定プリセットではありません。DAC等の全体遅延はこの設定に含めません。
-
-実機確認用MDXと区間表はhardware-tests/を参照してください。
-
-0.7検証：GCCでcore、precision、output_timingの3テストが通過。
-追加テストは全8アルゴリズム×8チャンネル、前サンプル出力、チャンネル独立性、
-部分左右差、状態コピー、刻み幅、reset、範囲外入力を検査しました。
+公開マニュアルの仕様と実機の録音・挙動測定に基づく実装です。過去に外部実装を参照したLFO処理は、測定に基づく処理へ置き換えています。現行配布物の説明は[LICENSING.md](docs/LICENSING.md)、途中段階の作業・訂正記録は[履歴資料](docs/history/README.md)に分離しています。

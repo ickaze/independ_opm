@@ -1,0 +1,224 @@
+{
+  "clock_hz": 4000000,
+  "recording_hz": 96000,
+  "recording_bits": 24,
+  "tick_master_clocks": 32768,
+  "files": [
+    {
+      "name": "13CAL",
+      "purpose": "Amplitude, pitch, SRC and baseline calibration",
+      "seconds": 29.720576,
+      "ticks": 3628,
+      "register_writes": 247,
+      "sha256": "2c39f777297c6bcd20f15215198c7ef210c6108d599d0c87e9e0cadad2f957dd",
+      "group": "primary"
+    },
+    {
+      "name": "14WAVE",
+      "purpose": "AM/PM waveform shape, endpoints and carrier independence",
+      "seconds": 183.386112,
+      "ticks": 22386,
+      "register_writes": 317,
+      "sha256": "c523903789002bd73ffc89bb97852e459bc9a4c26fcb494b4ac70d0c70af4c6e",
+      "group": "primary"
+    },
+    {
+      "name": "15AMDEP",
+      "purpose": "All 128 AMD values x all four AMS values, square extrema",
+      "seconds": 211.869696,
+      "ticks": 25863,
+      "register_writes": 709,
+      "sha256": "fc1f274a15c83c924981f82d86d03517f674a095d305fd8fca1645f6d4e6d2a0",
+      "group": "primary"
+    },
+    {
+      "name": "16PMDEP",
+      "purpose": "All 128 PMD values x all eight PMS values, square extrema",
+      "seconds": 414.384128,
+      "ticks": 50584,
+      "register_writes": 1225,
+      "sha256": "3686a31e9b129e6a7f46d1d787e0f8a69ca2cb93c3d331a6bc08b371e381f8d1",
+      "group": "primary"
+    },
+    {
+      "name": "17F80",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "0682925e60b42736703a5a358ed94c571b45f42cc3623f7a58bc08b5862bfa7d",
+      "group": "primary"
+    },
+    {
+      "name": "18F90",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "dc3af71244aa4956d49b062cbc70bf9cc8d451ccbdc0ed1ed002a550f61908a1",
+      "group": "primary"
+    },
+    {
+      "name": "19FA0",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "3efef013f62b798ee204386a15bc09a350904e1192167345039dc74018378cc1",
+      "group": "primary"
+    },
+    {
+      "name": "20FB0",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "cb3135fa2c615a2c78e8b7be259a8e6fc47e390a523fba4c008837b746ce4d1a",
+      "group": "primary"
+    },
+    {
+      "name": "21FC0",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "7df1cabd9431aa97daec7a7384c52334d4e3917297f0856f12503420c8451750",
+      "group": "primary"
+    },
+    {
+      "name": "22FD0",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "ec614a56b0c389a40e5bf681cd395749a9ff057460ea81aba8f048b1e3256e1a",
+      "group": "primary"
+    },
+    {
+      "name": "23FE0",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "f5e2e21aded5d98ba45f296f395fe0aac7cc9c2062038ea4612bafc346f0d8ba",
+      "group": "primary"
+    },
+    {
+      "name": "24FF0",
+      "purpose": "Every high-range LFRQ value, saw AM transition timing",
+      "seconds": 195.362816,
+      "ticks": 23848,
+      "register_writes": 254,
+      "sha256": "887555e95439a9f1b80b853871e7bb7d91adf49e0dbae6b69e38c2978e67d3fc",
+      "group": "primary"
+    },
+    {
+      "name": "25F00",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 2883.387392,
+      "ticks": 351976,
+      "register_writes": 251,
+      "sha256": "7de8f041007e5d96432d9d4ee15370ccd33fcf3ed515b29b0c99eec81c239307",
+      "group": "slow"
+    },
+    {
+      "name": "26F10",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 1443.4304,
+      "ticks": 176200,
+      "register_writes": 251,
+      "sha256": "c1b6eadfb4a37f579b675eb559a6e3a30bda322a8c0eb27338637700c561a568",
+      "group": "slow"
+    },
+    {
+      "name": "27F20",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 771.424256,
+      "ticks": 94168,
+      "register_writes": 251,
+      "sha256": "f8c4b405391b8080c5bcd2139c2f4126dfcdf9c106d8e599663f4c721471eece",
+      "group": "slow"
+    },
+    {
+      "name": "28F30",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 419.364864,
+      "ticks": 51192,
+      "register_writes": 251,
+      "sha256": "e9b10014b4f67c9252135d3bf5f08dbbf3fe454b7995f02ea0c2c1eb099e278b",
+      "group": "slow"
+    },
+    {
+      "name": "29F40",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 243.46624,
+      "ticks": 29720,
+      "register_writes": 251,
+      "sha256": "ea4e825ae0ceda0854c9b939bd54e754be029e0668545e67ac8f1b9f6e0adea7",
+      "group": "slow"
+    },
+    {
+      "name": "30F50",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 163.381248,
+      "ticks": 19944,
+      "register_writes": 251,
+      "sha256": "e99d5ed027870171db6a010616f31a8f815b1e64d23319a380b5c8c3bad6286c",
+      "group": "slow"
+    },
+    {
+      "name": "31F60",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 163.381248,
+      "ticks": 19944,
+      "register_writes": 251,
+      "sha256": "a61afe3a2d00a1c242896b4bb63245304c71cbff9521dc4f655f78b5110a1011",
+      "group": "slow"
+    },
+    {
+      "name": "32F70",
+      "purpose": "Low-range LFRQ long step observation, not necessarily a whole cycle",
+      "seconds": 163.381248,
+      "ticks": 19944,
+      "register_writes": 251,
+      "sha256": "b76284100279da805786deb201a5aebfe6d59fb3fc51b201a4142f6879ffb2e8",
+      "group": "slow"
+    },
+    {
+      "name": "33STATE",
+      "purpose": "LFO register state transitions and depth-latch independence",
+      "seconds": 121.89696,
+      "ticks": 14880,
+      "register_writes": 241,
+      "sha256": "845caa6d5f85afa52494e632d5dfc84f6b0a602d7b7d940d75a79a44bbdd04df",
+      "group": "primary"
+    },
+    {
+      "name": "34CHAN",
+      "purpose": "AM operator enable and sensitivity channel mapping",
+      "seconds": 131.792896,
+      "ticks": 16088,
+      "register_writes": 2776,
+      "sha256": "cf7177ff081c084db6369ada94a94a6a143c0657d5622cbe629ccfb09cdcff88",
+      "group": "primary"
+    },
+    {
+      "name": "35JOINT",
+      "purpose": "Combined depths and waveform interaction, held-out non-grid cases",
+      "seconds": 63.430656,
+      "ticks": 7743,
+      "register_writes": 277,
+      "sha256": "5c0723c80fce3e214b7a092a03146a6b409801d82dc6ca1bf124e97956bfbcff",
+      "group": "primary"
+    },
+    {
+      "name": "36CLOCK",
+      "purpose": "Cross-waveform timing checks at high-range octave endpoints",
+      "seconds": 387.514368,
+      "ticks": 47304,
+      "register_writes": 379,
+      "sha256": "b8aad4f3bcaa968b38c0292b7be83c8616fc355f7cb37cecb29e0b1b3d0839d0",
+      "group": "primary"
+    }
+  ]
+}

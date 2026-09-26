@@ -1,0 +1,58 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+wave=0 LFRQ=80 cross-wave timing,280,1257,2.29376,10.297344,True
+wave=0 LFRQ=8F cross-wave timing,1257,2234,10.297344,18.300928,True
+wave=0 LFRQ=90 cross-wave timing,2234,3211,18.300928,26.304512,True
+wave=0 LFRQ=9F cross-wave timing,3211,4188,26.304512,34.308096,True
+wave=0 LFRQ=A0 cross-wave timing,4188,5165,34.308096,42.31168,True
+wave=0 LFRQ=AF cross-wave timing,5165,6142,42.31168,50.315264,True
+wave=0 LFRQ=B0 cross-wave timing,6142,7119,50.315264,58.318848,True
+wave=0 LFRQ=BF cross-wave timing,7119,8096,58.318848,66.322432,True
+wave=0 LFRQ=C0 cross-wave timing,8096,9073,66.322432,74.326016,True
+wave=0 LFRQ=CF cross-wave timing,9073,10050,74.326016,82.3296,True
+wave=0 LFRQ=D0 cross-wave timing,10050,11027,82.3296,90.333184,True
+wave=0 LFRQ=DF cross-wave timing,11027,12004,90.333184,98.336768,True
+wave=0 LFRQ=E0 cross-wave timing,12004,12981,98.336768,106.340352,True
+wave=0 LFRQ=EF cross-wave timing,12981,13958,106.340352,114.343936,True
+wave=0 LFRQ=F0 cross-wave timing,13958,14935,114.343936,122.34752,True
+wave=0 LFRQ=FF cross-wave timing,14935,15912,122.34752,130.351104,True
+wave=1 LFRQ=80 cross-wave timing,15912,16889,130.351104,138.354688,True
+wave=1 LFRQ=8F cross-wave timing,16889,17866,138.354688,146.358272,True
+wave=1 LFRQ=90 cross-wave timing,17866,18843,146.358272,154.361856,True
+wave=1 LFRQ=9F cross-wave timing,18843,19820,154.361856,162.36544,True
+wave=1 LFRQ=A0 cross-wave timing,19820,20797,162.36544,170.369024,True
+wave=1 LFRQ=AF cross-wave timing,20797,21774,170.369024,178.372608,True
+wave=1 LFRQ=B0 cross-wave timing,21774,22751,178.372608,186.376192,True
+wave=1 LFRQ=BF cross-wave timing,22751,23728,186.376192,194.379776,True
+wave=1 LFRQ=C0 cross-wave timing,23728,24705,194.379776,202.38336,True
+wave=1 LFRQ=CF cross-wave timing,24705,25682,202.38336,210.386944,True
+wave=1 LFRQ=D0 cross-wave timing,25682,26659,210.386944,218.390528,True
+wave=1 LFRQ=DF cross-wave timing,26659,27636,218.390528,226.394112,True
+wave=1 LFRQ=E0 cross-wave timing,27636,28613,226.394112,234.397696,True
+wave=1 LFRQ=EF cross-wave timing,28613,29590,234.397696,242.40128,True
+wave=1 LFRQ=F0 cross-wave timing,29590,30567,242.40128,250.404864,True
+wave=1 LFRQ=FF cross-wave timing,30567,31544,250.404864,258.408448,True
+wave=2 LFRQ=80 cross-wave timing,31544,32521,258.408448,266.412032,True
+wave=2 LFRQ=8F cross-wave timing,32521,33498,266.412032,274.415616,True
+wave=2 LFRQ=90 cross-wave timing,33498,34475,274.415616,282.4192,True
+wave=2 LFRQ=9F cross-wave timing,34475,35452,282.4192,290.422784,True
+wave=2 LFRQ=A0 cross-wave timing,35452,36429,290.422784,298.426368,True
+wave=2 LFRQ=AF cross-wave timing,36429,37406,298.426368,306.429952,True
+wave=2 LFRQ=B0 cross-wave timing,37406,38383,306.429952,314.433536,True
+wave=2 LFRQ=BF cross-wave timing,38383,39360,314.433536,322.43712,True
+wave=2 LFRQ=C0 cross-wave timing,39360,40337,322.43712,330.440704,True
+wave=2 LFRQ=CF cross-wave timing,40337,41314,330.440704,338.444288,True
+wave=2 LFRQ=D0 cross-wave timing,41314,42291,338.444288,346.447872,True
+wave=2 LFRQ=DF cross-wave timing,42291,43268,346.447872,354.451456,True
+wave=2 LFRQ=E0 cross-wave timing,43268,44245,354.451456,362.45504,True
+wave=2 LFRQ=EF cross-wave timing,44245,45222,362.45504,370.458624,True
+wave=2 LFRQ=F0 cross-wave timing,45222,46199,370.458624,378.462208,True
+wave=2 LFRQ=FF cross-wave timing,46199,47176,378.462208,386.465792,True
+tail silence,47176,47304,386.465792,387.514368,False

@@ -1,0 +1,16 @@
+[
+  {
+    "endpoint": 127,
+    "conditions": 253,
+    "rms_cents": 9.991813489124526,
+    "median_abs_cents": 7.904573302372512,
+    "max_abs_cents": 14.307954670060099
+  },
+  {
+    "endpoint": 128,
+    "conditions": 251,
+    "rms_cents": 0.1641003049826879,
+    "median_abs_cents": 0.09801918115340413,
+    "max_abs_cents": 0.9285775774071681
+  }
+]

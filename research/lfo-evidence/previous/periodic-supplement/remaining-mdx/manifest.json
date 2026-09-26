@@ -1,0 +1,29 @@
+{
+  "clock_hz": 4000000,
+  "files": [
+    {
+      "name": "25R1",
+      "purpose": "Remaining slow LFO settings, under 20 minutes per file",
+      "seconds": 723.3536,
+      "ticks": 88300,
+      "register_writes": 200,
+      "sha256": "cf6922a869bb9d99618a586c000ad528d7e7edad0de80885c5ca560670a6439a"
+    },
+    {
+      "name": "25R2",
+      "purpose": "Remaining slow LFO settings, under 20 minutes per file",
+      "seconds": 723.3536,
+      "ticks": 88300,
+      "register_writes": 200,
+      "sha256": "6d7566e8b7b0d7c346e0553f7b674dc4fe5d7eda4a0622b3e4445b55ac710ca7"
+    },
+    {
+      "name": "25R3",
+      "purpose": "Remaining slow LFO settings, under 20 minutes per file",
+      "seconds": 363.347968,
+      "ticks": 44354,
+      "register_writes": 192,
+      "sha256": "600c090f2fcd446dd84bdbaaf6a8c45230649871ac629e9c79d0ee0ba2eba3fb"
+    }
+  ]
+}

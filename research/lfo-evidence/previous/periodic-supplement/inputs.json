@@ -1,0 +1,26 @@
+[
+  {
+    "file": "recovered/25F00.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 1200.043271,
+    "sha256": "a32abd1b5c232b6914820e069e35e00eb8af50b1cad4f9cdb6f6af292a461f27"
+  },
+  {
+    "file": "recovered/26A.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 737.06375,
+    "sha256": "80cad57441614f115ef26f7c669f3a6bbd0485bd2233918c24e951f84d2f0615"
+  },
+  {
+    "file": "recovered/26B.flac",
+    "rate": 96000,
+    "channels": 2,
+    "bits": "24",
+    "duration": 730.932,
+    "sha256": "89c9b11a5b47b813d864b8043accf2072dcf7bb6d5f1776dc9d86e59ca2ccd78"
+  }
+]

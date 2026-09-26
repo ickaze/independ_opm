@@ -1,0 +1,26 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+LFRQ=F0 saw AM; measure transition times and increment sizes,280,1745,2.29376,14.29504,True
+LFRQ=F1 saw AM; measure transition times and increment sizes,1745,3210,14.29504,26.29632,True
+LFRQ=F2 saw AM; measure transition times and increment sizes,3210,4675,26.29632,38.2976,True
+LFRQ=F3 saw AM; measure transition times and increment sizes,4675,6140,38.2976,50.29888,True
+LFRQ=F4 saw AM; measure transition times and increment sizes,6140,7605,50.29888,62.30016,True
+LFRQ=F5 saw AM; measure transition times and increment sizes,7605,9070,62.30016,74.30144,True
+LFRQ=F6 saw AM; measure transition times and increment sizes,9070,10535,74.30144,86.30272,True
+LFRQ=F7 saw AM; measure transition times and increment sizes,10535,12000,86.30272,98.304,True
+LFRQ=F8 saw AM; measure transition times and increment sizes,12000,13465,98.304,110.30528,True
+LFRQ=F9 saw AM; measure transition times and increment sizes,13465,14930,110.30528,122.30656,True
+LFRQ=FA saw AM; measure transition times and increment sizes,14930,16395,122.30656,134.30784,True
+LFRQ=FB saw AM; measure transition times and increment sizes,16395,17860,134.30784,146.30912,True
+LFRQ=FC saw AM; measure transition times and increment sizes,17860,19325,146.30912,158.3104,True
+LFRQ=FD saw AM; measure transition times and increment sizes,19325,20790,158.3104,170.31168,True
+LFRQ=FE saw AM; measure transition times and increment sizes,20790,22255,170.31168,182.31296,True
+LFRQ=FF saw AM; measure transition times and increment sizes,22255,23720,182.31296,194.31424,True
+tail silence,23720,23848,194.31424,195.362816,False

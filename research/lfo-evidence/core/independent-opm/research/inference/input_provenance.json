@@ -1,0 +1,50 @@
+[
+  {
+    "file": "long.npz",
+    "sha256": "662fcc2b1b310c0913becafe0274ff2289193f12a9d4c0b5d47ec3819559e00f",
+    "origin": "08LONG.wav attenuation/times",
+    "generated_by_emulator": false
+  },
+  {
+    "file": "noise_0.npz",
+    "sha256": "8cf69d69f8a9f8be976725dc4e90810f2f784bab32a50b29a40e37d596b1b83b",
+    "origin": "combined/00_07.wav noise sign extraction",
+    "generated_by_emulator": false
+  },
+  {
+    "file": "noise_1.npz",
+    "sha256": "57657e0c32d7f37a490964a3e11dd537ea245c63e1891573895efaf016aa0fb4",
+    "origin": "combined/00_07.wav noise sign extraction",
+    "generated_by_emulator": false
+  },
+  {
+    "file": "noise_15.npz",
+    "sha256": "3447017bf0dce8c5593a3f2d50c27d352918c6437dfc7b5287e0ca4849506c57",
+    "origin": "combined/00_07.wav noise sign extraction",
+    "generated_by_emulator": false
+  },
+  {
+    "file": "noise_23.npz",
+    "sha256": "bc66b31690e4aaec3d39a152e88fb12a3a19866db37c21fb7ee7740369ba0275",
+    "origin": "combined/00_07.wav noise sign extraction",
+    "generated_by_emulator": false
+  },
+  {
+    "file": "noise_30.npz",
+    "sha256": "97fc172cc471442326da09060abceb0e676b24359f20b1357a4864797d4c56ec",
+    "origin": "combined/00_07.wav noise sign extraction",
+    "generated_by_emulator": false
+  },
+  {
+    "file": "noise_31.npz",
+    "sha256": "a570e966e146f4de6283c234c8bd3e194cd91aa2366d37d072cc4cc7ecc7aac3",
+    "origin": "combined/00_07.wav noise sign extraction",
+    "generated_by_emulator": false
+  },
+  {
+    "file": "noise_7.npz",
+    "sha256": "c8264bc9780fe24bbe78205823df013a290e1d12f0a6992fb71df17186b35484",
+    "origin": "combined/00_07.wav noise sign extraction",
+    "generated_by_emulator": false
+  }
+]

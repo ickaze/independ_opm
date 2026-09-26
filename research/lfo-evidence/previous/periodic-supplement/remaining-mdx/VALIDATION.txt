@@ -1,0 +1,4 @@
+25R1 PASS 200 writes 723.354s
+25R2 PASS 200 writes 723.354s
+25R3 PASS 192 writes 363.348s
+PASS: all MDX streams, nominal traces, finite ends, schedules and measurement constraints

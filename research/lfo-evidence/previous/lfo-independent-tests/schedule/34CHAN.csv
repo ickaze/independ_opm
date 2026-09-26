@@ -1,0 +1,74 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+ch=1 register-slot=0 AME=1 AM+PM,280,525,2.29376,4.3008,True
+ch=1 slot=0 AME=0 PM remains,525,770,4.3008,6.30784,True
+ch=1 register-slot=1 AME=1 AM+PM,770,1015,6.30784,8.31488,True
+ch=1 slot=1 AME=0 PM remains,1015,1260,8.31488,10.32192,True
+ch=1 register-slot=2 AME=1 AM+PM,1260,1505,10.32192,12.32896,True
+ch=1 slot=2 AME=0 PM remains,1505,1750,12.32896,14.336,True
+ch=1 register-slot=3 AME=1 AM+PM,1750,1995,14.336,16.34304,True
+ch=1 slot=3 AME=0 PM remains,1995,2240,16.34304,18.35008,True
+ch=2 register-slot=0 AME=1 AM+PM,2240,2485,18.35008,20.35712,True
+ch=2 slot=0 AME=0 PM remains,2485,2730,20.35712,22.36416,True
+ch=2 register-slot=1 AME=1 AM+PM,2730,2975,22.36416,24.3712,True
+ch=2 slot=1 AME=0 PM remains,2975,3220,24.3712,26.37824,True
+ch=2 register-slot=2 AME=1 AM+PM,3220,3465,26.37824,28.38528,True
+ch=2 slot=2 AME=0 PM remains,3465,3710,28.38528,30.39232,True
+ch=2 register-slot=3 AME=1 AM+PM,3710,3955,30.39232,32.39936,True
+ch=2 slot=3 AME=0 PM remains,3955,4200,32.39936,34.4064,True
+ch=3 register-slot=0 AME=1 AM+PM,4200,4445,34.4064,36.41344,True
+ch=3 slot=0 AME=0 PM remains,4445,4690,36.41344,38.42048,True
+ch=3 register-slot=1 AME=1 AM+PM,4690,4935,38.42048,40.42752,True
+ch=3 slot=1 AME=0 PM remains,4935,5180,40.42752,42.43456,True
+ch=3 register-slot=2 AME=1 AM+PM,5180,5425,42.43456,44.4416,True
+ch=3 slot=2 AME=0 PM remains,5425,5670,44.4416,46.44864,True
+ch=3 register-slot=3 AME=1 AM+PM,5670,5915,46.44864,48.45568,True
+ch=3 slot=3 AME=0 PM remains,5915,6160,48.45568,50.46272,True
+ch=4 register-slot=0 AME=1 AM+PM,6160,6405,50.46272,52.46976,True
+ch=4 slot=0 AME=0 PM remains,6405,6650,52.46976,54.4768,True
+ch=4 register-slot=1 AME=1 AM+PM,6650,6895,54.4768,56.48384,True
+ch=4 slot=1 AME=0 PM remains,6895,7140,56.48384,58.49088,True
+ch=4 register-slot=2 AME=1 AM+PM,7140,7385,58.49088,60.49792,True
+ch=4 slot=2 AME=0 PM remains,7385,7630,60.49792,62.50496,True
+ch=4 register-slot=3 AME=1 AM+PM,7630,7875,62.50496,64.512,True
+ch=4 slot=3 AME=0 PM remains,7875,8120,64.512,66.51904,True
+ch=5 register-slot=0 AME=1 AM+PM,8120,8365,66.51904,68.52608,True
+ch=5 slot=0 AME=0 PM remains,8365,8610,68.52608,70.53312,True
+ch=5 register-slot=1 AME=1 AM+PM,8610,8855,70.53312,72.54016,True
+ch=5 slot=1 AME=0 PM remains,8855,9100,72.54016,74.5472,True
+ch=5 register-slot=2 AME=1 AM+PM,9100,9345,74.5472,76.55424,True
+ch=5 slot=2 AME=0 PM remains,9345,9590,76.55424,78.56128,True
+ch=5 register-slot=3 AME=1 AM+PM,9590,9835,78.56128,80.56832,True
+ch=5 slot=3 AME=0 PM remains,9835,10080,80.56832,82.57536,True
+ch=6 register-slot=0 AME=1 AM+PM,10080,10325,82.57536,84.5824,True
+ch=6 slot=0 AME=0 PM remains,10325,10570,84.5824,86.58944,True
+ch=6 register-slot=1 AME=1 AM+PM,10570,10815,86.58944,88.59648,True
+ch=6 slot=1 AME=0 PM remains,10815,11060,88.59648,90.60352,True
+ch=6 register-slot=2 AME=1 AM+PM,11060,11305,90.60352,92.61056,True
+ch=6 slot=2 AME=0 PM remains,11305,11550,92.61056,94.6176,True
+ch=6 register-slot=3 AME=1 AM+PM,11550,11795,94.6176,96.62464,True
+ch=6 slot=3 AME=0 PM remains,11795,12040,96.62464,98.63168,True
+ch=7 register-slot=0 AME=1 AM+PM,12040,12285,98.63168,100.63872,True
+ch=7 slot=0 AME=0 PM remains,12285,12530,100.63872,102.64576,True
+ch=7 register-slot=1 AME=1 AM+PM,12530,12775,102.64576,104.6528,True
+ch=7 slot=1 AME=0 PM remains,12775,13020,104.6528,106.65984,True
+ch=7 register-slot=2 AME=1 AM+PM,13020,13265,106.65984,108.66688,True
+ch=7 slot=2 AME=0 PM remains,13265,13510,108.66688,110.67392,True
+ch=7 register-slot=3 AME=1 AM+PM,13510,13755,110.67392,112.68096,True
+ch=7 slot=3 AME=0 PM remains,13755,14000,112.68096,114.688,True
+ch=8 register-slot=0 AME=1 AM+PM,14000,14245,114.688,116.69504,True
+ch=8 slot=0 AME=0 PM remains,14245,14490,116.69504,118.70208,True
+ch=8 register-slot=1 AME=1 AM+PM,14490,14735,118.70208,120.70912,True
+ch=8 slot=1 AME=0 PM remains,14735,14980,120.70912,122.71616,True
+ch=8 register-slot=2 AME=1 AM+PM,14980,15225,122.71616,124.7232,True
+ch=8 slot=2 AME=0 PM remains,15225,15470,124.7232,126.73024,True
+ch=8 register-slot=3 AME=1 AM+PM,15470,15715,126.73024,128.73728,True
+ch=8 slot=3 AME=0 PM remains,15715,15960,128.73728,130.74432,True
+tail silence,15960,16088,130.74432,131.792896,False

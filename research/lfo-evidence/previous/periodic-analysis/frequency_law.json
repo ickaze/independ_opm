@@ -1,0 +1,8 @@
+{
+  "normalized_rate_slope": 1.907710736497875,
+  "intercept": 30.51966702560227,
+  "train": 64,
+  "test": 64,
+  "test_rms_relative": 0.0004467812722740297,
+  "test_max_relative": 0.0019231872377065695
+}

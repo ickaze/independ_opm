@@ -1,0 +1,111 @@
+{
+  "train": 512,
+  "threshold_db": 11.919297415180495,
+  "polarity": 0,
+  "degree": 17,
+  "lags": [
+    14,
+    17
+  ],
+  "threshold_candidates": 255,
+  "period_s": 0.00409551150663745,
+  "missing_updates": 1611,
+  "validation": {
+    "test_bits": 160934,
+    "errors": 0,
+    "first_error": null
+  },
+  "noise": [
+    {
+      "file": "noise_0.npz",
+      "degree": 17,
+      "lags": [
+        14,
+        17
+      ],
+      "validation": {
+        "test_bits": 7223,
+        "errors": 0,
+        "first_error": null
+      }
+    },
+    {
+      "file": "noise_1.npz",
+      "degree": 17,
+      "lags": [
+        14,
+        17
+      ],
+      "validation": {
+        "test_bits": 7473,
+        "errors": 0,
+        "first_error": null
+      }
+    },
+    {
+      "file": "noise_15.npz",
+      "degree": 17,
+      "lags": [
+        14,
+        17
+      ],
+      "validation": {
+        "test_bits": 14049,
+        "errors": 0,
+        "first_error": null
+      }
+    },
+    {
+      "file": "noise_23.npz",
+      "degree": 17,
+      "lags": [
+        14,
+        17
+      ],
+      "validation": {
+        "test_bits": 26992,
+        "errors": 0,
+        "first_error": null
+      }
+    },
+    {
+      "file": "noise_30.npz",
+      "degree": 17,
+      "lags": [
+        14,
+        17
+      ],
+      "validation": {
+        "test_bits": 123253,
+        "errors": 0,
+        "first_error": null
+      }
+    },
+    {
+      "file": "noise_31.npz",
+      "degree": 17,
+      "lags": [
+        14,
+        17
+      ],
+      "validation": {
+        "test_bits": 123252,
+        "errors": 0,
+        "first_error": null
+      }
+    },
+    {
+      "file": "noise_7.npz",
+      "degree": 17,
+      "lags": [
+        14,
+        17
+      ],
+      "validation": {
+        "test_bits": 9389,
+        "errors": 0,
+        "first_error": null
+      }
+    }
+  ]
+}

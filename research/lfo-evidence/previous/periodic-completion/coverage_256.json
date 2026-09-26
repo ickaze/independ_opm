@@ -1,0 +1,1058 @@
+[
+  {
+    "frequency": 0,
+    "file": "25new",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 1,
+    "file": "25new",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 2,
+    "file": "25new",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 3,
+    "file": "25new",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 4,
+    "file": "25new",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 5,
+    "file": "25new",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 6,
+    "file": "25R1",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 7,
+    "file": "25R1",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 8,
+    "file": "25R1",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 9,
+    "file": "25R1",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 10,
+    "file": "25R2",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 11,
+    "file": "25R2",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 12,
+    "file": "25R2",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 13,
+    "file": "25R2",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 14,
+    "file": "25R3",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 15,
+    "file": "25R3",
+    "results": "periodic-completion/results.json"
+  },
+  {
+    "frequency": 16,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 17,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 18,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 19,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 20,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 21,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 22,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 23,
+    "file": "26A",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 24,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 25,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 26,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 27,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 28,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 29,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 30,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 31,
+    "file": "26B",
+    "results": "periodic-supplement/results.json"
+  },
+  {
+    "frequency": 32,
+    "file": "27"
+  },
+  {
+    "frequency": 33,
+    "file": "27"
+  },
+  {
+    "frequency": 34,
+    "file": "27"
+  },
+  {
+    "frequency": 35,
+    "file": "27"
+  },
+  {
+    "frequency": 36,
+    "file": "27"
+  },
+  {
+    "frequency": 37,
+    "file": "27"
+  },
+  {
+    "frequency": 38,
+    "file": "27"
+  },
+  {
+    "frequency": 39,
+    "file": "27"
+  },
+  {
+    "frequency": 40,
+    "file": "27"
+  },
+  {
+    "frequency": 41,
+    "file": "27"
+  },
+  {
+    "frequency": 42,
+    "file": "27"
+  },
+  {
+    "frequency": 43,
+    "file": "27"
+  },
+  {
+    "frequency": 44,
+    "file": "27"
+  },
+  {
+    "frequency": 45,
+    "file": "27"
+  },
+  {
+    "frequency": 46,
+    "file": "27"
+  },
+  {
+    "frequency": 47,
+    "file": "27"
+  },
+  {
+    "frequency": 48,
+    "file": "28"
+  },
+  {
+    "frequency": 49,
+    "file": "28"
+  },
+  {
+    "frequency": 50,
+    "file": "28"
+  },
+  {
+    "frequency": 51,
+    "file": "28"
+  },
+  {
+    "frequency": 52,
+    "file": "28"
+  },
+  {
+    "frequency": 53,
+    "file": "28"
+  },
+  {
+    "frequency": 54,
+    "file": "28"
+  },
+  {
+    "frequency": 55,
+    "file": "28"
+  },
+  {
+    "frequency": 56,
+    "file": "28"
+  },
+  {
+    "frequency": 57,
+    "file": "28"
+  },
+  {
+    "frequency": 58,
+    "file": "28"
+  },
+  {
+    "frequency": 59,
+    "file": "28"
+  },
+  {
+    "frequency": 60,
+    "file": "28"
+  },
+  {
+    "frequency": 61,
+    "file": "28"
+  },
+  {
+    "frequency": 62,
+    "file": "28"
+  },
+  {
+    "frequency": 63,
+    "file": "28"
+  },
+  {
+    "frequency": 64,
+    "file": "29"
+  },
+  {
+    "frequency": 65,
+    "file": "29"
+  },
+  {
+    "frequency": 66,
+    "file": "29"
+  },
+  {
+    "frequency": 67,
+    "file": "29"
+  },
+  {
+    "frequency": 68,
+    "file": "29"
+  },
+  {
+    "frequency": 69,
+    "file": "29"
+  },
+  {
+    "frequency": 70,
+    "file": "29"
+  },
+  {
+    "frequency": 71,
+    "file": "29"
+  },
+  {
+    "frequency": 72,
+    "file": "29"
+  },
+  {
+    "frequency": 73,
+    "file": "29"
+  },
+  {
+    "frequency": 74,
+    "file": "29"
+  },
+  {
+    "frequency": 75,
+    "file": "29"
+  },
+  {
+    "frequency": 76,
+    "file": "29"
+  },
+  {
+    "frequency": 77,
+    "file": "29"
+  },
+  {
+    "frequency": 78,
+    "file": "29"
+  },
+  {
+    "frequency": 79,
+    "file": "29"
+  },
+  {
+    "frequency": 80,
+    "file": "30"
+  },
+  {
+    "frequency": 81,
+    "file": "30"
+  },
+  {
+    "frequency": 82,
+    "file": "30"
+  },
+  {
+    "frequency": 83,
+    "file": "30"
+  },
+  {
+    "frequency": 84,
+    "file": "30"
+  },
+  {
+    "frequency": 85,
+    "file": "30"
+  },
+  {
+    "frequency": 86,
+    "file": "30"
+  },
+  {
+    "frequency": 87,
+    "file": "30"
+  },
+  {
+    "frequency": 88,
+    "file": "30"
+  },
+  {
+    "frequency": 89,
+    "file": "30"
+  },
+  {
+    "frequency": 90,
+    "file": "30"
+  },
+  {
+    "frequency": 91,
+    "file": "30"
+  },
+  {
+    "frequency": 92,
+    "file": "30"
+  },
+  {
+    "frequency": 93,
+    "file": "30"
+  },
+  {
+    "frequency": 94,
+    "file": "30"
+  },
+  {
+    "frequency": 95,
+    "file": "30"
+  },
+  {
+    "frequency": 96,
+    "file": "31"
+  },
+  {
+    "frequency": 97,
+    "file": "31"
+  },
+  {
+    "frequency": 98,
+    "file": "31"
+  },
+  {
+    "frequency": 99,
+    "file": "31"
+  },
+  {
+    "frequency": 100,
+    "file": "31"
+  },
+  {
+    "frequency": 101,
+    "file": "31"
+  },
+  {
+    "frequency": 102,
+    "file": "31"
+  },
+  {
+    "frequency": 103,
+    "file": "31"
+  },
+  {
+    "frequency": 104,
+    "file": "31"
+  },
+  {
+    "frequency": 105,
+    "file": "31"
+  },
+  {
+    "frequency": 106,
+    "file": "31"
+  },
+  {
+    "frequency": 107,
+    "file": "31"
+  },
+  {
+    "frequency": 108,
+    "file": "31"
+  },
+  {
+    "frequency": 109,
+    "file": "31"
+  },
+  {
+    "frequency": 110,
+    "file": "31"
+  },
+  {
+    "frequency": 111,
+    "file": "31"
+  },
+  {
+    "frequency": 112,
+    "file": "32"
+  },
+  {
+    "frequency": 113,
+    "file": "32"
+  },
+  {
+    "frequency": 114,
+    "file": "32"
+  },
+  {
+    "frequency": 115,
+    "file": "32"
+  },
+  {
+    "frequency": 116,
+    "file": "32"
+  },
+  {
+    "frequency": 117,
+    "file": "32"
+  },
+  {
+    "frequency": 118,
+    "file": "32"
+  },
+  {
+    "frequency": 119,
+    "file": "32"
+  },
+  {
+    "frequency": 120,
+    "file": "32"
+  },
+  {
+    "frequency": 121,
+    "file": "32"
+  },
+  {
+    "frequency": 122,
+    "file": "32"
+  },
+  {
+    "frequency": 123,
+    "file": "32"
+  },
+  {
+    "frequency": 124,
+    "file": "32"
+  },
+  {
+    "frequency": 125,
+    "file": "32"
+  },
+  {
+    "frequency": 126,
+    "file": "32"
+  },
+  {
+    "frequency": 127,
+    "file": "32"
+  },
+  {
+    "frequency": 128,
+    "file": "17"
+  },
+  {
+    "frequency": 129,
+    "file": "17"
+  },
+  {
+    "frequency": 130,
+    "file": "17"
+  },
+  {
+    "frequency": 131,
+    "file": "17"
+  },
+  {
+    "frequency": 132,
+    "file": "17"
+  },
+  {
+    "frequency": 133,
+    "file": "17"
+  },
+  {
+    "frequency": 134,
+    "file": "17"
+  },
+  {
+    "frequency": 135,
+    "file": "17"
+  },
+  {
+    "frequency": 136,
+    "file": "17"
+  },
+  {
+    "frequency": 137,
+    "file": "17"
+  },
+  {
+    "frequency": 138,
+    "file": "17"
+  },
+  {
+    "frequency": 139,
+    "file": "17"
+  },
+  {
+    "frequency": 140,
+    "file": "17"
+  },
+  {
+    "frequency": 141,
+    "file": "17"
+  },
+  {
+    "frequency": 142,
+    "file": "17"
+  },
+  {
+    "frequency": 143,
+    "file": "17"
+  },
+  {
+    "frequency": 144,
+    "file": "18"
+  },
+  {
+    "frequency": 145,
+    "file": "18"
+  },
+  {
+    "frequency": 146,
+    "file": "18"
+  },
+  {
+    "frequency": 147,
+    "file": "18"
+  },
+  {
+    "frequency": 148,
+    "file": "18"
+  },
+  {
+    "frequency": 149,
+    "file": "18"
+  },
+  {
+    "frequency": 150,
+    "file": "18"
+  },
+  {
+    "frequency": 151,
+    "file": "18"
+  },
+  {
+    "frequency": 152,
+    "file": "18"
+  },
+  {
+    "frequency": 153,
+    "file": "18"
+  },
+  {
+    "frequency": 154,
+    "file": "18"
+  },
+  {
+    "frequency": 155,
+    "file": "18"
+  },
+  {
+    "frequency": 156,
+    "file": "18"
+  },
+  {
+    "frequency": 157,
+    "file": "18"
+  },
+  {
+    "frequency": 158,
+    "file": "18"
+  },
+  {
+    "frequency": 159,
+    "file": "18"
+  },
+  {
+    "frequency": 160,
+    "file": "19"
+  },
+  {
+    "frequency": 161,
+    "file": "19"
+  },
+  {
+    "frequency": 162,
+    "file": "19"
+  },
+  {
+    "frequency": 163,
+    "file": "19"
+  },
+  {
+    "frequency": 164,
+    "file": "19"
+  },
+  {
+    "frequency": 165,
+    "file": "19"
+  },
+  {
+    "frequency": 166,
+    "file": "19"
+  },
+  {
+    "frequency": 167,
+    "file": "19"
+  },
+  {
+    "frequency": 168,
+    "file": "19"
+  },
+  {
+    "frequency": 169,
+    "file": "19"
+  },
+  {
+    "frequency": 170,
+    "file": "19"
+  },
+  {
+    "frequency": 171,
+    "file": "19"
+  },
+  {
+    "frequency": 172,
+    "file": "19"
+  },
+  {
+    "frequency": 173,
+    "file": "19"
+  },
+  {
+    "frequency": 174,
+    "file": "19"
+  },
+  {
+    "frequency": 175,
+    "file": "19"
+  },
+  {
+    "frequency": 176,
+    "file": "20"
+  },
+  {
+    "frequency": 177,
+    "file": "20"
+  },
+  {
+    "frequency": 178,
+    "file": "20"
+  },
+  {
+    "frequency": 179,
+    "file": "20"
+  },
+  {
+    "frequency": 180,
+    "file": "20"
+  },
+  {
+    "frequency": 181,
+    "file": "20"
+  },
+  {
+    "frequency": 182,
+    "file": "20"
+  },
+  {
+    "frequency": 183,
+    "file": "20"
+  },
+  {
+    "frequency": 184,
+    "file": "20"
+  },
+  {
+    "frequency": 185,
+    "file": "20"
+  },
+  {
+    "frequency": 186,
+    "file": "20"
+  },
+  {
+    "frequency": 187,
+    "file": "20"
+  },
+  {
+    "frequency": 188,
+    "file": "20"
+  },
+  {
+    "frequency": 189,
+    "file": "20"
+  },
+  {
+    "frequency": 190,
+    "file": "20"
+  },
+  {
+    "frequency": 191,
+    "file": "20"
+  },
+  {
+    "frequency": 192,
+    "file": "21"
+  },
+  {
+    "frequency": 193,
+    "file": "21"
+  },
+  {
+    "frequency": 194,
+    "file": "21"
+  },
+  {
+    "frequency": 195,
+    "file": "21"
+  },
+  {
+    "frequency": 196,
+    "file": "21"
+  },
+  {
+    "frequency": 197,
+    "file": "21"
+  },
+  {
+    "frequency": 198,
+    "file": "21"
+  },
+  {
+    "frequency": 199,
+    "file": "21"
+  },
+  {
+    "frequency": 200,
+    "file": "21"
+  },
+  {
+    "frequency": 201,
+    "file": "21"
+  },
+  {
+    "frequency": 202,
+    "file": "21"
+  },
+  {
+    "frequency": 203,
+    "file": "21"
+  },
+  {
+    "frequency": 204,
+    "file": "21"
+  },
+  {
+    "frequency": 205,
+    "file": "21"
+  },
+  {
+    "frequency": 206,
+    "file": "21"
+  },
+  {
+    "frequency": 207,
+    "file": "21"
+  },
+  {
+    "frequency": 208,
+    "file": "22"
+  },
+  {
+    "frequency": 209,
+    "file": "22"
+  },
+  {
+    "frequency": 210,
+    "file": "22"
+  },
+  {
+    "frequency": 211,
+    "file": "22"
+  },
+  {
+    "frequency": 212,
+    "file": "22"
+  },
+  {
+    "frequency": 213,
+    "file": "22"
+  },
+  {
+    "frequency": 214,
+    "file": "22"
+  },
+  {
+    "frequency": 215,
+    "file": "22"
+  },
+  {
+    "frequency": 216,
+    "file": "22"
+  },
+  {
+    "frequency": 217,
+    "file": "22"
+  },
+  {
+    "frequency": 218,
+    "file": "22"
+  },
+  {
+    "frequency": 219,
+    "file": "22"
+  },
+  {
+    "frequency": 220,
+    "file": "22"
+  },
+  {
+    "frequency": 221,
+    "file": "22"
+  },
+  {
+    "frequency": 222,
+    "file": "22"
+  },
+  {
+    "frequency": 223,
+    "file": "22"
+  },
+  {
+    "frequency": 224,
+    "file": "23"
+  },
+  {
+    "frequency": 225,
+    "file": "23"
+  },
+  {
+    "frequency": 226,
+    "file": "23"
+  },
+  {
+    "frequency": 227,
+    "file": "23"
+  },
+  {
+    "frequency": 228,
+    "file": "23"
+  },
+  {
+    "frequency": 229,
+    "file": "23"
+  },
+  {
+    "frequency": 230,
+    "file": "23"
+  },
+  {
+    "frequency": 231,
+    "file": "23"
+  },
+  {
+    "frequency": 232,
+    "file": "23"
+  },
+  {
+    "frequency": 233,
+    "file": "23"
+  },
+  {
+    "frequency": 234,
+    "file": "23"
+  },
+  {
+    "frequency": 235,
+    "file": "23"
+  },
+  {
+    "frequency": 236,
+    "file": "23"
+  },
+  {
+    "frequency": 237,
+    "file": "23"
+  },
+  {
+    "frequency": 238,
+    "file": "23"
+  },
+  {
+    "frequency": 239,
+    "file": "23"
+  },
+  {
+    "frequency": 240,
+    "file": "24"
+  },
+  {
+    "frequency": 241,
+    "file": "24"
+  },
+  {
+    "frequency": 242,
+    "file": "24"
+  },
+  {
+    "frequency": 243,
+    "file": "24"
+  },
+  {
+    "frequency": 244,
+    "file": "24"
+  },
+  {
+    "frequency": 245,
+    "file": "24"
+  },
+  {
+    "frequency": 246,
+    "file": "24"
+  },
+  {
+    "frequency": 247,
+    "file": "24"
+  },
+  {
+    "frequency": 248,
+    "file": "24"
+  },
+  {
+    "frequency": 249,
+    "file": "24"
+  },
+  {
+    "frequency": 250,
+    "file": "24"
+  },
+  {
+    "frequency": 251,
+    "file": "24"
+  },
+  {
+    "frequency": 252,
+    "file": "24"
+  },
+  {
+    "frequency": 253,
+    "file": "24"
+  },
+  {
+    "frequency": 254,
+    "file": "24"
+  },
+  {
+    "frequency": 255,
+    "file": "24"
+  }
+]

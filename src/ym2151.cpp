@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: 0BSD
+// Copyright (C) 2026 by I.C.KaZe
 #include "ym2151.hpp"
 #include "envelope_times.hpp"
 #include <algorithm>
@@ -13,8 +15,6 @@ constexpr double reference_clock = 3579545.0;
 // deliberately alias the preceding note; that alias is NOT hardware-verified.
 constexpr int notes[16] = {1,2,3,3,4,5,6,6,7,8,9,9,10,11,12,12};
 constexpr double dt2_cents[4] = {0,600,781,950}; // Fig.2.7 (rounded published values)
-constexpr double pm_cents[8] = {0,5,10,20,50,100,400,700}; // Fig.2.8
-constexpr double am_db[4] = {0,23.90625,47.8125,95.625}; // Fig.2.15
 // Fig.2.6 frequency offsets, transcribed as multiples of clock/2^26.
 // Quantization unit inferred from the manual's rounded Hz values, not from a ROM dump.
 constexpr unsigned dt1_units[4][32] = {
@@ -48,8 +48,7 @@ void Ym2151::reset() {
     for (auto& f : feedback_) f.fill(0);
     clocks_ = 0; timer_a_ = timer_b_ = busy_ = sample_phase_ = 0;
     address_ = flags_ = amd_ = pmd_ = 0;
-    lfo_phase_ = 0; lfo_clock_ = {}; noise_phase_ = 0; random_code_ = 0; lfo_info_ = {};
-    noise_state_ = 1; lfo_lfsr_ = 1;
+    periodic_ = {}; random_ = {}; lfo_info_ = {};
     csm_release_ = false; last_ = {};
     clear_output_sample_delays(); previous_outputs_ = {}; measured_alg5_timing_ = false;
 }
@@ -109,14 +108,25 @@ void Ym2151::write_register(std::uint8_t a, std::uint8_t v) {
     busy_ = 68; // Application manual p.5: write busy duration.
     if (a == 0x08) {
         unsigned ch = v & 7;
-        manual_keys_[ch] = (v >> 3) & 15;
-        for (unsigned slot=0;slot<4;++slot) key(ch,slot,(v & (8u<<slot)) != 0);
+        // KON bits 3..6: M1, C1, M2, C2 (Yamaha manual, section 2.1.1).
+        // Internal/register slots: M1, M2, C1, C2. Keep manual_keys_ in
+        // internal order as well, so CSM release restores the same operators.
+        constexpr unsigned key_bit[4] = {3, 5, 4, 6};
+        manual_keys_[ch] = 0;
+        for (unsigned slot=0; slot<4; ++slot) {
+            const bool on = (v & (1u << key_bit[slot])) != 0;
+            if (on) manual_keys_[ch] |= static_cast<std::uint8_t>(1u << slot);
+            key(ch,slot,on);
+        }
     } else if (a == 0x18) {
-        lfo_clock_.restart();
+        periodic_.frequency_written();
+        random_.latch_age = 0;
+    } else if (a == 0x0f && ((previous ^ v) & 31)) {
+        random_.change_nfrq();
     } else if (a == 0x19) {
         if (v & 128) pmd_ = v & 127; else amd_ = v & 127;
     } else if (a == 0x01 && (v & 2)) {
-        lfo_phase_ = 0;
+        periodic_.hold_written();
     } else if (a == 0x14) {
         if (v & 16) flags_ &= ~1u;
         if (v & 32) flags_ &= ~2u;
@@ -161,48 +171,32 @@ void Ym2151::envelope(unsigned ch, unsigned slot) {
 }
 Stereo Ym2151::synthesize() {
     const unsigned shape = registers_[0x1b] & 3;
-    const unsigned step = (registers_[1] & 2) ? 0 : lfo_clock_.tick(registers_[0x18]);
-    if (step != 0) {
-        if (shape == 3) {
-            // Retain the user-requested provisional source, not X68Sound irnd.
-            // Its connection to hardware is unverified; latch once per event.
-            lfo_lfsr_ = detail::lfsr17_step(lfo_lfsr_);
-            lfo_phase_ = static_cast<std::uint16_t>(lfo_lfsr_ % 512);
-        } else {
-            const unsigned increment = shape == 2 ? 2*step : step;
-            lfo_phase_ = static_cast<std::uint16_t>((lfo_phase_ + increment) % 512);
-        }
-    }
-    const auto values = detail::lfo_value(shape,lfo_phase_);
-    const int am_depth = values.am * amd_ / 128;
-    const int pm_depth = values.pm * pmd_ / 128;
-    lfo_info_ = {lfo_phase_,static_cast<std::uint16_t>(values.am),
-                 static_cast<std::int16_t>(values.pm),double(am_depth),double(pm_depth),shape==3};
-    // Connect integer depths to the existing manual-based dB/cents model.
-    // This is not X68Sound's complete channel pitch/envelope implementation.
-    const double am = am_depth / 255.0;
-    const double pm = pm_depth / 128.0;
-    // NFRQ divider interpretation and polynomial remain approximate/unverified.
-    noise_phase_ += 2.0/(32-(registers_[0x0f]&31));
-    while (noise_phase_ >= 1) {
-        noise_phase_ -= 1;
-        unsigned bit = ((noise_state_>>0) ^ (noise_state_>>3)) & 1;
-        noise_state_ = (noise_state_>>1) | (bit<<16);
-    }
+    periodic_.advance(registers_[0x18],shape,(registers_[1]&2)!=0);
+    // Preserve the recording-derived random capture model.
+    const int random_am=random_.am;
+    const auto values=shape==3
+        ? detail::ModulationValues{random_am,random_am>=128 ? 256-random_am : -random_am}
+        : detail::periodic_values(shape,periodic_.position);
+    const unsigned am_depth=detail::attenuation_units(static_cast<unsigned>(values.am),amd_);
+    const int pm_depth=detail::signed_depth(values.pm,pmd_);
+    lfo_info_={static_cast<std::uint16_t>(shape==3 ? random_.am : periodic_.position),
+               static_cast<std::uint16_t>(values.am),static_cast<std::int16_t>(values.pm),
+               double(am_depth),double(pm_depth),shape==3};
     Stereo mix;
     for (unsigned ch=0;ch<8;++ch) {
         unsigned control=registers_[0x20+ch], sensitivity=registers_[0x38+ch];
-        double cents=pm*pm_cents[(sensitivity>>4)&7];
+        // Integer displacement, approximate equal-tempered pitch conversion.
+        const double cents=detail::pitch_units(pm_depth,sensitivity>>4)*(100.0/64.0);
         std::array<double,4> out{};
         auto evaluate = [&](unsigned slot,double mod_cycles) {
             auto& op=operators_[ch][slot];
             envelope(ch,slot);
             double attenuation = op.attenuation + .75*(reg(0x60,ch,slot)&127);
-            if (reg(0xa0,ch,slot)&128) attenuation += am*am_db[sensitivity&3];
+            if (reg(0xa0,ch,slot)&128) attenuation += detail::attenuation_db(am_depth,sensitivity);
             double value = 0;
             if (op.stage != Envelope::off) {
                 if (ch==7 && slot==3 && (registers_[0x0f]&128))
-                    value = (noise_state_&1 ? 1 : -1)*std::max(0.0,1-attenuation/96);
+                    value = (random_.state&1 ? -1 : 1)*std::max(0.0,1-attenuation/96);
                 else value = wave(op.phase,mod_cycles)*std::pow(10.0,-attenuation/20);
             }
             double cycles=frequency(ch,slot,cents)/native_rate();
@@ -266,6 +260,7 @@ void Ym2151::advance(std::uint64_t count, Sink sink, void* context) {
         auto n=static_cast<unsigned>(std::min<std::uint64_t>(count,64-sample_phase_));
         if(timer_a_) n=std::min(n,timer_a_);
         if(timer_b_) n=std::min(n,timer_b_);
+        random_.advance(n, registers_[0x0f], registers_[0x18], (registers_[1] & 2) != 0);
         clocks_+=n; count-=n; sample_phase_+=n;
         busy_=busy_>n ? busy_-n : 0;
         if(timer_a_) {
@@ -328,5 +323,48 @@ Stereo Resampler::output(double fraction) const {
         out.left+=f.left*weights_[p][i]; out.right+=f.right*weights_[p][i];
     }
     return out;
+}
+}
+
+// Explicit, versioned serialization: no object padding, addresses or callbacks.
+#include "state_codec.hpp"
+#include <memory>
+namespace independent_opm {
+template<class Archive> void Ym2151::state_fields(Archive& a) {
+    a(clock_hz_,registers_);
+    for(auto& ch:operators_) for(auto& o:ch)a(o.phase,o.attenuation,o.stage,o.key);
+    a(feedback_,manual_keys_,clocks_,timer_a_,timer_b_,busy_,sample_phase_,address_,flags_,amd_,pmd_);
+    a(periodic_.wait_samples,periodic_.order,periodic_.position);
+    a(random_.state,random_.age,random_.latch_age,random_.am);
+    a(lfo_info_.phase,lfo_info_.am,lfo_info_.pm,lfo_info_.am_after_depth,lfo_info_.pm_after_depth,lfo_info_.uses_unverified_random);
+    a(csm_release_,last_.left,last_.right,left_previous_mask_,right_previous_mask_,measured_alg5_timing_,previous_outputs_);
+}
+std::vector<std::uint8_t> Ym2151::save_state() const {
+    auto copy=*this;state_detail::Archive a;copy.state_fields(a);return a.finish(1);
+}
+bool Ym2151::load_state(const void* data,std::size_t size) {
+    try {
+        state_detail::Archive a(data,size,1);auto c=*this;c.state_fields(a);a.end();
+        if(c.clock_hz_<100000||c.clock_hz_>10000000||c.sample_phase_>=64||c.busy_>68||c.flags_>3||c.amd_>127||c.pmd_>127) return false;
+        if(c.periodic_.order>15||c.periodic_.position>511||c.periodic_.wait_samples>262144) return false;
+        if(c.random_.state>0x1ffff||c.random_.age>=32u*(32u-(c.registers_[15]&31))||c.random_.latch_age>=detail::MeasuredRandom::period(c.registers_[24])) return false;
+        for(const auto& ch:c.operators_)for(const auto& o:ch)if(static_cast<unsigned>(o.stage)>4)return false;
+        for(unsigned i=0;i<8;++i)if(c.manual_keys_[i]>15||c.left_previous_mask_[i]>15||c.right_previous_mask_[i]>15)return false;
+        *this=c;return true;
+    } catch(const state_detail::Invalid&) {return false;}
+}
+template<class Archive> void Resampler::state_fields(Archive& a) {
+    for(auto& s:history_)a(s.left,s.right);
+    a(weights_,head_);
+}
+std::vector<std::uint8_t> Resampler::save_state() const {
+    auto c=std::make_unique<Resampler>(*this);state_detail::Archive a;c->state_fields(a);return a.finish(2);
+}
+bool Resampler::load_state(const void* data,std::size_t size) {
+    try {
+        state_detail::Archive a(data,size,2);auto c=std::make_unique<Resampler>(*this);c->state_fields(a);a.end();
+        if(c->head_>=taps)return false;
+        *this=*c;return true;
+    } catch(const state_detail::Invalid&) {return false;}
 }
 }

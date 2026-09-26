@@ -1,0 +1,178 @@
+[
+  {
+    "frequency": 0,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 1,
+    "phase": 11,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 2,
+    "phase": 2,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 3,
+    "phase": 1,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 5
+  },
+  {
+    "frequency": 4,
+    "phase": 12,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 5,
+    "phase": 1,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 5
+  },
+  {
+    "frequency": 16,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 17,
+    "phase": 10,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 18,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 19,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 5
+  },
+  {
+    "frequency": 20,
+    "phase": 8,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 21,
+    "phase": 12,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 5
+  },
+  {
+    "frequency": 22,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 7
+  },
+  {
+    "frequency": 23,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 6,
+    "test_bits": 26,
+    "test_errors": 12
+  },
+  {
+    "frequency": 24,
+    "phase": 8,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 25,
+    "phase": 9,
+    "train_bits": 16,
+    "train_errors": 6,
+    "test_bits": 26,
+    "test_errors": 8
+  },
+  {
+    "frequency": 26,
+    "phase": 2,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 7
+  },
+  {
+    "frequency": 27,
+    "phase": 9,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 6
+  },
+  {
+    "frequency": 28,
+    "phase": 4,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 29,
+    "phase": 1,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 8
+  },
+  {
+    "frequency": 30,
+    "phase": 10,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 31,
+    "phase": 3,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "am": [
+    {
+      "file": "37",
+      "conditions": 128,
+      "points": 104763,
+      "wrong_half_unit": 0,
+      "median_section_rms_db": 0.001995147836163017,
+      "max_section_rms_db": 0.002199906363888134
+    },
+    {
+      "file": "38",
+      "conditions": 128,
+      "points": 104772,
+      "wrong_half_unit": 0,
+      "median_section_rms_db": 0.0018992296196987763,
+      "max_section_rms_db": 0.0043429137134406125
+    },
+    {
+      "file": "39",
+      "conditions": 128,
+      "points": 104826,
+      "wrong_half_unit": 0,
+      "median_section_rms_db": 0.0017415954985677143,
+      "max_section_rms_db": 0.0020245056389600995
+    }
+  ],
+  "pm": [
+    {
+      "file": "40",
+      "conditions": 128,
+      "points": 173567,
+      "unmapped": 0,
+      "median_section_rms_cents": 0.15077474713756306,
+      "max_section_rms_cents": 0.2001509499220405
+    },
+    {
+      "file": "41",
+      "conditions": 128,
+      "points": 242283,
+      "unmapped": 32,
+      "median_section_rms_cents": 0.15480651372876778,
+      "max_section_rms_cents": 0.20447820620369808
+    }
+  ],
+  "coverage": [
+    {
+      "file": "37AMSAW",
+      "recorded_s": 776.874667,
+      "active_s": 768.614,
+      "sections": 128,
+      "scale": 1.0000101378312054
+    },
+    {
+      "file": "38AMSQR",
+      "recorded_s": 774.144,
+      "active_s": 768.5930000000001,
+      "sections": 128,
+      "scale": 0.9999828156475158
+    },
+    {
+      "file": "39AMTRI",
+      "recorded_s": 774.144,
+      "active_s": 768.626,
+      "sections": 128,
+      "scale": 1.0000257505075993
+    },
+    {
+      "file": "40PMSAW",
+      "recorded_s": 774.144,
+      "active_s": 768.5939999999999,
+      "sections": 128,
+      "scale": 0.9999841167038818
+    },
+    {
+      "file": "41PMTRI",
+      "recorded_s": 773.521479,
+      "active_s": 768.602,
+      "sections": 128,
+      "scale": 0.9999945251548112
+    },
+    {
+      "file": "42STATE",
+      "recorded_s": 222.833333,
+      "active_s": 216.476,
+      "sections": 384,
+      "scale": 1.0000489316057373
+    }
+  ],
+  "native_checks": 36
+}

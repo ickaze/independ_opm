@@ -1,0 +1,394 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+f=81 same_freq delay=1; baseline,280,408,2.29376,3.342336,True
+vary event phase in driver ticks,408,409,3.342336,3.350528,True
+same_freq during,409,410,3.350528,3.35872,True
+same_freq after event,410,538,3.35872,4.407296,True
+f=81 same_freq delay=2; baseline,538,666,4.407296,5.455872,True
+vary event phase in driver ticks,666,668,5.455872,5.472256,True
+same_freq during,668,670,5.472256,5.48864,True
+same_freq after event,670,798,5.48864,6.537216,True
+f=81 same_freq delay=3; baseline,798,926,6.537216,7.585792,True
+vary event phase in driver ticks,926,929,7.585792,7.610368,True
+same_freq during,929,932,7.610368,7.634944,True
+same_freq after event,932,1060,7.634944,8.68352,True
+f=81 same_freq delay=5; baseline,1060,1188,8.68352,9.732096,True
+vary event phase in driver ticks,1188,1193,9.732096,9.773056,True
+same_freq during,1193,1198,9.773056,9.814016,True
+same_freq after event,1198,1326,9.814016,10.862592,True
+f=81 same_freq delay=7; baseline,1326,1454,10.862592,11.911168,True
+vary event phase in driver ticks,1454,1461,11.911168,11.968512,True
+same_freq during,1461,1468,11.968512,12.025856,True
+same_freq after event,1468,1596,12.025856,13.074432,True
+f=81 same_freq delay=11; baseline,1596,1724,13.074432,14.123008,True
+vary event phase in driver ticks,1724,1735,14.123008,14.21312,True
+same_freq during,1735,1746,14.21312,14.303232,True
+same_freq after event,1746,1874,14.303232,15.351808,True
+f=81 same_freq delay=17; baseline,1874,2002,15.351808,16.400384,True
+vary event phase in driver ticks,2002,2019,16.400384,16.539648,True
+same_freq during,2019,2036,16.539648,16.678912,True
+same_freq after event,2036,2164,16.678912,17.727488,True
+f=81 same_freq delay=31; baseline,2164,2292,17.727488,18.776064,True
+vary event phase in driver ticks,2292,2323,18.776064,19.030016,True
+same_freq during,2323,2354,19.030016,19.283968,True
+same_freq after event,2354,2482,19.283968,20.332544,True
+f=81 new_freq delay=1; baseline,2482,2610,20.332544,21.38112,True
+vary event phase in driver ticks,2610,2611,21.38112,21.389312,True
+new_freq during,2611,2612,21.389312,21.397504,True
+new_freq after event,2612,2740,21.397504,22.44608,True
+f=81 new_freq delay=2; baseline,2740,2868,22.44608,23.494656,True
+vary event phase in driver ticks,2868,2870,23.494656,23.51104,True
+new_freq during,2870,2872,23.51104,23.527424,True
+new_freq after event,2872,3000,23.527424,24.576,True
+f=81 new_freq delay=3; baseline,3000,3128,24.576,25.624576,True
+vary event phase in driver ticks,3128,3131,25.624576,25.649152,True
+new_freq during,3131,3134,25.649152,25.673728,True
+new_freq after event,3134,3262,25.673728,26.722304,True
+f=81 new_freq delay=5; baseline,3262,3390,26.722304,27.77088,True
+vary event phase in driver ticks,3390,3395,27.77088,27.81184,True
+new_freq during,3395,3400,27.81184,27.8528,True
+new_freq after event,3400,3528,27.8528,28.901376,True
+f=81 new_freq delay=7; baseline,3528,3656,28.901376,29.949952,True
+vary event phase in driver ticks,3656,3663,29.949952,30.007296,True
+new_freq during,3663,3670,30.007296,30.06464,True
+new_freq after event,3670,3798,30.06464,31.113216,True
+f=81 new_freq delay=11; baseline,3798,3926,31.113216,32.161792,True
+vary event phase in driver ticks,3926,3937,32.161792,32.251904,True
+new_freq during,3937,3948,32.251904,32.342016,True
+new_freq after event,3948,4076,32.342016,33.390592,True
+f=81 new_freq delay=17; baseline,4076,4204,33.390592,34.439168,True
+vary event phase in driver ticks,4204,4221,34.439168,34.578432,True
+new_freq during,4221,4238,34.578432,34.717696,True
+new_freq after event,4238,4366,34.717696,35.766272,True
+f=81 new_freq delay=31; baseline,4366,4494,35.766272,36.814848,True
+vary event phase in driver ticks,4494,4525,36.814848,37.0688,True
+new_freq during,4525,4556,37.0688,37.322752,True
+new_freq after event,4556,4684,37.322752,38.371328,True
+f=81 hold delay=1; baseline,4684,4812,38.371328,39.419904,True
+vary event phase in driver ticks,4812,4813,39.419904,39.428096,True
+hold during,4813,4814,39.428096,39.436288,True
+hold after event,4814,4942,39.436288,40.484864,True
+f=81 hold delay=2; baseline,4942,5070,40.484864,41.53344,True
+vary event phase in driver ticks,5070,5072,41.53344,41.549824,True
+hold during,5072,5074,41.549824,41.566208,True
+hold after event,5074,5202,41.566208,42.614784,True
+f=81 hold delay=3; baseline,5202,5330,42.614784,43.66336,True
+vary event phase in driver ticks,5330,5333,43.66336,43.687936,True
+hold during,5333,5336,43.687936,43.712512,True
+hold after event,5336,5464,43.712512,44.761088,True
+f=81 hold delay=5; baseline,5464,5592,44.761088,45.809664,True
+vary event phase in driver ticks,5592,5597,45.809664,45.850624,True
+hold during,5597,5602,45.850624,45.891584,True
+hold after event,5602,5730,45.891584,46.94016,True
+f=81 hold delay=7; baseline,5730,5858,46.94016,47.988736,True
+vary event phase in driver ticks,5858,5865,47.988736,48.04608,True
+hold during,5865,5872,48.04608,48.103424,True
+hold after event,5872,6000,48.103424,49.152,True
+f=81 hold delay=11; baseline,6000,6128,49.152,50.200576,True
+vary event phase in driver ticks,6128,6139,50.200576,50.290688,True
+hold during,6139,6150,50.290688,50.3808,True
+hold after event,6150,6278,50.3808,51.429376,True
+f=81 hold delay=17; baseline,6278,6406,51.429376,52.477952,True
+vary event phase in driver ticks,6406,6423,52.477952,52.617216,True
+hold during,6423,6440,52.617216,52.75648,True
+hold after event,6440,6568,52.75648,53.805056,True
+f=81 hold delay=31; baseline,6568,6696,53.805056,54.853632,True
+vary event phase in driver ticks,6696,6727,54.853632,55.107584,True
+hold during,6727,6758,55.107584,55.361536,True
+hold after event,6758,6886,55.361536,56.410112,True
+f=81 wave_select delay=1; baseline,6886,7014,56.410112,57.458688,True
+vary event phase in driver ticks,7014,7015,57.458688,57.46688,True
+wave_select during,7015,7016,57.46688,57.475072,True
+wave_select after event,7016,7144,57.475072,58.523648,True
+f=81 wave_select delay=2; baseline,7144,7272,58.523648,59.572224,True
+vary event phase in driver ticks,7272,7274,59.572224,59.588608,True
+wave_select during,7274,7276,59.588608,59.604992,True
+wave_select after event,7276,7404,59.604992,60.653568,True
+f=81 wave_select delay=3; baseline,7404,7532,60.653568,61.702144,True
+vary event phase in driver ticks,7532,7535,61.702144,61.72672,True
+wave_select during,7535,7538,61.72672,61.751296,True
+wave_select after event,7538,7666,61.751296,62.799872,True
+f=81 wave_select delay=5; baseline,7666,7794,62.799872,63.848448,True
+vary event phase in driver ticks,7794,7799,63.848448,63.889408,True
+wave_select during,7799,7804,63.889408,63.930368,True
+wave_select after event,7804,7932,63.930368,64.978944,True
+f=81 wave_select delay=7; baseline,7932,8060,64.978944,66.02752,True
+vary event phase in driver ticks,8060,8067,66.02752,66.084864,True
+wave_select during,8067,8074,66.084864,66.142208,True
+wave_select after event,8074,8202,66.142208,67.190784,True
+f=81 wave_select delay=11; baseline,8202,8330,67.190784,68.23936,True
+vary event phase in driver ticks,8330,8341,68.23936,68.329472,True
+wave_select during,8341,8352,68.329472,68.419584,True
+wave_select after event,8352,8480,68.419584,69.46816,True
+f=81 wave_select delay=17; baseline,8480,8608,69.46816,70.516736,True
+vary event phase in driver ticks,8608,8625,70.516736,70.656,True
+wave_select during,8625,8642,70.656,70.795264,True
+wave_select after event,8642,8770,70.795264,71.84384,True
+f=81 wave_select delay=31; baseline,8770,8898,71.84384,72.892416,True
+vary event phase in driver ticks,8898,8929,72.892416,73.146368,True
+wave_select during,8929,8960,73.146368,73.40032,True
+wave_select after event,8960,9088,73.40032,74.448896,True
+f=87 same_freq delay=1; baseline,9088,9216,74.448896,75.497472,True
+vary event phase in driver ticks,9216,9217,75.497472,75.505664,True
+same_freq during,9217,9218,75.505664,75.513856,True
+same_freq after event,9218,9346,75.513856,76.562432,True
+f=87 same_freq delay=2; baseline,9346,9474,76.562432,77.611008,True
+vary event phase in driver ticks,9474,9476,77.611008,77.627392,True
+same_freq during,9476,9478,77.627392,77.643776,True
+same_freq after event,9478,9606,77.643776,78.692352,True
+f=87 same_freq delay=3; baseline,9606,9734,78.692352,79.740928,True
+vary event phase in driver ticks,9734,9737,79.740928,79.765504,True
+same_freq during,9737,9740,79.765504,79.79008,True
+same_freq after event,9740,9868,79.79008,80.838656,True
+f=87 same_freq delay=5; baseline,9868,9996,80.838656,81.887232,True
+vary event phase in driver ticks,9996,10001,81.887232,81.928192,True
+same_freq during,10001,10006,81.928192,81.969152,True
+same_freq after event,10006,10134,81.969152,83.017728,True
+f=87 same_freq delay=7; baseline,10134,10262,83.017728,84.066304,True
+vary event phase in driver ticks,10262,10269,84.066304,84.123648,True
+same_freq during,10269,10276,84.123648,84.180992,True
+same_freq after event,10276,10404,84.180992,85.229568,True
+f=87 same_freq delay=11; baseline,10404,10532,85.229568,86.278144,True
+vary event phase in driver ticks,10532,10543,86.278144,86.368256,True
+same_freq during,10543,10554,86.368256,86.458368,True
+same_freq after event,10554,10682,86.458368,87.506944,True
+f=87 same_freq delay=17; baseline,10682,10810,87.506944,88.55552,True
+vary event phase in driver ticks,10810,10827,88.55552,88.694784,True
+same_freq during,10827,10844,88.694784,88.834048,True
+same_freq after event,10844,10972,88.834048,89.882624,True
+f=87 same_freq delay=31; baseline,10972,11100,89.882624,90.9312,True
+vary event phase in driver ticks,11100,11131,90.9312,91.185152,True
+same_freq during,11131,11162,91.185152,91.439104,True
+same_freq after event,11162,11290,91.439104,92.48768,True
+f=87 new_freq delay=1; baseline,11290,11418,92.48768,93.536256,True
+vary event phase in driver ticks,11418,11419,93.536256,93.544448,True
+new_freq during,11419,11420,93.544448,93.55264,True
+new_freq after event,11420,11548,93.55264,94.601216,True
+f=87 new_freq delay=2; baseline,11548,11676,94.601216,95.649792,True
+vary event phase in driver ticks,11676,11678,95.649792,95.666176,True
+new_freq during,11678,11680,95.666176,95.68256,True
+new_freq after event,11680,11808,95.68256,96.731136,True
+f=87 new_freq delay=3; baseline,11808,11936,96.731136,97.779712,True
+vary event phase in driver ticks,11936,11939,97.779712,97.804288,True
+new_freq during,11939,11942,97.804288,97.828864,True
+new_freq after event,11942,12070,97.828864,98.87744,True
+f=87 new_freq delay=5; baseline,12070,12198,98.87744,99.926016,True
+vary event phase in driver ticks,12198,12203,99.926016,99.966976,True
+new_freq during,12203,12208,99.966976,100.007936,True
+new_freq after event,12208,12336,100.007936,101.056512,True
+f=87 new_freq delay=7; baseline,12336,12464,101.056512,102.105088,True
+vary event phase in driver ticks,12464,12471,102.105088,102.162432,True
+new_freq during,12471,12478,102.162432,102.219776,True
+new_freq after event,12478,12606,102.219776,103.268352,True
+f=87 new_freq delay=11; baseline,12606,12734,103.268352,104.316928,True
+vary event phase in driver ticks,12734,12745,104.316928,104.40704,True
+new_freq during,12745,12756,104.40704,104.497152,True
+new_freq after event,12756,12884,104.497152,105.545728,True
+f=87 new_freq delay=17; baseline,12884,13012,105.545728,106.594304,True
+vary event phase in driver ticks,13012,13029,106.594304,106.733568,True
+new_freq during,13029,13046,106.733568,106.872832,True
+new_freq after event,13046,13174,106.872832,107.921408,True
+f=87 new_freq delay=31; baseline,13174,13302,107.921408,108.969984,True
+vary event phase in driver ticks,13302,13333,108.969984,109.223936,True
+new_freq during,13333,13364,109.223936,109.477888,True
+new_freq after event,13364,13492,109.477888,110.526464,True
+f=87 hold delay=1; baseline,13492,13620,110.526464,111.57504,True
+vary event phase in driver ticks,13620,13621,111.57504,111.583232,True
+hold during,13621,13622,111.583232,111.591424,True
+hold after event,13622,13750,111.591424,112.64,True
+f=87 hold delay=2; baseline,13750,13878,112.64,113.688576,True
+vary event phase in driver ticks,13878,13880,113.688576,113.70496,True
+hold during,13880,13882,113.70496,113.721344,True
+hold after event,13882,14010,113.721344,114.76992,True
+f=87 hold delay=3; baseline,14010,14138,114.76992,115.818496,True
+vary event phase in driver ticks,14138,14141,115.818496,115.843072,True
+hold during,14141,14144,115.843072,115.867648,True
+hold after event,14144,14272,115.867648,116.916224,True
+f=87 hold delay=5; baseline,14272,14400,116.916224,117.9648,True
+vary event phase in driver ticks,14400,14405,117.9648,118.00576,True
+hold during,14405,14410,118.00576,118.04672,True
+hold after event,14410,14538,118.04672,119.095296,True
+f=87 hold delay=7; baseline,14538,14666,119.095296,120.143872,True
+vary event phase in driver ticks,14666,14673,120.143872,120.201216,True
+hold during,14673,14680,120.201216,120.25856,True
+hold after event,14680,14808,120.25856,121.307136,True
+f=87 hold delay=11; baseline,14808,14936,121.307136,122.355712,True
+vary event phase in driver ticks,14936,14947,122.355712,122.445824,True
+hold during,14947,14958,122.445824,122.535936,True
+hold after event,14958,15086,122.535936,123.584512,True
+f=87 hold delay=17; baseline,15086,15214,123.584512,124.633088,True
+vary event phase in driver ticks,15214,15231,124.633088,124.772352,True
+hold during,15231,15248,124.772352,124.911616,True
+hold after event,15248,15376,124.911616,125.960192,True
+f=87 hold delay=31; baseline,15376,15504,125.960192,127.008768,True
+vary event phase in driver ticks,15504,15535,127.008768,127.26272,True
+hold during,15535,15566,127.26272,127.516672,True
+hold after event,15566,15694,127.516672,128.565248,True
+f=87 wave_select delay=1; baseline,15694,15822,128.565248,129.613824,True
+vary event phase in driver ticks,15822,15823,129.613824,129.622016,True
+wave_select during,15823,15824,129.622016,129.630208,True
+wave_select after event,15824,15952,129.630208,130.678784,True
+f=87 wave_select delay=2; baseline,15952,16080,130.678784,131.72736,True
+vary event phase in driver ticks,16080,16082,131.72736,131.743744,True
+wave_select during,16082,16084,131.743744,131.760128,True
+wave_select after event,16084,16212,131.760128,132.808704,True
+f=87 wave_select delay=3; baseline,16212,16340,132.808704,133.85728,True
+vary event phase in driver ticks,16340,16343,133.85728,133.881856,True
+wave_select during,16343,16346,133.881856,133.906432,True
+wave_select after event,16346,16474,133.906432,134.955008,True
+f=87 wave_select delay=5; baseline,16474,16602,134.955008,136.003584,True
+vary event phase in driver ticks,16602,16607,136.003584,136.044544,True
+wave_select during,16607,16612,136.044544,136.085504,True
+wave_select after event,16612,16740,136.085504,137.13408,True
+f=87 wave_select delay=7; baseline,16740,16868,137.13408,138.182656,True
+vary event phase in driver ticks,16868,16875,138.182656,138.24,True
+wave_select during,16875,16882,138.24,138.297344,True
+wave_select after event,16882,17010,138.297344,139.34592,True
+f=87 wave_select delay=11; baseline,17010,17138,139.34592,140.394496,True
+vary event phase in driver ticks,17138,17149,140.394496,140.484608,True
+wave_select during,17149,17160,140.484608,140.57472,True
+wave_select after event,17160,17288,140.57472,141.623296,True
+f=87 wave_select delay=17; baseline,17288,17416,141.623296,142.671872,True
+vary event phase in driver ticks,17416,17433,142.671872,142.811136,True
+wave_select during,17433,17450,142.811136,142.9504,True
+wave_select after event,17450,17578,142.9504,143.998976,True
+f=87 wave_select delay=31; baseline,17578,17706,143.998976,145.047552,True
+vary event phase in driver ticks,17706,17737,145.047552,145.301504,True
+wave_select during,17737,17768,145.301504,145.555456,True
+wave_select after event,17768,17896,145.555456,146.604032,True
+f=8F same_freq delay=1; baseline,17896,18024,146.604032,147.652608,True
+vary event phase in driver ticks,18024,18025,147.652608,147.6608,True
+same_freq during,18025,18026,147.6608,147.668992,True
+same_freq after event,18026,18154,147.668992,148.717568,True
+f=8F same_freq delay=2; baseline,18154,18282,148.717568,149.766144,True
+vary event phase in driver ticks,18282,18284,149.766144,149.782528,True
+same_freq during,18284,18286,149.782528,149.798912,True
+same_freq after event,18286,18414,149.798912,150.847488,True
+f=8F same_freq delay=3; baseline,18414,18542,150.847488,151.896064,True
+vary event phase in driver ticks,18542,18545,151.896064,151.92064,True
+same_freq during,18545,18548,151.92064,151.945216,True
+same_freq after event,18548,18676,151.945216,152.993792,True
+f=8F same_freq delay=5; baseline,18676,18804,152.993792,154.042368,True
+vary event phase in driver ticks,18804,18809,154.042368,154.083328,True
+same_freq during,18809,18814,154.083328,154.124288,True
+same_freq after event,18814,18942,154.124288,155.172864,True
+f=8F same_freq delay=7; baseline,18942,19070,155.172864,156.22144,True
+vary event phase in driver ticks,19070,19077,156.22144,156.278784,True
+same_freq during,19077,19084,156.278784,156.336128,True
+same_freq after event,19084,19212,156.336128,157.384704,True
+f=8F same_freq delay=11; baseline,19212,19340,157.384704,158.43328,True
+vary event phase in driver ticks,19340,19351,158.43328,158.523392,True
+same_freq during,19351,19362,158.523392,158.613504,True
+same_freq after event,19362,19490,158.613504,159.66208,True
+f=8F same_freq delay=17; baseline,19490,19618,159.66208,160.710656,True
+vary event phase in driver ticks,19618,19635,160.710656,160.84992,True
+same_freq during,19635,19652,160.84992,160.989184,True
+same_freq after event,19652,19780,160.989184,162.03776,True
+f=8F same_freq delay=31; baseline,19780,19908,162.03776,163.086336,True
+vary event phase in driver ticks,19908,19939,163.086336,163.340288,True
+same_freq during,19939,19970,163.340288,163.59424,True
+same_freq after event,19970,20098,163.59424,164.642816,True
+f=8F new_freq delay=1; baseline,20098,20226,164.642816,165.691392,True
+vary event phase in driver ticks,20226,20227,165.691392,165.699584,True
+new_freq during,20227,20228,165.699584,165.707776,True
+new_freq after event,20228,20356,165.707776,166.756352,True
+f=8F new_freq delay=2; baseline,20356,20484,166.756352,167.804928,True
+vary event phase in driver ticks,20484,20486,167.804928,167.821312,True
+new_freq during,20486,20488,167.821312,167.837696,True
+new_freq after event,20488,20616,167.837696,168.886272,True
+f=8F new_freq delay=3; baseline,20616,20744,168.886272,169.934848,True
+vary event phase in driver ticks,20744,20747,169.934848,169.959424,True
+new_freq during,20747,20750,169.959424,169.984,True
+new_freq after event,20750,20878,169.984,171.032576,True
+f=8F new_freq delay=5; baseline,20878,21006,171.032576,172.081152,True
+vary event phase in driver ticks,21006,21011,172.081152,172.122112,True
+new_freq during,21011,21016,172.122112,172.163072,True
+new_freq after event,21016,21144,172.163072,173.211648,True
+f=8F new_freq delay=7; baseline,21144,21272,173.211648,174.260224,True
+vary event phase in driver ticks,21272,21279,174.260224,174.317568,True
+new_freq during,21279,21286,174.317568,174.374912,True
+new_freq after event,21286,21414,174.374912,175.423488,True
+f=8F new_freq delay=11; baseline,21414,21542,175.423488,176.472064,True
+vary event phase in driver ticks,21542,21553,176.472064,176.562176,True
+new_freq during,21553,21564,176.562176,176.652288,True
+new_freq after event,21564,21692,176.652288,177.700864,True
+f=8F new_freq delay=17; baseline,21692,21820,177.700864,178.74944,True
+vary event phase in driver ticks,21820,21837,178.74944,178.888704,True
+new_freq during,21837,21854,178.888704,179.027968,True
+new_freq after event,21854,21982,179.027968,180.076544,True
+f=8F new_freq delay=31; baseline,21982,22110,180.076544,181.12512,True
+vary event phase in driver ticks,22110,22141,181.12512,181.379072,True
+new_freq during,22141,22172,181.379072,181.633024,True
+new_freq after event,22172,22300,181.633024,182.6816,True
+f=8F hold delay=1; baseline,22300,22428,182.6816,183.730176,True
+vary event phase in driver ticks,22428,22429,183.730176,183.738368,True
+hold during,22429,22430,183.738368,183.74656,True
+hold after event,22430,22558,183.74656,184.795136,True
+f=8F hold delay=2; baseline,22558,22686,184.795136,185.843712,True
+vary event phase in driver ticks,22686,22688,185.843712,185.860096,True
+hold during,22688,22690,185.860096,185.87648,True
+hold after event,22690,22818,185.87648,186.925056,True
+f=8F hold delay=3; baseline,22818,22946,186.925056,187.973632,True
+vary event phase in driver ticks,22946,22949,187.973632,187.998208,True
+hold during,22949,22952,187.998208,188.022784,True
+hold after event,22952,23080,188.022784,189.07136,True
+f=8F hold delay=5; baseline,23080,23208,189.07136,190.119936,True
+vary event phase in driver ticks,23208,23213,190.119936,190.160896,True
+hold during,23213,23218,190.160896,190.201856,True
+hold after event,23218,23346,190.201856,191.250432,True
+f=8F hold delay=7; baseline,23346,23474,191.250432,192.299008,True
+vary event phase in driver ticks,23474,23481,192.299008,192.356352,True
+hold during,23481,23488,192.356352,192.413696,True
+hold after event,23488,23616,192.413696,193.462272,True
+f=8F hold delay=11; baseline,23616,23744,193.462272,194.510848,True
+vary event phase in driver ticks,23744,23755,194.510848,194.60096,True
+hold during,23755,23766,194.60096,194.691072,True
+hold after event,23766,23894,194.691072,195.739648,True
+f=8F hold delay=17; baseline,23894,24022,195.739648,196.788224,True
+vary event phase in driver ticks,24022,24039,196.788224,196.927488,True
+hold during,24039,24056,196.927488,197.066752,True
+hold after event,24056,24184,197.066752,198.115328,True
+f=8F hold delay=31; baseline,24184,24312,198.115328,199.163904,True
+vary event phase in driver ticks,24312,24343,199.163904,199.417856,True
+hold during,24343,24374,199.417856,199.671808,True
+hold after event,24374,24502,199.671808,200.720384,True
+f=8F wave_select delay=1; baseline,24502,24630,200.720384,201.76896,True
+vary event phase in driver ticks,24630,24631,201.76896,201.777152,True
+wave_select during,24631,24632,201.777152,201.785344,True
+wave_select after event,24632,24760,201.785344,202.83392,True
+f=8F wave_select delay=2; baseline,24760,24888,202.83392,203.882496,True
+vary event phase in driver ticks,24888,24890,203.882496,203.89888,True
+wave_select during,24890,24892,203.89888,203.915264,True
+wave_select after event,24892,25020,203.915264,204.96384,True
+f=8F wave_select delay=3; baseline,25020,25148,204.96384,206.012416,True
+vary event phase in driver ticks,25148,25151,206.012416,206.036992,True
+wave_select during,25151,25154,206.036992,206.061568,True
+wave_select after event,25154,25282,206.061568,207.110144,True
+f=8F wave_select delay=5; baseline,25282,25410,207.110144,208.15872,True
+vary event phase in driver ticks,25410,25415,208.15872,208.19968,True
+wave_select during,25415,25420,208.19968,208.24064,True
+wave_select after event,25420,25548,208.24064,209.289216,True
+f=8F wave_select delay=7; baseline,25548,25676,209.289216,210.337792,True
+vary event phase in driver ticks,25676,25683,210.337792,210.395136,True
+wave_select during,25683,25690,210.395136,210.45248,True
+wave_select after event,25690,25818,210.45248,211.501056,True
+f=8F wave_select delay=11; baseline,25818,25946,211.501056,212.549632,True
+vary event phase in driver ticks,25946,25957,212.549632,212.639744,True
+wave_select during,25957,25968,212.639744,212.729856,True
+wave_select after event,25968,26096,212.729856,213.778432,True
+f=8F wave_select delay=17; baseline,26096,26224,213.778432,214.827008,True
+vary event phase in driver ticks,26224,26241,214.827008,214.966272,True
+wave_select during,26241,26258,214.966272,215.105536,True
+wave_select after event,26258,26386,215.105536,216.154112,True
+f=8F wave_select delay=31; baseline,26386,26514,216.154112,217.202688,True
+vary event phase in driver ticks,26514,26545,217.202688,217.45664,True
+wave_select during,26545,26576,217.45664,217.710592,True
+wave_select after event,26576,26704,217.710592,218.759168,True
+tail silence,26704,26832,218.759168,219.807744,False

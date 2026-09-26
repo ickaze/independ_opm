@@ -1,0 +1,55 @@
+{
+  "clock_hz": 4000000,
+  "recording_hz": 96000,
+  "recording_bits": 24,
+  "files": [
+    {
+      "name": "37AMSAW",
+      "purpose": "Slow full AMD sweep; stable waveform levels at AMS1, TL0",
+      "seconds": 771.948544,
+      "ticks": 94232,
+      "register_writes": 1080,
+      "sha256": "dfc50c4a1094e3edc50c0ea3d1989f3dc5a3a8121d78176ec70188c5595ebdc3"
+    },
+    {
+      "name": "38AMSQR",
+      "purpose": "Slow full AMD sweep; stable waveform levels at AMS1, TL0",
+      "seconds": 771.948544,
+      "ticks": 94232,
+      "register_writes": 1080,
+      "sha256": "8fb53d905b345602c715efe72356943dc9962c261ad9c63c15585055d32ba522"
+    },
+    {
+      "name": "39AMTRI",
+      "purpose": "Slow full AMD sweep; stable waveform levels at AMS1, TL0",
+      "seconds": 771.948544,
+      "ticks": 94232,
+      "register_writes": 1080,
+      "sha256": "1a0017132773c62b19df6784d5a80158bb3d898167e971c5f04ef64e908b32dd"
+    },
+    {
+      "name": "40PMSAW",
+      "purpose": "Slow PM intermediate values without AM; selected depth boundaries",
+      "seconds": 771.948544,
+      "ticks": 94232,
+      "register_writes": 954,
+      "sha256": "1d6ab0f6b08072b997d8df050f4125576136de26a3ecd352c17267ff3cb69ad8"
+    },
+    {
+      "name": "41PMTRI",
+      "purpose": "Slow PM intermediate values without AM; selected depth boundaries",
+      "seconds": 771.948544,
+      "ticks": 94232,
+      "register_writes": 954,
+      "sha256": "35abe00efeb2f66e116e7cc56959cb576dee274ab896fc2b42b17bece3485bf7"
+    },
+    {
+      "name": "42STATE",
+      "purpose": "Repeat state transitions at varied nominal MDX phases",
+      "seconds": 219.807744,
+      "ticks": 26832,
+      "register_writes": 904,
+      "sha256": "224c4bf1a5bb7aabc2ea305ecb75205599fc6a17043491658d61081f1e16fbcb"
+    }
+  ]
+}

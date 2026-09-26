@@ -1,0 +1,5 @@
+method,best_ns_per_16_updates,final_state
+loop16,22.5858,99255
+direct16,1.65657,99255
+direct16_two_masks,1.65062,99255
+table_512KiB,5.53827,99255

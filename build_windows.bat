@@ -23,3 +23,23 @@ cl /nologo /std:c++17 /EHsc /O2 /W4 /Iinclude src\ym2151.cpp tests\test_output_t
 if errorlevel 1 exit /b 1
 bin\opm_output_timing_tests.exe
 if errorlevel 1 exit /b 1
+
+cl /nologo /std:c++17 /EHsc /O2 /W4 /Iinclude src\ym2151.cpp tests\test_random.cpp /Fe:bin\opm_random_tests.exe
+if errorlevel 1 exit /b 1
+bin\opm_random_tests.exe
+if errorlevel 1 exit /b 1
+
+cl /nologo /std:c++17 /EHsc /O2 /W4 /Iinclude src\ym2151.cpp tests\test_sequence.cpp /Fe:bin\opm_sequence_tests.exe
+if errorlevel 1 exit /b 1
+bin\opm_sequence_tests.exe
+if errorlevel 1 exit /b 1
+
+cl /nologo /std:c++17 /EHsc /O2 /W4 /Iinclude src\ym2151.cpp tests\test_periodic.cpp /Fe:bin\opm_periodic_tests.exe
+if errorlevel 1 exit /b 1
+bin\opm_periodic_tests.exe
+if errorlevel 1 exit /b 1
+
+cl /nologo /std:c++17 /EHsc /O2 /W4 /Iinclude src\ym2151.cpp tests\test_key_on.cpp /Fe:bin\opm_key_on_tests.exe
+if errorlevel 1 exit /b 1
+bin\opm_key_on_tests.exe
+if errorlevel 1 exit /b 1

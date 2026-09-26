@@ -1,0 +1,26 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+LFRQ=00 saw AM; partial-cycle steps; budget=180s,280,22253,2.29376,182.296576,True
+LFRQ=01 saw AM; partial-cycle steps; budget=180s,22253,44226,182.296576,362.299392,True
+LFRQ=02 saw AM; partial-cycle steps; budget=180s,44226,66199,362.299392,542.302208,True
+LFRQ=03 saw AM; partial-cycle steps; budget=180s,66199,88172,542.302208,722.305024,True
+LFRQ=04 saw AM; partial-cycle steps; budget=180s,88172,110145,722.305024,902.30784,True
+LFRQ=05 saw AM; partial-cycle steps; budget=180s,110145,132118,902.30784,1082.310656,True
+LFRQ=06 saw AM; partial-cycle steps; budget=180s,132118,154091,1082.310656,1262.313472,True
+LFRQ=07 saw AM; partial-cycle steps; budget=180s,154091,176064,1262.313472,1442.316288,True
+LFRQ=08 saw AM; partial-cycle steps; budget=180s,176064,198037,1442.316288,1622.319104,True
+LFRQ=09 saw AM; partial-cycle steps; budget=180s,198037,220010,1622.319104,1802.32192,True
+LFRQ=0A saw AM; partial-cycle steps; budget=180s,220010,241983,1802.32192,1982.324736,True
+LFRQ=0B saw AM; partial-cycle steps; budget=180s,241983,263956,1982.324736,2162.327552,True
+LFRQ=0C saw AM; partial-cycle steps; budget=180s,263956,285929,2162.327552,2342.330368,True
+LFRQ=0D saw AM; partial-cycle steps; budget=180s,285929,307902,2342.330368,2522.333184,True
+LFRQ=0E saw AM; partial-cycle steps; budget=180s,307902,329875,2522.333184,2702.336,True
+LFRQ=0F saw AM; partial-cycle steps; budget=180s,329875,351848,2702.336,2882.338816,True
+tail silence,351848,351976,2882.338816,2883.387392,False

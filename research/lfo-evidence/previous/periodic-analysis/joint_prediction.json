@@ -1,0 +1,242 @@
+[
+  {
+    "label": "wave=0 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.265625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.027544186985465013,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=0 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.8671875,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.02235443413890081,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=0 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.33984375,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.23603798819499514,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=0 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.3359375,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.7602790243220852,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=0 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.4140625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 3.579299983505223,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=0 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.91796875,
+    "excluded_fraction": 0.006378258458125341,
+    "holdout_rms": 439.7907716676095,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=0 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.48828125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 1.9743880398944156,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=0 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.484375,
+    "excluded_fraction": 0.0005544774050457724,
+    "holdout_rms": 67.17523739441347,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=0 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.5625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 3.4110992431752454,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=0 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.5625,
+    "excluded_fraction": 0.003604103132797354,
+    "holdout_rms": 83.23825477278223,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=1 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.6328125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.004849327981378685,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=1 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.7734375,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.049942839278590494,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=1 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.703125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.3152992664345829,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=1 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.703125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.7104667752129766,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=1 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.78125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 5.6098398771800335,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=1 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.8046875,
+    "excluded_fraction": 0.017743276961463827,
+    "holdout_rms": 470.2958925605722,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=1 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.8515625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 3.0808737886919837,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=1 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.85546875,
+    "excluded_fraction": 0.0011092623405435376,
+    "holdout_rms": 126.47233935946193,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=1 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.92578125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 5.07310138531408,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=1 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.921875,
+    "excluded_fraction": 0.005268996117581803,
+    "holdout_rms": 244.42550343206034,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=2 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.026970531718632302,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=2 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.25390625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.030083783164695503,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=2 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.6953125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.07038310919185059,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=2 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.69140625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.6505785756714725,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=2 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.76953125,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.2532785345403453,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=2 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.765625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.8959491048327428,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=2 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.84375,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.08531966402771517,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=2 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.8359375,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 13.133208560728573,
+    "unit": "cents"
+  },
+  {
+    "label": "wave=2 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout",
+    "mode": "AM",
+    "phase_fit": 0.91796875,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 0.12751586787818203,
+    "unit": "dB"
+  },
+  {
+    "label": "wave=2 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout",
+    "mode": "PM",
+    "phase_fit": 0.9140625,
+    "excluded_fraction": 0.0,
+    "holdout_rms": 1.5584700049685687,
+    "unit": "cents"
+  }
+]

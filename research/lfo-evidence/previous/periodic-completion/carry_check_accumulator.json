@@ -1,0 +1,82 @@
+[
+  {
+    "frequency": 6,
+    "phase": 2,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 6
+  },
+  {
+    "frequency": 7,
+    "phase": 7,
+    "train_bits": 16,
+    "train_errors": 6,
+    "test_bits": 26,
+    "test_errors": 12
+  },
+  {
+    "frequency": 8,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 9,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 6,
+    "test_bits": 26,
+    "test_errors": 8
+  },
+  {
+    "frequency": 10,
+    "phase": 8,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 7
+  },
+  {
+    "frequency": 11,
+    "phase": 12,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 7
+  },
+  {
+    "frequency": 12,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 13,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 4,
+    "test_bits": 26,
+    "test_errors": 7
+  },
+  {
+    "frequency": 14,
+    "phase": 0,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  },
+  {
+    "frequency": 15,
+    "phase": 14,
+    "train_bits": 16,
+    "train_errors": 0,
+    "test_bits": 26,
+    "test_errors": 0
+  }
+]

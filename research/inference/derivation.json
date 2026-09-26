@@ -1,0 +1,9 @@
+{
+  "inferred_degree": 17,
+  "inferred_lags": [
+    14,
+    17
+  ],
+  "verified_states": 131072,
+  "model_period": 131071
+}

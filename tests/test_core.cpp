@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: 0BSD
+// Copyright (C) 2026 by I.C.KaZe
 #include "ym2151.hpp"
 #include <cmath>
 #include <iostream>

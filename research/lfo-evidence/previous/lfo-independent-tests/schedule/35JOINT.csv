@@ -1,0 +1,25 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+wave=0 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout,280,769,2.29376,6.299648,True
+wave=0 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout,769,1258,6.299648,10.305536,True
+wave=0 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout,1258,1747,10.305536,14.311424,True
+wave=0 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout,1747,2236,14.311424,18.317312,True
+wave=0 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout,2236,2725,18.317312,22.3232,True
+wave=1 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout,2725,3214,22.3232,26.329088,True
+wave=1 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout,3214,3703,26.329088,30.334976,True
+wave=1 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout,3703,4192,30.334976,34.340864,True
+wave=1 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout,4192,4681,34.340864,38.346752,True
+wave=1 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout,4681,5170,38.346752,42.35264,True
+wave=2 AMD=1 PMD=1 AMS=1 PMS=1; validation holdout,5170,5659,42.35264,46.358528,True
+wave=2 AMD=17 PMD=29 AMS=2 PMS=3; validation holdout,5659,6148,46.358528,50.364416,True
+wave=2 AMD=63 PMD=65 AMS=3 PMS=5; validation holdout,6148,6637,50.364416,54.370304,True
+wave=2 AMD=126 PMD=127 AMS=1 PMS=7; validation holdout,6637,7126,54.370304,58.376192,True
+wave=2 AMD=95 PMD=37 AMS=2 PMS=6; validation holdout,7126,7615,58.376192,62.38208,True
+tail silence,7615,7743,62.38208,63.430656,False
