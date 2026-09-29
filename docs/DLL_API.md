@@ -1,4 +1,4 @@
-# Windows DLL / C API — 0.11b, ABI 1
+# Windows DLL / C API — 0.12, ABI 1
 
 ## DLLの役割 / Scope
 
@@ -66,7 +66,7 @@ architecture in a separate tree. Match DLL bitness to the host process, not just
 ## APIとデータ
 
 - C ABI、`__cdecl`。`.def` で32/64bit共通のエクスポート名を定義。
-- `iopm_abi_version()` = 1。バージョン文字列は `0.11b / C ABI 1`。
+- `iopm_abi_version()` = 1。バージョン文字列は `0.12 / C ABI 1`。
 - `iopm_create(clock_hz, output_rate, &handle)`：100 kHz～10 MHz、8～192 kHz。X68000なら4,000,000 Hz。
 - `iopm_write_register(handle, address, value)`：各0～255。BUSYによる拒否を省く統合用書き込み。
 - `iopm_render_f32` / `iopm_render_s16`：L,R,L,Rの順、`frames*2`要素の呼び出し側バッファ。
@@ -129,7 +129,7 @@ Linuxの共有ライブラリでC APIを実行し、バッファ分割・クロ�
 Windows用コンパイラがこの作業環境にないため、Windows DLL実体は未ビルド・未同梱です。
 VS2022でWin32/x64をビルドする設定とバッチ、Cテストを同梱しています。Windows上の実行検証済みとはしません。
 The Windows binaries are not included: no Windows compiler is available in the build environment.
-Linux shared-library tests verify the wrapper; Windows x86/x64 build and execution remain to be run with the supplied VS2022 scripts.
+Linux tests verify the wrapper. The Windows x64 binary has been statically inspected; Windows runtime execution and x86 binary validation have not been performed here.
 
 ## Save states (0.11b addition)
 

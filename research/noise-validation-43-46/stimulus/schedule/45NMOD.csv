@@ -1,0 +1,1170 @@
+﻿label,start_tick,end_tick,start_s,end_s,analyze
+startup silence,0,128,0.0,1.048576,False
+sync tone 1,128,136,1.048576,1.114112,False
+sync gap 1,136,144,1.114112,1.179648,False
+sync tone 2,144,152,1.179648,1.245184,False
+sync gap 2,152,160,1.245184,1.31072,False
+sync tone 3,160,184,1.31072,1.507328,False
+sync gap 3,184,216,1.507328,1.769472,False
+post marker silence,216,280,1.769472,2.29376,False
+algorithm gap,280,408,2.29376,3.342336,False
+ALG=0 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,408,424,3.342336,3.473408,False
+ALG=0 upstream=0 TL=24 MUL=1 mask=7 noise=0,424,488,3.473408,3.997696,True
+ALG=0 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,488,504,3.997696,4.128768,False
+ALG=0 upstream=0 TL=24 MUL=1 mask=F noise=0,504,568,4.128768,4.653056,True
+ALG=0 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,568,584,4.653056,4.784128,False
+ALG=0 upstream=0 TL=24 MUL=1 mask=7 noise=1,584,648,4.784128,5.308416,True
+ALG=0 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,648,664,5.308416,5.439488,False
+ALG=0 upstream=0 TL=24 MUL=1 mask=F noise=1,664,728,5.439488,5.963776,True
+ALG=0 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,728,744,5.963776,6.094848,False
+ALG=0 upstream=0 TL=0 MUL=1 mask=7 noise=0,744,808,6.094848,6.619136,True
+ALG=0 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,808,824,6.619136,6.750208,False
+ALG=0 upstream=0 TL=0 MUL=1 mask=F noise=0,824,888,6.750208,7.274496,True
+ALG=0 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,888,904,7.274496,7.405568,False
+ALG=0 upstream=0 TL=0 MUL=1 mask=7 noise=1,904,968,7.405568,7.929856,True
+ALG=0 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,968,984,7.929856,8.060928,False
+ALG=0 upstream=0 TL=0 MUL=1 mask=F noise=1,984,1048,8.060928,8.585216,True
+ALG=0 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,1048,1064,8.585216,8.716288,False
+ALG=0 upstream=0 TL=64 MUL=1 mask=7 noise=0,1064,1128,8.716288,9.240576,True
+ALG=0 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,1128,1144,9.240576,9.371648,False
+ALG=0 upstream=0 TL=64 MUL=1 mask=F noise=0,1144,1208,9.371648,9.895936,True
+ALG=0 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,1208,1224,9.895936,10.027008,False
+ALG=0 upstream=0 TL=64 MUL=1 mask=7 noise=1,1224,1288,10.027008,10.551296,True
+ALG=0 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,1288,1304,10.551296,10.682368,False
+ALG=0 upstream=0 TL=64 MUL=1 mask=F noise=1,1304,1368,10.682368,11.206656,True
+ALG=0 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,1368,1384,11.206656,11.337728,False
+ALG=0 upstream=0 TL=127 MUL=1 mask=7 noise=0,1384,1448,11.337728,11.862016,True
+ALG=0 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,1448,1464,11.862016,11.993088,False
+ALG=0 upstream=0 TL=127 MUL=1 mask=F noise=0,1464,1528,11.993088,12.517376,True
+ALG=0 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,1528,1544,12.517376,12.648448,False
+ALG=0 upstream=0 TL=127 MUL=1 mask=7 noise=1,1544,1608,12.648448,13.172736,True
+ALG=0 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,1608,1624,13.172736,13.303808,False
+ALG=0 upstream=0 TL=127 MUL=1 mask=F noise=1,1624,1688,13.303808,13.828096,True
+ALG=0 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,1688,1704,13.828096,13.959168,False
+ALG=0 upstream=0 TL=24 MUL=4 mask=7 noise=0,1704,1768,13.959168,14.483456,True
+ALG=0 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,1768,1784,14.483456,14.614528,False
+ALG=0 upstream=0 TL=24 MUL=4 mask=F noise=0,1784,1848,14.614528,15.138816,True
+ALG=0 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,1848,1864,15.138816,15.269888,False
+ALG=0 upstream=0 TL=24 MUL=4 mask=7 noise=1,1864,1928,15.269888,15.794176,True
+ALG=0 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,1928,1944,15.794176,15.925248,False
+ALG=0 upstream=0 TL=24 MUL=4 mask=F noise=1,1944,2008,15.925248,16.449536,True
+ALG=0 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,2008,2024,16.449536,16.580608,False
+ALG=0 upstream=0 TL=24 MUL=15 mask=7 noise=0,2024,2088,16.580608,17.104896,True
+ALG=0 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,2088,2104,17.104896,17.235968,False
+ALG=0 upstream=0 TL=24 MUL=15 mask=F noise=0,2104,2168,17.235968,17.760256,True
+ALG=0 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,2168,2184,17.760256,17.891328,False
+ALG=0 upstream=0 TL=24 MUL=15 mask=7 noise=1,2184,2248,17.891328,18.415616,True
+ALG=0 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,2248,2264,18.415616,18.546688,False
+ALG=0 upstream=0 TL=24 MUL=15 mask=F noise=1,2264,2328,18.546688,19.070976,True
+ALG=0 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,2328,2344,19.070976,19.202048,False
+ALG=0 upstream=1 TL=24 MUL=1 mask=7 noise=0,2344,2408,19.202048,19.726336,True
+ALG=0 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,2408,2424,19.726336,19.857408,False
+ALG=0 upstream=1 TL=24 MUL=1 mask=F noise=0,2424,2488,19.857408,20.381696,True
+ALG=0 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,2488,2504,20.381696,20.512768,False
+ALG=0 upstream=1 TL=24 MUL=1 mask=7 noise=1,2504,2568,20.512768,21.037056,True
+ALG=0 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,2568,2584,21.037056,21.168128,False
+ALG=0 upstream=1 TL=24 MUL=1 mask=F noise=1,2584,2648,21.168128,21.692416,True
+ALG=0 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,2648,2664,21.692416,21.823488,False
+ALG=0 upstream=1 TL=0 MUL=1 mask=7 noise=0,2664,2728,21.823488,22.347776,True
+ALG=0 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,2728,2744,22.347776,22.478848,False
+ALG=0 upstream=1 TL=0 MUL=1 mask=F noise=0,2744,2808,22.478848,23.003136,True
+ALG=0 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,2808,2824,23.003136,23.134208,False
+ALG=0 upstream=1 TL=0 MUL=1 mask=7 noise=1,2824,2888,23.134208,23.658496,True
+ALG=0 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,2888,2904,23.658496,23.789568,False
+ALG=0 upstream=1 TL=0 MUL=1 mask=F noise=1,2904,2968,23.789568,24.313856,True
+ALG=0 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,2968,2984,24.313856,24.444928,False
+ALG=0 upstream=1 TL=64 MUL=1 mask=7 noise=0,2984,3048,24.444928,24.969216,True
+ALG=0 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,3048,3064,24.969216,25.100288,False
+ALG=0 upstream=1 TL=64 MUL=1 mask=F noise=0,3064,3128,25.100288,25.624576,True
+ALG=0 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,3128,3144,25.624576,25.755648,False
+ALG=0 upstream=1 TL=64 MUL=1 mask=7 noise=1,3144,3208,25.755648,26.279936,True
+ALG=0 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,3208,3224,26.279936,26.411008,False
+ALG=0 upstream=1 TL=64 MUL=1 mask=F noise=1,3224,3288,26.411008,26.935296,True
+ALG=0 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,3288,3304,26.935296,27.066368,False
+ALG=0 upstream=1 TL=127 MUL=1 mask=7 noise=0,3304,3368,27.066368,27.590656,True
+ALG=0 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,3368,3384,27.590656,27.721728,False
+ALG=0 upstream=1 TL=127 MUL=1 mask=F noise=0,3384,3448,27.721728,28.246016,True
+ALG=0 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,3448,3464,28.246016,28.377088,False
+ALG=0 upstream=1 TL=127 MUL=1 mask=7 noise=1,3464,3528,28.377088,28.901376,True
+ALG=0 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,3528,3544,28.901376,29.032448,False
+ALG=0 upstream=1 TL=127 MUL=1 mask=F noise=1,3544,3608,29.032448,29.556736,True
+ALG=0 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,3608,3624,29.556736,29.687808,False
+ALG=0 upstream=1 TL=24 MUL=4 mask=7 noise=0,3624,3688,29.687808,30.212096,True
+ALG=0 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,3688,3704,30.212096,30.343168,False
+ALG=0 upstream=1 TL=24 MUL=4 mask=F noise=0,3704,3768,30.343168,30.867456,True
+ALG=0 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,3768,3784,30.867456,30.998528,False
+ALG=0 upstream=1 TL=24 MUL=4 mask=7 noise=1,3784,3848,30.998528,31.522816,True
+ALG=0 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,3848,3864,31.522816,31.653888,False
+ALG=0 upstream=1 TL=24 MUL=4 mask=F noise=1,3864,3928,31.653888,32.178176,True
+ALG=0 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,3928,3944,32.178176,32.309248,False
+ALG=0 upstream=1 TL=24 MUL=15 mask=7 noise=0,3944,4008,32.309248,32.833536,True
+ALG=0 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,4008,4024,32.833536,32.964608,False
+ALG=0 upstream=1 TL=24 MUL=15 mask=F noise=0,4024,4088,32.964608,33.488896,True
+ALG=0 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,4088,4104,33.488896,33.619968,False
+ALG=0 upstream=1 TL=24 MUL=15 mask=7 noise=1,4104,4168,33.619968,34.144256,True
+ALG=0 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,4168,4184,34.144256,34.275328,False
+ALG=0 upstream=1 TL=24 MUL=15 mask=F noise=1,4184,4248,34.275328,34.799616,True
+ALG=0 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,4248,4264,34.799616,34.930688,False
+ALG=0 upstream=2 TL=24 MUL=1 mask=7 noise=0,4264,4328,34.930688,35.454976,True
+ALG=0 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,4328,4344,35.454976,35.586048,False
+ALG=0 upstream=2 TL=24 MUL=1 mask=F noise=0,4344,4408,35.586048,36.110336,True
+ALG=0 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,4408,4424,36.110336,36.241408,False
+ALG=0 upstream=2 TL=24 MUL=1 mask=7 noise=1,4424,4488,36.241408,36.765696,True
+ALG=0 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,4488,4504,36.765696,36.896768,False
+ALG=0 upstream=2 TL=24 MUL=1 mask=F noise=1,4504,4568,36.896768,37.421056,True
+ALG=0 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,4568,4584,37.421056,37.552128,False
+ALG=0 upstream=2 TL=0 MUL=1 mask=7 noise=0,4584,4648,37.552128,38.076416,True
+ALG=0 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,4648,4664,38.076416,38.207488,False
+ALG=0 upstream=2 TL=0 MUL=1 mask=F noise=0,4664,4728,38.207488,38.731776,True
+ALG=0 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,4728,4744,38.731776,38.862848,False
+ALG=0 upstream=2 TL=0 MUL=1 mask=7 noise=1,4744,4808,38.862848,39.387136,True
+ALG=0 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,4808,4824,39.387136,39.518208,False
+ALG=0 upstream=2 TL=0 MUL=1 mask=F noise=1,4824,4888,39.518208,40.042496,True
+ALG=0 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,4888,4904,40.042496,40.173568,False
+ALG=0 upstream=2 TL=64 MUL=1 mask=7 noise=0,4904,4968,40.173568,40.697856,True
+ALG=0 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,4968,4984,40.697856,40.828928,False
+ALG=0 upstream=2 TL=64 MUL=1 mask=F noise=0,4984,5048,40.828928,41.353216,True
+ALG=0 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,5048,5064,41.353216,41.484288,False
+ALG=0 upstream=2 TL=64 MUL=1 mask=7 noise=1,5064,5128,41.484288,42.008576,True
+ALG=0 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,5128,5144,42.008576,42.139648,False
+ALG=0 upstream=2 TL=64 MUL=1 mask=F noise=1,5144,5208,42.139648,42.663936,True
+ALG=0 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,5208,5224,42.663936,42.795008,False
+ALG=0 upstream=2 TL=127 MUL=1 mask=7 noise=0,5224,5288,42.795008,43.319296,True
+ALG=0 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,5288,5304,43.319296,43.450368,False
+ALG=0 upstream=2 TL=127 MUL=1 mask=F noise=0,5304,5368,43.450368,43.974656,True
+ALG=0 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,5368,5384,43.974656,44.105728,False
+ALG=0 upstream=2 TL=127 MUL=1 mask=7 noise=1,5384,5448,44.105728,44.630016,True
+ALG=0 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,5448,5464,44.630016,44.761088,False
+ALG=0 upstream=2 TL=127 MUL=1 mask=F noise=1,5464,5528,44.761088,45.285376,True
+ALG=0 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,5528,5544,45.285376,45.416448,False
+ALG=0 upstream=2 TL=24 MUL=4 mask=7 noise=0,5544,5608,45.416448,45.940736,True
+ALG=0 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,5608,5624,45.940736,46.071808,False
+ALG=0 upstream=2 TL=24 MUL=4 mask=F noise=0,5624,5688,46.071808,46.596096,True
+ALG=0 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,5688,5704,46.596096,46.727168,False
+ALG=0 upstream=2 TL=24 MUL=4 mask=7 noise=1,5704,5768,46.727168,47.251456,True
+ALG=0 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,5768,5784,47.251456,47.382528,False
+ALG=0 upstream=2 TL=24 MUL=4 mask=F noise=1,5784,5848,47.382528,47.906816,True
+ALG=0 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,5848,5864,47.906816,48.037888,False
+ALG=0 upstream=2 TL=24 MUL=15 mask=7 noise=0,5864,5928,48.037888,48.562176,True
+ALG=0 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,5928,5944,48.562176,48.693248,False
+ALG=0 upstream=2 TL=24 MUL=15 mask=F noise=0,5944,6008,48.693248,49.217536,True
+ALG=0 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,6008,6024,49.217536,49.348608,False
+ALG=0 upstream=2 TL=24 MUL=15 mask=7 noise=1,6024,6088,49.348608,49.872896,True
+ALG=0 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,6088,6104,49.872896,50.003968,False
+ALG=0 upstream=2 TL=24 MUL=15 mask=F noise=1,6104,6168,50.003968,50.528256,True
+algorithm gap,6168,6296,50.528256,51.576832,False
+ALG=1 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,6296,6312,51.576832,51.707904,False
+ALG=1 upstream=0 TL=24 MUL=1 mask=7 noise=0,6312,6376,51.707904,52.232192,True
+ALG=1 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,6376,6392,52.232192,52.363264,False
+ALG=1 upstream=0 TL=24 MUL=1 mask=F noise=0,6392,6456,52.363264,52.887552,True
+ALG=1 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,6456,6472,52.887552,53.018624,False
+ALG=1 upstream=0 TL=24 MUL=1 mask=7 noise=1,6472,6536,53.018624,53.542912,True
+ALG=1 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,6536,6552,53.542912,53.673984,False
+ALG=1 upstream=0 TL=24 MUL=1 mask=F noise=1,6552,6616,53.673984,54.198272,True
+ALG=1 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,6616,6632,54.198272,54.329344,False
+ALG=1 upstream=0 TL=0 MUL=1 mask=7 noise=0,6632,6696,54.329344,54.853632,True
+ALG=1 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,6696,6712,54.853632,54.984704,False
+ALG=1 upstream=0 TL=0 MUL=1 mask=F noise=0,6712,6776,54.984704,55.508992,True
+ALG=1 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,6776,6792,55.508992,55.640064,False
+ALG=1 upstream=0 TL=0 MUL=1 mask=7 noise=1,6792,6856,55.640064,56.164352,True
+ALG=1 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,6856,6872,56.164352,56.295424,False
+ALG=1 upstream=0 TL=0 MUL=1 mask=F noise=1,6872,6936,56.295424,56.819712,True
+ALG=1 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,6936,6952,56.819712,56.950784,False
+ALG=1 upstream=0 TL=64 MUL=1 mask=7 noise=0,6952,7016,56.950784,57.475072,True
+ALG=1 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,7016,7032,57.475072,57.606144,False
+ALG=1 upstream=0 TL=64 MUL=1 mask=F noise=0,7032,7096,57.606144,58.130432,True
+ALG=1 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,7096,7112,58.130432,58.261504,False
+ALG=1 upstream=0 TL=64 MUL=1 mask=7 noise=1,7112,7176,58.261504,58.785792,True
+ALG=1 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,7176,7192,58.785792,58.916864,False
+ALG=1 upstream=0 TL=64 MUL=1 mask=F noise=1,7192,7256,58.916864,59.441152,True
+ALG=1 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,7256,7272,59.441152,59.572224,False
+ALG=1 upstream=0 TL=127 MUL=1 mask=7 noise=0,7272,7336,59.572224,60.096512,True
+ALG=1 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,7336,7352,60.096512,60.227584,False
+ALG=1 upstream=0 TL=127 MUL=1 mask=F noise=0,7352,7416,60.227584,60.751872,True
+ALG=1 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,7416,7432,60.751872,60.882944,False
+ALG=1 upstream=0 TL=127 MUL=1 mask=7 noise=1,7432,7496,60.882944,61.407232,True
+ALG=1 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,7496,7512,61.407232,61.538304,False
+ALG=1 upstream=0 TL=127 MUL=1 mask=F noise=1,7512,7576,61.538304,62.062592,True
+ALG=1 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,7576,7592,62.062592,62.193664,False
+ALG=1 upstream=0 TL=24 MUL=4 mask=7 noise=0,7592,7656,62.193664,62.717952,True
+ALG=1 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,7656,7672,62.717952,62.849024,False
+ALG=1 upstream=0 TL=24 MUL=4 mask=F noise=0,7672,7736,62.849024,63.373312,True
+ALG=1 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,7736,7752,63.373312,63.504384,False
+ALG=1 upstream=0 TL=24 MUL=4 mask=7 noise=1,7752,7816,63.504384,64.028672,True
+ALG=1 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,7816,7832,64.028672,64.159744,False
+ALG=1 upstream=0 TL=24 MUL=4 mask=F noise=1,7832,7896,64.159744,64.684032,True
+ALG=1 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,7896,7912,64.684032,64.815104,False
+ALG=1 upstream=0 TL=24 MUL=15 mask=7 noise=0,7912,7976,64.815104,65.339392,True
+ALG=1 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,7976,7992,65.339392,65.470464,False
+ALG=1 upstream=0 TL=24 MUL=15 mask=F noise=0,7992,8056,65.470464,65.994752,True
+ALG=1 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,8056,8072,65.994752,66.125824,False
+ALG=1 upstream=0 TL=24 MUL=15 mask=7 noise=1,8072,8136,66.125824,66.650112,True
+ALG=1 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,8136,8152,66.650112,66.781184,False
+ALG=1 upstream=0 TL=24 MUL=15 mask=F noise=1,8152,8216,66.781184,67.305472,True
+ALG=1 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,8216,8232,67.305472,67.436544,False
+ALG=1 upstream=1 TL=24 MUL=1 mask=7 noise=0,8232,8296,67.436544,67.960832,True
+ALG=1 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,8296,8312,67.960832,68.091904,False
+ALG=1 upstream=1 TL=24 MUL=1 mask=F noise=0,8312,8376,68.091904,68.616192,True
+ALG=1 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,8376,8392,68.616192,68.747264,False
+ALG=1 upstream=1 TL=24 MUL=1 mask=7 noise=1,8392,8456,68.747264,69.271552,True
+ALG=1 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,8456,8472,69.271552,69.402624,False
+ALG=1 upstream=1 TL=24 MUL=1 mask=F noise=1,8472,8536,69.402624,69.926912,True
+ALG=1 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,8536,8552,69.926912,70.057984,False
+ALG=1 upstream=1 TL=0 MUL=1 mask=7 noise=0,8552,8616,70.057984,70.582272,True
+ALG=1 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,8616,8632,70.582272,70.713344,False
+ALG=1 upstream=1 TL=0 MUL=1 mask=F noise=0,8632,8696,70.713344,71.237632,True
+ALG=1 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,8696,8712,71.237632,71.368704,False
+ALG=1 upstream=1 TL=0 MUL=1 mask=7 noise=1,8712,8776,71.368704,71.892992,True
+ALG=1 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,8776,8792,71.892992,72.024064,False
+ALG=1 upstream=1 TL=0 MUL=1 mask=F noise=1,8792,8856,72.024064,72.548352,True
+ALG=1 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,8856,8872,72.548352,72.679424,False
+ALG=1 upstream=1 TL=64 MUL=1 mask=7 noise=0,8872,8936,72.679424,73.203712,True
+ALG=1 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,8936,8952,73.203712,73.334784,False
+ALG=1 upstream=1 TL=64 MUL=1 mask=F noise=0,8952,9016,73.334784,73.859072,True
+ALG=1 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,9016,9032,73.859072,73.990144,False
+ALG=1 upstream=1 TL=64 MUL=1 mask=7 noise=1,9032,9096,73.990144,74.514432,True
+ALG=1 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,9096,9112,74.514432,74.645504,False
+ALG=1 upstream=1 TL=64 MUL=1 mask=F noise=1,9112,9176,74.645504,75.169792,True
+ALG=1 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,9176,9192,75.169792,75.300864,False
+ALG=1 upstream=1 TL=127 MUL=1 mask=7 noise=0,9192,9256,75.300864,75.825152,True
+ALG=1 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,9256,9272,75.825152,75.956224,False
+ALG=1 upstream=1 TL=127 MUL=1 mask=F noise=0,9272,9336,75.956224,76.480512,True
+ALG=1 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,9336,9352,76.480512,76.611584,False
+ALG=1 upstream=1 TL=127 MUL=1 mask=7 noise=1,9352,9416,76.611584,77.135872,True
+ALG=1 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,9416,9432,77.135872,77.266944,False
+ALG=1 upstream=1 TL=127 MUL=1 mask=F noise=1,9432,9496,77.266944,77.791232,True
+ALG=1 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,9496,9512,77.791232,77.922304,False
+ALG=1 upstream=1 TL=24 MUL=4 mask=7 noise=0,9512,9576,77.922304,78.446592,True
+ALG=1 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,9576,9592,78.446592,78.577664,False
+ALG=1 upstream=1 TL=24 MUL=4 mask=F noise=0,9592,9656,78.577664,79.101952,True
+ALG=1 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,9656,9672,79.101952,79.233024,False
+ALG=1 upstream=1 TL=24 MUL=4 mask=7 noise=1,9672,9736,79.233024,79.757312,True
+ALG=1 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,9736,9752,79.757312,79.888384,False
+ALG=1 upstream=1 TL=24 MUL=4 mask=F noise=1,9752,9816,79.888384,80.412672,True
+ALG=1 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,9816,9832,80.412672,80.543744,False
+ALG=1 upstream=1 TL=24 MUL=15 mask=7 noise=0,9832,9896,80.543744,81.068032,True
+ALG=1 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,9896,9912,81.068032,81.199104,False
+ALG=1 upstream=1 TL=24 MUL=15 mask=F noise=0,9912,9976,81.199104,81.723392,True
+ALG=1 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,9976,9992,81.723392,81.854464,False
+ALG=1 upstream=1 TL=24 MUL=15 mask=7 noise=1,9992,10056,81.854464,82.378752,True
+ALG=1 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,10056,10072,82.378752,82.509824,False
+ALG=1 upstream=1 TL=24 MUL=15 mask=F noise=1,10072,10136,82.509824,83.034112,True
+ALG=1 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,10136,10152,83.034112,83.165184,False
+ALG=1 upstream=2 TL=24 MUL=1 mask=7 noise=0,10152,10216,83.165184,83.689472,True
+ALG=1 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,10216,10232,83.689472,83.820544,False
+ALG=1 upstream=2 TL=24 MUL=1 mask=F noise=0,10232,10296,83.820544,84.344832,True
+ALG=1 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,10296,10312,84.344832,84.475904,False
+ALG=1 upstream=2 TL=24 MUL=1 mask=7 noise=1,10312,10376,84.475904,85.000192,True
+ALG=1 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,10376,10392,85.000192,85.131264,False
+ALG=1 upstream=2 TL=24 MUL=1 mask=F noise=1,10392,10456,85.131264,85.655552,True
+ALG=1 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,10456,10472,85.655552,85.786624,False
+ALG=1 upstream=2 TL=0 MUL=1 mask=7 noise=0,10472,10536,85.786624,86.310912,True
+ALG=1 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,10536,10552,86.310912,86.441984,False
+ALG=1 upstream=2 TL=0 MUL=1 mask=F noise=0,10552,10616,86.441984,86.966272,True
+ALG=1 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,10616,10632,86.966272,87.097344,False
+ALG=1 upstream=2 TL=0 MUL=1 mask=7 noise=1,10632,10696,87.097344,87.621632,True
+ALG=1 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,10696,10712,87.621632,87.752704,False
+ALG=1 upstream=2 TL=0 MUL=1 mask=F noise=1,10712,10776,87.752704,88.276992,True
+ALG=1 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,10776,10792,88.276992,88.408064,False
+ALG=1 upstream=2 TL=64 MUL=1 mask=7 noise=0,10792,10856,88.408064,88.932352,True
+ALG=1 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,10856,10872,88.932352,89.063424,False
+ALG=1 upstream=2 TL=64 MUL=1 mask=F noise=0,10872,10936,89.063424,89.587712,True
+ALG=1 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,10936,10952,89.587712,89.718784,False
+ALG=1 upstream=2 TL=64 MUL=1 mask=7 noise=1,10952,11016,89.718784,90.243072,True
+ALG=1 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,11016,11032,90.243072,90.374144,False
+ALG=1 upstream=2 TL=64 MUL=1 mask=F noise=1,11032,11096,90.374144,90.898432,True
+ALG=1 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,11096,11112,90.898432,91.029504,False
+ALG=1 upstream=2 TL=127 MUL=1 mask=7 noise=0,11112,11176,91.029504,91.553792,True
+ALG=1 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,11176,11192,91.553792,91.684864,False
+ALG=1 upstream=2 TL=127 MUL=1 mask=F noise=0,11192,11256,91.684864,92.209152,True
+ALG=1 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,11256,11272,92.209152,92.340224,False
+ALG=1 upstream=2 TL=127 MUL=1 mask=7 noise=1,11272,11336,92.340224,92.864512,True
+ALG=1 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,11336,11352,92.864512,92.995584,False
+ALG=1 upstream=2 TL=127 MUL=1 mask=F noise=1,11352,11416,92.995584,93.519872,True
+ALG=1 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,11416,11432,93.519872,93.650944,False
+ALG=1 upstream=2 TL=24 MUL=4 mask=7 noise=0,11432,11496,93.650944,94.175232,True
+ALG=1 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,11496,11512,94.175232,94.306304,False
+ALG=1 upstream=2 TL=24 MUL=4 mask=F noise=0,11512,11576,94.306304,94.830592,True
+ALG=1 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,11576,11592,94.830592,94.961664,False
+ALG=1 upstream=2 TL=24 MUL=4 mask=7 noise=1,11592,11656,94.961664,95.485952,True
+ALG=1 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,11656,11672,95.485952,95.617024,False
+ALG=1 upstream=2 TL=24 MUL=4 mask=F noise=1,11672,11736,95.617024,96.141312,True
+ALG=1 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,11736,11752,96.141312,96.272384,False
+ALG=1 upstream=2 TL=24 MUL=15 mask=7 noise=0,11752,11816,96.272384,96.796672,True
+ALG=1 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,11816,11832,96.796672,96.927744,False
+ALG=1 upstream=2 TL=24 MUL=15 mask=F noise=0,11832,11896,96.927744,97.452032,True
+ALG=1 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,11896,11912,97.452032,97.583104,False
+ALG=1 upstream=2 TL=24 MUL=15 mask=7 noise=1,11912,11976,97.583104,98.107392,True
+ALG=1 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,11976,11992,98.107392,98.238464,False
+ALG=1 upstream=2 TL=24 MUL=15 mask=F noise=1,11992,12056,98.238464,98.762752,True
+algorithm gap,12056,12184,98.762752,99.811328,False
+ALG=2 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,12184,12200,99.811328,99.9424,False
+ALG=2 upstream=0 TL=24 MUL=1 mask=7 noise=0,12200,12264,99.9424,100.466688,True
+ALG=2 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,12264,12280,100.466688,100.59776,False
+ALG=2 upstream=0 TL=24 MUL=1 mask=F noise=0,12280,12344,100.59776,101.122048,True
+ALG=2 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,12344,12360,101.122048,101.25312,False
+ALG=2 upstream=0 TL=24 MUL=1 mask=7 noise=1,12360,12424,101.25312,101.777408,True
+ALG=2 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,12424,12440,101.777408,101.90848,False
+ALG=2 upstream=0 TL=24 MUL=1 mask=F noise=1,12440,12504,101.90848,102.432768,True
+ALG=2 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,12504,12520,102.432768,102.56384,False
+ALG=2 upstream=0 TL=0 MUL=1 mask=7 noise=0,12520,12584,102.56384,103.088128,True
+ALG=2 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,12584,12600,103.088128,103.2192,False
+ALG=2 upstream=0 TL=0 MUL=1 mask=F noise=0,12600,12664,103.2192,103.743488,True
+ALG=2 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,12664,12680,103.743488,103.87456,False
+ALG=2 upstream=0 TL=0 MUL=1 mask=7 noise=1,12680,12744,103.87456,104.398848,True
+ALG=2 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,12744,12760,104.398848,104.52992,False
+ALG=2 upstream=0 TL=0 MUL=1 mask=F noise=1,12760,12824,104.52992,105.054208,True
+ALG=2 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,12824,12840,105.054208,105.18528,False
+ALG=2 upstream=0 TL=64 MUL=1 mask=7 noise=0,12840,12904,105.18528,105.709568,True
+ALG=2 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,12904,12920,105.709568,105.84064,False
+ALG=2 upstream=0 TL=64 MUL=1 mask=F noise=0,12920,12984,105.84064,106.364928,True
+ALG=2 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,12984,13000,106.364928,106.496,False
+ALG=2 upstream=0 TL=64 MUL=1 mask=7 noise=1,13000,13064,106.496,107.020288,True
+ALG=2 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,13064,13080,107.020288,107.15136,False
+ALG=2 upstream=0 TL=64 MUL=1 mask=F noise=1,13080,13144,107.15136,107.675648,True
+ALG=2 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,13144,13160,107.675648,107.80672,False
+ALG=2 upstream=0 TL=127 MUL=1 mask=7 noise=0,13160,13224,107.80672,108.331008,True
+ALG=2 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,13224,13240,108.331008,108.46208,False
+ALG=2 upstream=0 TL=127 MUL=1 mask=F noise=0,13240,13304,108.46208,108.986368,True
+ALG=2 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,13304,13320,108.986368,109.11744,False
+ALG=2 upstream=0 TL=127 MUL=1 mask=7 noise=1,13320,13384,109.11744,109.641728,True
+ALG=2 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,13384,13400,109.641728,109.7728,False
+ALG=2 upstream=0 TL=127 MUL=1 mask=F noise=1,13400,13464,109.7728,110.297088,True
+ALG=2 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,13464,13480,110.297088,110.42816,False
+ALG=2 upstream=0 TL=24 MUL=4 mask=7 noise=0,13480,13544,110.42816,110.952448,True
+ALG=2 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,13544,13560,110.952448,111.08352,False
+ALG=2 upstream=0 TL=24 MUL=4 mask=F noise=0,13560,13624,111.08352,111.607808,True
+ALG=2 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,13624,13640,111.607808,111.73888,False
+ALG=2 upstream=0 TL=24 MUL=4 mask=7 noise=1,13640,13704,111.73888,112.263168,True
+ALG=2 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,13704,13720,112.263168,112.39424,False
+ALG=2 upstream=0 TL=24 MUL=4 mask=F noise=1,13720,13784,112.39424,112.918528,True
+ALG=2 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,13784,13800,112.918528,113.0496,False
+ALG=2 upstream=0 TL=24 MUL=15 mask=7 noise=0,13800,13864,113.0496,113.573888,True
+ALG=2 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,13864,13880,113.573888,113.70496,False
+ALG=2 upstream=0 TL=24 MUL=15 mask=F noise=0,13880,13944,113.70496,114.229248,True
+ALG=2 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,13944,13960,114.229248,114.36032,False
+ALG=2 upstream=0 TL=24 MUL=15 mask=7 noise=1,13960,14024,114.36032,114.884608,True
+ALG=2 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,14024,14040,114.884608,115.01568,False
+ALG=2 upstream=0 TL=24 MUL=15 mask=F noise=1,14040,14104,115.01568,115.539968,True
+ALG=2 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,14104,14120,115.539968,115.67104,False
+ALG=2 upstream=1 TL=24 MUL=1 mask=7 noise=0,14120,14184,115.67104,116.195328,True
+ALG=2 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,14184,14200,116.195328,116.3264,False
+ALG=2 upstream=1 TL=24 MUL=1 mask=F noise=0,14200,14264,116.3264,116.850688,True
+ALG=2 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,14264,14280,116.850688,116.98176,False
+ALG=2 upstream=1 TL=24 MUL=1 mask=7 noise=1,14280,14344,116.98176,117.506048,True
+ALG=2 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,14344,14360,117.506048,117.63712,False
+ALG=2 upstream=1 TL=24 MUL=1 mask=F noise=1,14360,14424,117.63712,118.161408,True
+ALG=2 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,14424,14440,118.161408,118.29248,False
+ALG=2 upstream=1 TL=0 MUL=1 mask=7 noise=0,14440,14504,118.29248,118.816768,True
+ALG=2 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,14504,14520,118.816768,118.94784,False
+ALG=2 upstream=1 TL=0 MUL=1 mask=F noise=0,14520,14584,118.94784,119.472128,True
+ALG=2 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,14584,14600,119.472128,119.6032,False
+ALG=2 upstream=1 TL=0 MUL=1 mask=7 noise=1,14600,14664,119.6032,120.127488,True
+ALG=2 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,14664,14680,120.127488,120.25856,False
+ALG=2 upstream=1 TL=0 MUL=1 mask=F noise=1,14680,14744,120.25856,120.782848,True
+ALG=2 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,14744,14760,120.782848,120.91392,False
+ALG=2 upstream=1 TL=64 MUL=1 mask=7 noise=0,14760,14824,120.91392,121.438208,True
+ALG=2 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,14824,14840,121.438208,121.56928,False
+ALG=2 upstream=1 TL=64 MUL=1 mask=F noise=0,14840,14904,121.56928,122.093568,True
+ALG=2 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,14904,14920,122.093568,122.22464,False
+ALG=2 upstream=1 TL=64 MUL=1 mask=7 noise=1,14920,14984,122.22464,122.748928,True
+ALG=2 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,14984,15000,122.748928,122.88,False
+ALG=2 upstream=1 TL=64 MUL=1 mask=F noise=1,15000,15064,122.88,123.404288,True
+ALG=2 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,15064,15080,123.404288,123.53536,False
+ALG=2 upstream=1 TL=127 MUL=1 mask=7 noise=0,15080,15144,123.53536,124.059648,True
+ALG=2 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,15144,15160,124.059648,124.19072,False
+ALG=2 upstream=1 TL=127 MUL=1 mask=F noise=0,15160,15224,124.19072,124.715008,True
+ALG=2 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,15224,15240,124.715008,124.84608,False
+ALG=2 upstream=1 TL=127 MUL=1 mask=7 noise=1,15240,15304,124.84608,125.370368,True
+ALG=2 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,15304,15320,125.370368,125.50144,False
+ALG=2 upstream=1 TL=127 MUL=1 mask=F noise=1,15320,15384,125.50144,126.025728,True
+ALG=2 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,15384,15400,126.025728,126.1568,False
+ALG=2 upstream=1 TL=24 MUL=4 mask=7 noise=0,15400,15464,126.1568,126.681088,True
+ALG=2 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,15464,15480,126.681088,126.81216,False
+ALG=2 upstream=1 TL=24 MUL=4 mask=F noise=0,15480,15544,126.81216,127.336448,True
+ALG=2 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,15544,15560,127.336448,127.46752,False
+ALG=2 upstream=1 TL=24 MUL=4 mask=7 noise=1,15560,15624,127.46752,127.991808,True
+ALG=2 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,15624,15640,127.991808,128.12288,False
+ALG=2 upstream=1 TL=24 MUL=4 mask=F noise=1,15640,15704,128.12288,128.647168,True
+ALG=2 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,15704,15720,128.647168,128.77824,False
+ALG=2 upstream=1 TL=24 MUL=15 mask=7 noise=0,15720,15784,128.77824,129.302528,True
+ALG=2 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,15784,15800,129.302528,129.4336,False
+ALG=2 upstream=1 TL=24 MUL=15 mask=F noise=0,15800,15864,129.4336,129.957888,True
+ALG=2 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,15864,15880,129.957888,130.08896,False
+ALG=2 upstream=1 TL=24 MUL=15 mask=7 noise=1,15880,15944,130.08896,130.613248,True
+ALG=2 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,15944,15960,130.613248,130.74432,False
+ALG=2 upstream=1 TL=24 MUL=15 mask=F noise=1,15960,16024,130.74432,131.268608,True
+ALG=2 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,16024,16040,131.268608,131.39968,False
+ALG=2 upstream=2 TL=24 MUL=1 mask=7 noise=0,16040,16104,131.39968,131.923968,True
+ALG=2 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,16104,16120,131.923968,132.05504,False
+ALG=2 upstream=2 TL=24 MUL=1 mask=F noise=0,16120,16184,132.05504,132.579328,True
+ALG=2 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,16184,16200,132.579328,132.7104,False
+ALG=2 upstream=2 TL=24 MUL=1 mask=7 noise=1,16200,16264,132.7104,133.234688,True
+ALG=2 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,16264,16280,133.234688,133.36576,False
+ALG=2 upstream=2 TL=24 MUL=1 mask=F noise=1,16280,16344,133.36576,133.890048,True
+ALG=2 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,16344,16360,133.890048,134.02112,False
+ALG=2 upstream=2 TL=0 MUL=1 mask=7 noise=0,16360,16424,134.02112,134.545408,True
+ALG=2 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,16424,16440,134.545408,134.67648,False
+ALG=2 upstream=2 TL=0 MUL=1 mask=F noise=0,16440,16504,134.67648,135.200768,True
+ALG=2 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,16504,16520,135.200768,135.33184,False
+ALG=2 upstream=2 TL=0 MUL=1 mask=7 noise=1,16520,16584,135.33184,135.856128,True
+ALG=2 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,16584,16600,135.856128,135.9872,False
+ALG=2 upstream=2 TL=0 MUL=1 mask=F noise=1,16600,16664,135.9872,136.511488,True
+ALG=2 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,16664,16680,136.511488,136.64256,False
+ALG=2 upstream=2 TL=64 MUL=1 mask=7 noise=0,16680,16744,136.64256,137.166848,True
+ALG=2 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,16744,16760,137.166848,137.29792,False
+ALG=2 upstream=2 TL=64 MUL=1 mask=F noise=0,16760,16824,137.29792,137.822208,True
+ALG=2 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,16824,16840,137.822208,137.95328,False
+ALG=2 upstream=2 TL=64 MUL=1 mask=7 noise=1,16840,16904,137.95328,138.477568,True
+ALG=2 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,16904,16920,138.477568,138.60864,False
+ALG=2 upstream=2 TL=64 MUL=1 mask=F noise=1,16920,16984,138.60864,139.132928,True
+ALG=2 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,16984,17000,139.132928,139.264,False
+ALG=2 upstream=2 TL=127 MUL=1 mask=7 noise=0,17000,17064,139.264,139.788288,True
+ALG=2 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,17064,17080,139.788288,139.91936,False
+ALG=2 upstream=2 TL=127 MUL=1 mask=F noise=0,17080,17144,139.91936,140.443648,True
+ALG=2 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,17144,17160,140.443648,140.57472,False
+ALG=2 upstream=2 TL=127 MUL=1 mask=7 noise=1,17160,17224,140.57472,141.099008,True
+ALG=2 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,17224,17240,141.099008,141.23008,False
+ALG=2 upstream=2 TL=127 MUL=1 mask=F noise=1,17240,17304,141.23008,141.754368,True
+ALG=2 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,17304,17320,141.754368,141.88544,False
+ALG=2 upstream=2 TL=24 MUL=4 mask=7 noise=0,17320,17384,141.88544,142.409728,True
+ALG=2 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,17384,17400,142.409728,142.5408,False
+ALG=2 upstream=2 TL=24 MUL=4 mask=F noise=0,17400,17464,142.5408,143.065088,True
+ALG=2 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,17464,17480,143.065088,143.19616,False
+ALG=2 upstream=2 TL=24 MUL=4 mask=7 noise=1,17480,17544,143.19616,143.720448,True
+ALG=2 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,17544,17560,143.720448,143.85152,False
+ALG=2 upstream=2 TL=24 MUL=4 mask=F noise=1,17560,17624,143.85152,144.375808,True
+ALG=2 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,17624,17640,144.375808,144.50688,False
+ALG=2 upstream=2 TL=24 MUL=15 mask=7 noise=0,17640,17704,144.50688,145.031168,True
+ALG=2 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,17704,17720,145.031168,145.16224,False
+ALG=2 upstream=2 TL=24 MUL=15 mask=F noise=0,17720,17784,145.16224,145.686528,True
+ALG=2 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,17784,17800,145.686528,145.8176,False
+ALG=2 upstream=2 TL=24 MUL=15 mask=7 noise=1,17800,17864,145.8176,146.341888,True
+ALG=2 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,17864,17880,146.341888,146.47296,False
+ALG=2 upstream=2 TL=24 MUL=15 mask=F noise=1,17880,17944,146.47296,146.997248,True
+algorithm gap,17944,18072,146.997248,148.045824,False
+ALG=3 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,18072,18088,148.045824,148.176896,False
+ALG=3 upstream=0 TL=24 MUL=1 mask=7 noise=0,18088,18152,148.176896,148.701184,True
+ALG=3 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,18152,18168,148.701184,148.832256,False
+ALG=3 upstream=0 TL=24 MUL=1 mask=F noise=0,18168,18232,148.832256,149.356544,True
+ALG=3 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,18232,18248,149.356544,149.487616,False
+ALG=3 upstream=0 TL=24 MUL=1 mask=7 noise=1,18248,18312,149.487616,150.011904,True
+ALG=3 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,18312,18328,150.011904,150.142976,False
+ALG=3 upstream=0 TL=24 MUL=1 mask=F noise=1,18328,18392,150.142976,150.667264,True
+ALG=3 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,18392,18408,150.667264,150.798336,False
+ALG=3 upstream=0 TL=0 MUL=1 mask=7 noise=0,18408,18472,150.798336,151.322624,True
+ALG=3 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,18472,18488,151.322624,151.453696,False
+ALG=3 upstream=0 TL=0 MUL=1 mask=F noise=0,18488,18552,151.453696,151.977984,True
+ALG=3 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,18552,18568,151.977984,152.109056,False
+ALG=3 upstream=0 TL=0 MUL=1 mask=7 noise=1,18568,18632,152.109056,152.633344,True
+ALG=3 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,18632,18648,152.633344,152.764416,False
+ALG=3 upstream=0 TL=0 MUL=1 mask=F noise=1,18648,18712,152.764416,153.288704,True
+ALG=3 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,18712,18728,153.288704,153.419776,False
+ALG=3 upstream=0 TL=64 MUL=1 mask=7 noise=0,18728,18792,153.419776,153.944064,True
+ALG=3 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,18792,18808,153.944064,154.075136,False
+ALG=3 upstream=0 TL=64 MUL=1 mask=F noise=0,18808,18872,154.075136,154.599424,True
+ALG=3 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,18872,18888,154.599424,154.730496,False
+ALG=3 upstream=0 TL=64 MUL=1 mask=7 noise=1,18888,18952,154.730496,155.254784,True
+ALG=3 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,18952,18968,155.254784,155.385856,False
+ALG=3 upstream=0 TL=64 MUL=1 mask=F noise=1,18968,19032,155.385856,155.910144,True
+ALG=3 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,19032,19048,155.910144,156.041216,False
+ALG=3 upstream=0 TL=127 MUL=1 mask=7 noise=0,19048,19112,156.041216,156.565504,True
+ALG=3 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,19112,19128,156.565504,156.696576,False
+ALG=3 upstream=0 TL=127 MUL=1 mask=F noise=0,19128,19192,156.696576,157.220864,True
+ALG=3 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,19192,19208,157.220864,157.351936,False
+ALG=3 upstream=0 TL=127 MUL=1 mask=7 noise=1,19208,19272,157.351936,157.876224,True
+ALG=3 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,19272,19288,157.876224,158.007296,False
+ALG=3 upstream=0 TL=127 MUL=1 mask=F noise=1,19288,19352,158.007296,158.531584,True
+ALG=3 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,19352,19368,158.531584,158.662656,False
+ALG=3 upstream=0 TL=24 MUL=4 mask=7 noise=0,19368,19432,158.662656,159.186944,True
+ALG=3 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,19432,19448,159.186944,159.318016,False
+ALG=3 upstream=0 TL=24 MUL=4 mask=F noise=0,19448,19512,159.318016,159.842304,True
+ALG=3 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,19512,19528,159.842304,159.973376,False
+ALG=3 upstream=0 TL=24 MUL=4 mask=7 noise=1,19528,19592,159.973376,160.497664,True
+ALG=3 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,19592,19608,160.497664,160.628736,False
+ALG=3 upstream=0 TL=24 MUL=4 mask=F noise=1,19608,19672,160.628736,161.153024,True
+ALG=3 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,19672,19688,161.153024,161.284096,False
+ALG=3 upstream=0 TL=24 MUL=15 mask=7 noise=0,19688,19752,161.284096,161.808384,True
+ALG=3 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,19752,19768,161.808384,161.939456,False
+ALG=3 upstream=0 TL=24 MUL=15 mask=F noise=0,19768,19832,161.939456,162.463744,True
+ALG=3 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,19832,19848,162.463744,162.594816,False
+ALG=3 upstream=0 TL=24 MUL=15 mask=7 noise=1,19848,19912,162.594816,163.119104,True
+ALG=3 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,19912,19928,163.119104,163.250176,False
+ALG=3 upstream=0 TL=24 MUL=15 mask=F noise=1,19928,19992,163.250176,163.774464,True
+ALG=3 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,19992,20008,163.774464,163.905536,False
+ALG=3 upstream=1 TL=24 MUL=1 mask=7 noise=0,20008,20072,163.905536,164.429824,True
+ALG=3 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,20072,20088,164.429824,164.560896,False
+ALG=3 upstream=1 TL=24 MUL=1 mask=F noise=0,20088,20152,164.560896,165.085184,True
+ALG=3 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,20152,20168,165.085184,165.216256,False
+ALG=3 upstream=1 TL=24 MUL=1 mask=7 noise=1,20168,20232,165.216256,165.740544,True
+ALG=3 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,20232,20248,165.740544,165.871616,False
+ALG=3 upstream=1 TL=24 MUL=1 mask=F noise=1,20248,20312,165.871616,166.395904,True
+ALG=3 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,20312,20328,166.395904,166.526976,False
+ALG=3 upstream=1 TL=0 MUL=1 mask=7 noise=0,20328,20392,166.526976,167.051264,True
+ALG=3 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,20392,20408,167.051264,167.182336,False
+ALG=3 upstream=1 TL=0 MUL=1 mask=F noise=0,20408,20472,167.182336,167.706624,True
+ALG=3 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,20472,20488,167.706624,167.837696,False
+ALG=3 upstream=1 TL=0 MUL=1 mask=7 noise=1,20488,20552,167.837696,168.361984,True
+ALG=3 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,20552,20568,168.361984,168.493056,False
+ALG=3 upstream=1 TL=0 MUL=1 mask=F noise=1,20568,20632,168.493056,169.017344,True
+ALG=3 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,20632,20648,169.017344,169.148416,False
+ALG=3 upstream=1 TL=64 MUL=1 mask=7 noise=0,20648,20712,169.148416,169.672704,True
+ALG=3 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,20712,20728,169.672704,169.803776,False
+ALG=3 upstream=1 TL=64 MUL=1 mask=F noise=0,20728,20792,169.803776,170.328064,True
+ALG=3 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,20792,20808,170.328064,170.459136,False
+ALG=3 upstream=1 TL=64 MUL=1 mask=7 noise=1,20808,20872,170.459136,170.983424,True
+ALG=3 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,20872,20888,170.983424,171.114496,False
+ALG=3 upstream=1 TL=64 MUL=1 mask=F noise=1,20888,20952,171.114496,171.638784,True
+ALG=3 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,20952,20968,171.638784,171.769856,False
+ALG=3 upstream=1 TL=127 MUL=1 mask=7 noise=0,20968,21032,171.769856,172.294144,True
+ALG=3 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,21032,21048,172.294144,172.425216,False
+ALG=3 upstream=1 TL=127 MUL=1 mask=F noise=0,21048,21112,172.425216,172.949504,True
+ALG=3 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,21112,21128,172.949504,173.080576,False
+ALG=3 upstream=1 TL=127 MUL=1 mask=7 noise=1,21128,21192,173.080576,173.604864,True
+ALG=3 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,21192,21208,173.604864,173.735936,False
+ALG=3 upstream=1 TL=127 MUL=1 mask=F noise=1,21208,21272,173.735936,174.260224,True
+ALG=3 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,21272,21288,174.260224,174.391296,False
+ALG=3 upstream=1 TL=24 MUL=4 mask=7 noise=0,21288,21352,174.391296,174.915584,True
+ALG=3 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,21352,21368,174.915584,175.046656,False
+ALG=3 upstream=1 TL=24 MUL=4 mask=F noise=0,21368,21432,175.046656,175.570944,True
+ALG=3 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,21432,21448,175.570944,175.702016,False
+ALG=3 upstream=1 TL=24 MUL=4 mask=7 noise=1,21448,21512,175.702016,176.226304,True
+ALG=3 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,21512,21528,176.226304,176.357376,False
+ALG=3 upstream=1 TL=24 MUL=4 mask=F noise=1,21528,21592,176.357376,176.881664,True
+ALG=3 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,21592,21608,176.881664,177.012736,False
+ALG=3 upstream=1 TL=24 MUL=15 mask=7 noise=0,21608,21672,177.012736,177.537024,True
+ALG=3 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,21672,21688,177.537024,177.668096,False
+ALG=3 upstream=1 TL=24 MUL=15 mask=F noise=0,21688,21752,177.668096,178.192384,True
+ALG=3 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,21752,21768,178.192384,178.323456,False
+ALG=3 upstream=1 TL=24 MUL=15 mask=7 noise=1,21768,21832,178.323456,178.847744,True
+ALG=3 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,21832,21848,178.847744,178.978816,False
+ALG=3 upstream=1 TL=24 MUL=15 mask=F noise=1,21848,21912,178.978816,179.503104,True
+ALG=3 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,21912,21928,179.503104,179.634176,False
+ALG=3 upstream=2 TL=24 MUL=1 mask=7 noise=0,21928,21992,179.634176,180.158464,True
+ALG=3 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,21992,22008,180.158464,180.289536,False
+ALG=3 upstream=2 TL=24 MUL=1 mask=F noise=0,22008,22072,180.289536,180.813824,True
+ALG=3 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,22072,22088,180.813824,180.944896,False
+ALG=3 upstream=2 TL=24 MUL=1 mask=7 noise=1,22088,22152,180.944896,181.469184,True
+ALG=3 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,22152,22168,181.469184,181.600256,False
+ALG=3 upstream=2 TL=24 MUL=1 mask=F noise=1,22168,22232,181.600256,182.124544,True
+ALG=3 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,22232,22248,182.124544,182.255616,False
+ALG=3 upstream=2 TL=0 MUL=1 mask=7 noise=0,22248,22312,182.255616,182.779904,True
+ALG=3 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,22312,22328,182.779904,182.910976,False
+ALG=3 upstream=2 TL=0 MUL=1 mask=F noise=0,22328,22392,182.910976,183.435264,True
+ALG=3 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,22392,22408,183.435264,183.566336,False
+ALG=3 upstream=2 TL=0 MUL=1 mask=7 noise=1,22408,22472,183.566336,184.090624,True
+ALG=3 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,22472,22488,184.090624,184.221696,False
+ALG=3 upstream=2 TL=0 MUL=1 mask=F noise=1,22488,22552,184.221696,184.745984,True
+ALG=3 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,22552,22568,184.745984,184.877056,False
+ALG=3 upstream=2 TL=64 MUL=1 mask=7 noise=0,22568,22632,184.877056,185.401344,True
+ALG=3 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,22632,22648,185.401344,185.532416,False
+ALG=3 upstream=2 TL=64 MUL=1 mask=F noise=0,22648,22712,185.532416,186.056704,True
+ALG=3 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,22712,22728,186.056704,186.187776,False
+ALG=3 upstream=2 TL=64 MUL=1 mask=7 noise=1,22728,22792,186.187776,186.712064,True
+ALG=3 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,22792,22808,186.712064,186.843136,False
+ALG=3 upstream=2 TL=64 MUL=1 mask=F noise=1,22808,22872,186.843136,187.367424,True
+ALG=3 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,22872,22888,187.367424,187.498496,False
+ALG=3 upstream=2 TL=127 MUL=1 mask=7 noise=0,22888,22952,187.498496,188.022784,True
+ALG=3 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,22952,22968,188.022784,188.153856,False
+ALG=3 upstream=2 TL=127 MUL=1 mask=F noise=0,22968,23032,188.153856,188.678144,True
+ALG=3 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,23032,23048,188.678144,188.809216,False
+ALG=3 upstream=2 TL=127 MUL=1 mask=7 noise=1,23048,23112,188.809216,189.333504,True
+ALG=3 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,23112,23128,189.333504,189.464576,False
+ALG=3 upstream=2 TL=127 MUL=1 mask=F noise=1,23128,23192,189.464576,189.988864,True
+ALG=3 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,23192,23208,189.988864,190.119936,False
+ALG=3 upstream=2 TL=24 MUL=4 mask=7 noise=0,23208,23272,190.119936,190.644224,True
+ALG=3 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,23272,23288,190.644224,190.775296,False
+ALG=3 upstream=2 TL=24 MUL=4 mask=F noise=0,23288,23352,190.775296,191.299584,True
+ALG=3 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,23352,23368,191.299584,191.430656,False
+ALG=3 upstream=2 TL=24 MUL=4 mask=7 noise=1,23368,23432,191.430656,191.954944,True
+ALG=3 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,23432,23448,191.954944,192.086016,False
+ALG=3 upstream=2 TL=24 MUL=4 mask=F noise=1,23448,23512,192.086016,192.610304,True
+ALG=3 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,23512,23528,192.610304,192.741376,False
+ALG=3 upstream=2 TL=24 MUL=15 mask=7 noise=0,23528,23592,192.741376,193.265664,True
+ALG=3 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,23592,23608,193.265664,193.396736,False
+ALG=3 upstream=2 TL=24 MUL=15 mask=F noise=0,23608,23672,193.396736,193.921024,True
+ALG=3 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,23672,23688,193.921024,194.052096,False
+ALG=3 upstream=2 TL=24 MUL=15 mask=7 noise=1,23688,23752,194.052096,194.576384,True
+ALG=3 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,23752,23768,194.576384,194.707456,False
+ALG=3 upstream=2 TL=24 MUL=15 mask=F noise=1,23768,23832,194.707456,195.231744,True
+algorithm gap,23832,23960,195.231744,196.28032,False
+ALG=4 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,23960,23976,196.28032,196.411392,False
+ALG=4 upstream=0 TL=24 MUL=1 mask=7 noise=0,23976,24040,196.411392,196.93568,True
+ALG=4 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,24040,24056,196.93568,197.066752,False
+ALG=4 upstream=0 TL=24 MUL=1 mask=F noise=0,24056,24120,197.066752,197.59104,True
+ALG=4 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,24120,24136,197.59104,197.722112,False
+ALG=4 upstream=0 TL=24 MUL=1 mask=7 noise=1,24136,24200,197.722112,198.2464,True
+ALG=4 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,24200,24216,198.2464,198.377472,False
+ALG=4 upstream=0 TL=24 MUL=1 mask=F noise=1,24216,24280,198.377472,198.90176,True
+ALG=4 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,24280,24296,198.90176,199.032832,False
+ALG=4 upstream=0 TL=0 MUL=1 mask=7 noise=0,24296,24360,199.032832,199.55712,True
+ALG=4 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,24360,24376,199.55712,199.688192,False
+ALG=4 upstream=0 TL=0 MUL=1 mask=F noise=0,24376,24440,199.688192,200.21248,True
+ALG=4 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,24440,24456,200.21248,200.343552,False
+ALG=4 upstream=0 TL=0 MUL=1 mask=7 noise=1,24456,24520,200.343552,200.86784,True
+ALG=4 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,24520,24536,200.86784,200.998912,False
+ALG=4 upstream=0 TL=0 MUL=1 mask=F noise=1,24536,24600,200.998912,201.5232,True
+ALG=4 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,24600,24616,201.5232,201.654272,False
+ALG=4 upstream=0 TL=64 MUL=1 mask=7 noise=0,24616,24680,201.654272,202.17856,True
+ALG=4 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,24680,24696,202.17856,202.309632,False
+ALG=4 upstream=0 TL=64 MUL=1 mask=F noise=0,24696,24760,202.309632,202.83392,True
+ALG=4 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,24760,24776,202.83392,202.964992,False
+ALG=4 upstream=0 TL=64 MUL=1 mask=7 noise=1,24776,24840,202.964992,203.48928,True
+ALG=4 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,24840,24856,203.48928,203.620352,False
+ALG=4 upstream=0 TL=64 MUL=1 mask=F noise=1,24856,24920,203.620352,204.14464,True
+ALG=4 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,24920,24936,204.14464,204.275712,False
+ALG=4 upstream=0 TL=127 MUL=1 mask=7 noise=0,24936,25000,204.275712,204.8,True
+ALG=4 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,25000,25016,204.8,204.931072,False
+ALG=4 upstream=0 TL=127 MUL=1 mask=F noise=0,25016,25080,204.931072,205.45536,True
+ALG=4 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,25080,25096,205.45536,205.586432,False
+ALG=4 upstream=0 TL=127 MUL=1 mask=7 noise=1,25096,25160,205.586432,206.11072,True
+ALG=4 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,25160,25176,206.11072,206.241792,False
+ALG=4 upstream=0 TL=127 MUL=1 mask=F noise=1,25176,25240,206.241792,206.76608,True
+ALG=4 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,25240,25256,206.76608,206.897152,False
+ALG=4 upstream=0 TL=24 MUL=4 mask=7 noise=0,25256,25320,206.897152,207.42144,True
+ALG=4 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,25320,25336,207.42144,207.552512,False
+ALG=4 upstream=0 TL=24 MUL=4 mask=F noise=0,25336,25400,207.552512,208.0768,True
+ALG=4 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,25400,25416,208.0768,208.207872,False
+ALG=4 upstream=0 TL=24 MUL=4 mask=7 noise=1,25416,25480,208.207872,208.73216,True
+ALG=4 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,25480,25496,208.73216,208.863232,False
+ALG=4 upstream=0 TL=24 MUL=4 mask=F noise=1,25496,25560,208.863232,209.38752,True
+ALG=4 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,25560,25576,209.38752,209.518592,False
+ALG=4 upstream=0 TL=24 MUL=15 mask=7 noise=0,25576,25640,209.518592,210.04288,True
+ALG=4 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,25640,25656,210.04288,210.173952,False
+ALG=4 upstream=0 TL=24 MUL=15 mask=F noise=0,25656,25720,210.173952,210.69824,True
+ALG=4 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,25720,25736,210.69824,210.829312,False
+ALG=4 upstream=0 TL=24 MUL=15 mask=7 noise=1,25736,25800,210.829312,211.3536,True
+ALG=4 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,25800,25816,211.3536,211.484672,False
+ALG=4 upstream=0 TL=24 MUL=15 mask=F noise=1,25816,25880,211.484672,212.00896,True
+ALG=4 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,25880,25896,212.00896,212.140032,False
+ALG=4 upstream=1 TL=24 MUL=1 mask=7 noise=0,25896,25960,212.140032,212.66432,True
+ALG=4 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,25960,25976,212.66432,212.795392,False
+ALG=4 upstream=1 TL=24 MUL=1 mask=F noise=0,25976,26040,212.795392,213.31968,True
+ALG=4 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,26040,26056,213.31968,213.450752,False
+ALG=4 upstream=1 TL=24 MUL=1 mask=7 noise=1,26056,26120,213.450752,213.97504,True
+ALG=4 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,26120,26136,213.97504,214.106112,False
+ALG=4 upstream=1 TL=24 MUL=1 mask=F noise=1,26136,26200,214.106112,214.6304,True
+ALG=4 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,26200,26216,214.6304,214.761472,False
+ALG=4 upstream=1 TL=0 MUL=1 mask=7 noise=0,26216,26280,214.761472,215.28576,True
+ALG=4 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,26280,26296,215.28576,215.416832,False
+ALG=4 upstream=1 TL=0 MUL=1 mask=F noise=0,26296,26360,215.416832,215.94112,True
+ALG=4 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,26360,26376,215.94112,216.072192,False
+ALG=4 upstream=1 TL=0 MUL=1 mask=7 noise=1,26376,26440,216.072192,216.59648,True
+ALG=4 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,26440,26456,216.59648,216.727552,False
+ALG=4 upstream=1 TL=0 MUL=1 mask=F noise=1,26456,26520,216.727552,217.25184,True
+ALG=4 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,26520,26536,217.25184,217.382912,False
+ALG=4 upstream=1 TL=64 MUL=1 mask=7 noise=0,26536,26600,217.382912,217.9072,True
+ALG=4 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,26600,26616,217.9072,218.038272,False
+ALG=4 upstream=1 TL=64 MUL=1 mask=F noise=0,26616,26680,218.038272,218.56256,True
+ALG=4 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,26680,26696,218.56256,218.693632,False
+ALG=4 upstream=1 TL=64 MUL=1 mask=7 noise=1,26696,26760,218.693632,219.21792,True
+ALG=4 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,26760,26776,219.21792,219.348992,False
+ALG=4 upstream=1 TL=64 MUL=1 mask=F noise=1,26776,26840,219.348992,219.87328,True
+ALG=4 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,26840,26856,219.87328,220.004352,False
+ALG=4 upstream=1 TL=127 MUL=1 mask=7 noise=0,26856,26920,220.004352,220.52864,True
+ALG=4 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,26920,26936,220.52864,220.659712,False
+ALG=4 upstream=1 TL=127 MUL=1 mask=F noise=0,26936,27000,220.659712,221.184,True
+ALG=4 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,27000,27016,221.184,221.315072,False
+ALG=4 upstream=1 TL=127 MUL=1 mask=7 noise=1,27016,27080,221.315072,221.83936,True
+ALG=4 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,27080,27096,221.83936,221.970432,False
+ALG=4 upstream=1 TL=127 MUL=1 mask=F noise=1,27096,27160,221.970432,222.49472,True
+ALG=4 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,27160,27176,222.49472,222.625792,False
+ALG=4 upstream=1 TL=24 MUL=4 mask=7 noise=0,27176,27240,222.625792,223.15008,True
+ALG=4 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,27240,27256,223.15008,223.281152,False
+ALG=4 upstream=1 TL=24 MUL=4 mask=F noise=0,27256,27320,223.281152,223.80544,True
+ALG=4 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,27320,27336,223.80544,223.936512,False
+ALG=4 upstream=1 TL=24 MUL=4 mask=7 noise=1,27336,27400,223.936512,224.4608,True
+ALG=4 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,27400,27416,224.4608,224.591872,False
+ALG=4 upstream=1 TL=24 MUL=4 mask=F noise=1,27416,27480,224.591872,225.11616,True
+ALG=4 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,27480,27496,225.11616,225.247232,False
+ALG=4 upstream=1 TL=24 MUL=15 mask=7 noise=0,27496,27560,225.247232,225.77152,True
+ALG=4 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,27560,27576,225.77152,225.902592,False
+ALG=4 upstream=1 TL=24 MUL=15 mask=F noise=0,27576,27640,225.902592,226.42688,True
+ALG=4 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,27640,27656,226.42688,226.557952,False
+ALG=4 upstream=1 TL=24 MUL=15 mask=7 noise=1,27656,27720,226.557952,227.08224,True
+ALG=4 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,27720,27736,227.08224,227.213312,False
+ALG=4 upstream=1 TL=24 MUL=15 mask=F noise=1,27736,27800,227.213312,227.7376,True
+ALG=4 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,27800,27816,227.7376,227.868672,False
+ALG=4 upstream=2 TL=24 MUL=1 mask=7 noise=0,27816,27880,227.868672,228.39296,True
+ALG=4 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,27880,27896,228.39296,228.524032,False
+ALG=4 upstream=2 TL=24 MUL=1 mask=F noise=0,27896,27960,228.524032,229.04832,True
+ALG=4 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,27960,27976,229.04832,229.179392,False
+ALG=4 upstream=2 TL=24 MUL=1 mask=7 noise=1,27976,28040,229.179392,229.70368,True
+ALG=4 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,28040,28056,229.70368,229.834752,False
+ALG=4 upstream=2 TL=24 MUL=1 mask=F noise=1,28056,28120,229.834752,230.35904,True
+ALG=4 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,28120,28136,230.35904,230.490112,False
+ALG=4 upstream=2 TL=0 MUL=1 mask=7 noise=0,28136,28200,230.490112,231.0144,True
+ALG=4 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,28200,28216,231.0144,231.145472,False
+ALG=4 upstream=2 TL=0 MUL=1 mask=F noise=0,28216,28280,231.145472,231.66976,True
+ALG=4 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,28280,28296,231.66976,231.800832,False
+ALG=4 upstream=2 TL=0 MUL=1 mask=7 noise=1,28296,28360,231.800832,232.32512,True
+ALG=4 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,28360,28376,232.32512,232.456192,False
+ALG=4 upstream=2 TL=0 MUL=1 mask=F noise=1,28376,28440,232.456192,232.98048,True
+ALG=4 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,28440,28456,232.98048,233.111552,False
+ALG=4 upstream=2 TL=64 MUL=1 mask=7 noise=0,28456,28520,233.111552,233.63584,True
+ALG=4 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,28520,28536,233.63584,233.766912,False
+ALG=4 upstream=2 TL=64 MUL=1 mask=F noise=0,28536,28600,233.766912,234.2912,True
+ALG=4 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,28600,28616,234.2912,234.422272,False
+ALG=4 upstream=2 TL=64 MUL=1 mask=7 noise=1,28616,28680,234.422272,234.94656,True
+ALG=4 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,28680,28696,234.94656,235.077632,False
+ALG=4 upstream=2 TL=64 MUL=1 mask=F noise=1,28696,28760,235.077632,235.60192,True
+ALG=4 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,28760,28776,235.60192,235.732992,False
+ALG=4 upstream=2 TL=127 MUL=1 mask=7 noise=0,28776,28840,235.732992,236.25728,True
+ALG=4 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,28840,28856,236.25728,236.388352,False
+ALG=4 upstream=2 TL=127 MUL=1 mask=F noise=0,28856,28920,236.388352,236.91264,True
+ALG=4 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,28920,28936,236.91264,237.043712,False
+ALG=4 upstream=2 TL=127 MUL=1 mask=7 noise=1,28936,29000,237.043712,237.568,True
+ALG=4 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,29000,29016,237.568,237.699072,False
+ALG=4 upstream=2 TL=127 MUL=1 mask=F noise=1,29016,29080,237.699072,238.22336,True
+ALG=4 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,29080,29096,238.22336,238.354432,False
+ALG=4 upstream=2 TL=24 MUL=4 mask=7 noise=0,29096,29160,238.354432,238.87872,True
+ALG=4 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,29160,29176,238.87872,239.009792,False
+ALG=4 upstream=2 TL=24 MUL=4 mask=F noise=0,29176,29240,239.009792,239.53408,True
+ALG=4 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,29240,29256,239.53408,239.665152,False
+ALG=4 upstream=2 TL=24 MUL=4 mask=7 noise=1,29256,29320,239.665152,240.18944,True
+ALG=4 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,29320,29336,240.18944,240.320512,False
+ALG=4 upstream=2 TL=24 MUL=4 mask=F noise=1,29336,29400,240.320512,240.8448,True
+ALG=4 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,29400,29416,240.8448,240.975872,False
+ALG=4 upstream=2 TL=24 MUL=15 mask=7 noise=0,29416,29480,240.975872,241.50016,True
+ALG=4 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,29480,29496,241.50016,241.631232,False
+ALG=4 upstream=2 TL=24 MUL=15 mask=F noise=0,29496,29560,241.631232,242.15552,True
+ALG=4 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,29560,29576,242.15552,242.286592,False
+ALG=4 upstream=2 TL=24 MUL=15 mask=7 noise=1,29576,29640,242.286592,242.81088,True
+ALG=4 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,29640,29656,242.81088,242.941952,False
+ALG=4 upstream=2 TL=24 MUL=15 mask=F noise=1,29656,29720,242.941952,243.46624,True
+algorithm gap,29720,29848,243.46624,244.514816,False
+ALG=5 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,29848,29864,244.514816,244.645888,False
+ALG=5 upstream=0 TL=24 MUL=1 mask=7 noise=0,29864,29928,244.645888,245.170176,True
+ALG=5 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,29928,29944,245.170176,245.301248,False
+ALG=5 upstream=0 TL=24 MUL=1 mask=F noise=0,29944,30008,245.301248,245.825536,True
+ALG=5 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,30008,30024,245.825536,245.956608,False
+ALG=5 upstream=0 TL=24 MUL=1 mask=7 noise=1,30024,30088,245.956608,246.480896,True
+ALG=5 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,30088,30104,246.480896,246.611968,False
+ALG=5 upstream=0 TL=24 MUL=1 mask=F noise=1,30104,30168,246.611968,247.136256,True
+ALG=5 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,30168,30184,247.136256,247.267328,False
+ALG=5 upstream=0 TL=0 MUL=1 mask=7 noise=0,30184,30248,247.267328,247.791616,True
+ALG=5 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,30248,30264,247.791616,247.922688,False
+ALG=5 upstream=0 TL=0 MUL=1 mask=F noise=0,30264,30328,247.922688,248.446976,True
+ALG=5 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,30328,30344,248.446976,248.578048,False
+ALG=5 upstream=0 TL=0 MUL=1 mask=7 noise=1,30344,30408,248.578048,249.102336,True
+ALG=5 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,30408,30424,249.102336,249.233408,False
+ALG=5 upstream=0 TL=0 MUL=1 mask=F noise=1,30424,30488,249.233408,249.757696,True
+ALG=5 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,30488,30504,249.757696,249.888768,False
+ALG=5 upstream=0 TL=64 MUL=1 mask=7 noise=0,30504,30568,249.888768,250.413056,True
+ALG=5 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,30568,30584,250.413056,250.544128,False
+ALG=5 upstream=0 TL=64 MUL=1 mask=F noise=0,30584,30648,250.544128,251.068416,True
+ALG=5 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,30648,30664,251.068416,251.199488,False
+ALG=5 upstream=0 TL=64 MUL=1 mask=7 noise=1,30664,30728,251.199488,251.723776,True
+ALG=5 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,30728,30744,251.723776,251.854848,False
+ALG=5 upstream=0 TL=64 MUL=1 mask=F noise=1,30744,30808,251.854848,252.379136,True
+ALG=5 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,30808,30824,252.379136,252.510208,False
+ALG=5 upstream=0 TL=127 MUL=1 mask=7 noise=0,30824,30888,252.510208,253.034496,True
+ALG=5 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,30888,30904,253.034496,253.165568,False
+ALG=5 upstream=0 TL=127 MUL=1 mask=F noise=0,30904,30968,253.165568,253.689856,True
+ALG=5 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,30968,30984,253.689856,253.820928,False
+ALG=5 upstream=0 TL=127 MUL=1 mask=7 noise=1,30984,31048,253.820928,254.345216,True
+ALG=5 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,31048,31064,254.345216,254.476288,False
+ALG=5 upstream=0 TL=127 MUL=1 mask=F noise=1,31064,31128,254.476288,255.000576,True
+ALG=5 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,31128,31144,255.000576,255.131648,False
+ALG=5 upstream=0 TL=24 MUL=4 mask=7 noise=0,31144,31208,255.131648,255.655936,True
+ALG=5 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,31208,31224,255.655936,255.787008,False
+ALG=5 upstream=0 TL=24 MUL=4 mask=F noise=0,31224,31288,255.787008,256.311296,True
+ALG=5 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,31288,31304,256.311296,256.442368,False
+ALG=5 upstream=0 TL=24 MUL=4 mask=7 noise=1,31304,31368,256.442368,256.966656,True
+ALG=5 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,31368,31384,256.966656,257.097728,False
+ALG=5 upstream=0 TL=24 MUL=4 mask=F noise=1,31384,31448,257.097728,257.622016,True
+ALG=5 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,31448,31464,257.622016,257.753088,False
+ALG=5 upstream=0 TL=24 MUL=15 mask=7 noise=0,31464,31528,257.753088,258.277376,True
+ALG=5 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,31528,31544,258.277376,258.408448,False
+ALG=5 upstream=0 TL=24 MUL=15 mask=F noise=0,31544,31608,258.408448,258.932736,True
+ALG=5 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,31608,31624,258.932736,259.063808,False
+ALG=5 upstream=0 TL=24 MUL=15 mask=7 noise=1,31624,31688,259.063808,259.588096,True
+ALG=5 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,31688,31704,259.588096,259.719168,False
+ALG=5 upstream=0 TL=24 MUL=15 mask=F noise=1,31704,31768,259.719168,260.243456,True
+ALG=5 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,31768,31784,260.243456,260.374528,False
+ALG=5 upstream=1 TL=24 MUL=1 mask=7 noise=0,31784,31848,260.374528,260.898816,True
+ALG=5 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,31848,31864,260.898816,261.029888,False
+ALG=5 upstream=1 TL=24 MUL=1 mask=F noise=0,31864,31928,261.029888,261.554176,True
+ALG=5 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,31928,31944,261.554176,261.685248,False
+ALG=5 upstream=1 TL=24 MUL=1 mask=7 noise=1,31944,32008,261.685248,262.209536,True
+ALG=5 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,32008,32024,262.209536,262.340608,False
+ALG=5 upstream=1 TL=24 MUL=1 mask=F noise=1,32024,32088,262.340608,262.864896,True
+ALG=5 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,32088,32104,262.864896,262.995968,False
+ALG=5 upstream=1 TL=0 MUL=1 mask=7 noise=0,32104,32168,262.995968,263.520256,True
+ALG=5 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,32168,32184,263.520256,263.651328,False
+ALG=5 upstream=1 TL=0 MUL=1 mask=F noise=0,32184,32248,263.651328,264.175616,True
+ALG=5 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,32248,32264,264.175616,264.306688,False
+ALG=5 upstream=1 TL=0 MUL=1 mask=7 noise=1,32264,32328,264.306688,264.830976,True
+ALG=5 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,32328,32344,264.830976,264.962048,False
+ALG=5 upstream=1 TL=0 MUL=1 mask=F noise=1,32344,32408,264.962048,265.486336,True
+ALG=5 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,32408,32424,265.486336,265.617408,False
+ALG=5 upstream=1 TL=64 MUL=1 mask=7 noise=0,32424,32488,265.617408,266.141696,True
+ALG=5 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,32488,32504,266.141696,266.272768,False
+ALG=5 upstream=1 TL=64 MUL=1 mask=F noise=0,32504,32568,266.272768,266.797056,True
+ALG=5 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,32568,32584,266.797056,266.928128,False
+ALG=5 upstream=1 TL=64 MUL=1 mask=7 noise=1,32584,32648,266.928128,267.452416,True
+ALG=5 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,32648,32664,267.452416,267.583488,False
+ALG=5 upstream=1 TL=64 MUL=1 mask=F noise=1,32664,32728,267.583488,268.107776,True
+ALG=5 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,32728,32744,268.107776,268.238848,False
+ALG=5 upstream=1 TL=127 MUL=1 mask=7 noise=0,32744,32808,268.238848,268.763136,True
+ALG=5 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,32808,32824,268.763136,268.894208,False
+ALG=5 upstream=1 TL=127 MUL=1 mask=F noise=0,32824,32888,268.894208,269.418496,True
+ALG=5 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,32888,32904,269.418496,269.549568,False
+ALG=5 upstream=1 TL=127 MUL=1 mask=7 noise=1,32904,32968,269.549568,270.073856,True
+ALG=5 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,32968,32984,270.073856,270.204928,False
+ALG=5 upstream=1 TL=127 MUL=1 mask=F noise=1,32984,33048,270.204928,270.729216,True
+ALG=5 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,33048,33064,270.729216,270.860288,False
+ALG=5 upstream=1 TL=24 MUL=4 mask=7 noise=0,33064,33128,270.860288,271.384576,True
+ALG=5 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,33128,33144,271.384576,271.515648,False
+ALG=5 upstream=1 TL=24 MUL=4 mask=F noise=0,33144,33208,271.515648,272.039936,True
+ALG=5 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,33208,33224,272.039936,272.171008,False
+ALG=5 upstream=1 TL=24 MUL=4 mask=7 noise=1,33224,33288,272.171008,272.695296,True
+ALG=5 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,33288,33304,272.695296,272.826368,False
+ALG=5 upstream=1 TL=24 MUL=4 mask=F noise=1,33304,33368,272.826368,273.350656,True
+ALG=5 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,33368,33384,273.350656,273.481728,False
+ALG=5 upstream=1 TL=24 MUL=15 mask=7 noise=0,33384,33448,273.481728,274.006016,True
+ALG=5 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,33448,33464,274.006016,274.137088,False
+ALG=5 upstream=1 TL=24 MUL=15 mask=F noise=0,33464,33528,274.137088,274.661376,True
+ALG=5 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,33528,33544,274.661376,274.792448,False
+ALG=5 upstream=1 TL=24 MUL=15 mask=7 noise=1,33544,33608,274.792448,275.316736,True
+ALG=5 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,33608,33624,275.316736,275.447808,False
+ALG=5 upstream=1 TL=24 MUL=15 mask=F noise=1,33624,33688,275.447808,275.972096,True
+ALG=5 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,33688,33704,275.972096,276.103168,False
+ALG=5 upstream=2 TL=24 MUL=1 mask=7 noise=0,33704,33768,276.103168,276.627456,True
+ALG=5 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,33768,33784,276.627456,276.758528,False
+ALG=5 upstream=2 TL=24 MUL=1 mask=F noise=0,33784,33848,276.758528,277.282816,True
+ALG=5 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,33848,33864,277.282816,277.413888,False
+ALG=5 upstream=2 TL=24 MUL=1 mask=7 noise=1,33864,33928,277.413888,277.938176,True
+ALG=5 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,33928,33944,277.938176,278.069248,False
+ALG=5 upstream=2 TL=24 MUL=1 mask=F noise=1,33944,34008,278.069248,278.593536,True
+ALG=5 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,34008,34024,278.593536,278.724608,False
+ALG=5 upstream=2 TL=0 MUL=1 mask=7 noise=0,34024,34088,278.724608,279.248896,True
+ALG=5 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,34088,34104,279.248896,279.379968,False
+ALG=5 upstream=2 TL=0 MUL=1 mask=F noise=0,34104,34168,279.379968,279.904256,True
+ALG=5 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,34168,34184,279.904256,280.035328,False
+ALG=5 upstream=2 TL=0 MUL=1 mask=7 noise=1,34184,34248,280.035328,280.559616,True
+ALG=5 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,34248,34264,280.559616,280.690688,False
+ALG=5 upstream=2 TL=0 MUL=1 mask=F noise=1,34264,34328,280.690688,281.214976,True
+ALG=5 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,34328,34344,281.214976,281.346048,False
+ALG=5 upstream=2 TL=64 MUL=1 mask=7 noise=0,34344,34408,281.346048,281.870336,True
+ALG=5 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,34408,34424,281.870336,282.001408,False
+ALG=5 upstream=2 TL=64 MUL=1 mask=F noise=0,34424,34488,282.001408,282.525696,True
+ALG=5 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,34488,34504,282.525696,282.656768,False
+ALG=5 upstream=2 TL=64 MUL=1 mask=7 noise=1,34504,34568,282.656768,283.181056,True
+ALG=5 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,34568,34584,283.181056,283.312128,False
+ALG=5 upstream=2 TL=64 MUL=1 mask=F noise=1,34584,34648,283.312128,283.836416,True
+ALG=5 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,34648,34664,283.836416,283.967488,False
+ALG=5 upstream=2 TL=127 MUL=1 mask=7 noise=0,34664,34728,283.967488,284.491776,True
+ALG=5 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,34728,34744,284.491776,284.622848,False
+ALG=5 upstream=2 TL=127 MUL=1 mask=F noise=0,34744,34808,284.622848,285.147136,True
+ALG=5 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,34808,34824,285.147136,285.278208,False
+ALG=5 upstream=2 TL=127 MUL=1 mask=7 noise=1,34824,34888,285.278208,285.802496,True
+ALG=5 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,34888,34904,285.802496,285.933568,False
+ALG=5 upstream=2 TL=127 MUL=1 mask=F noise=1,34904,34968,285.933568,286.457856,True
+ALG=5 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,34968,34984,286.457856,286.588928,False
+ALG=5 upstream=2 TL=24 MUL=4 mask=7 noise=0,34984,35048,286.588928,287.113216,True
+ALG=5 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,35048,35064,287.113216,287.244288,False
+ALG=5 upstream=2 TL=24 MUL=4 mask=F noise=0,35064,35128,287.244288,287.768576,True
+ALG=5 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,35128,35144,287.768576,287.899648,False
+ALG=5 upstream=2 TL=24 MUL=4 mask=7 noise=1,35144,35208,287.899648,288.423936,True
+ALG=5 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,35208,35224,288.423936,288.555008,False
+ALG=5 upstream=2 TL=24 MUL=4 mask=F noise=1,35224,35288,288.555008,289.079296,True
+ALG=5 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,35288,35304,289.079296,289.210368,False
+ALG=5 upstream=2 TL=24 MUL=15 mask=7 noise=0,35304,35368,289.210368,289.734656,True
+ALG=5 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,35368,35384,289.734656,289.865728,False
+ALG=5 upstream=2 TL=24 MUL=15 mask=F noise=0,35384,35448,289.865728,290.390016,True
+ALG=5 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,35448,35464,290.390016,290.521088,False
+ALG=5 upstream=2 TL=24 MUL=15 mask=7 noise=1,35464,35528,290.521088,291.045376,True
+ALG=5 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,35528,35544,291.045376,291.176448,False
+ALG=5 upstream=2 TL=24 MUL=15 mask=F noise=1,35544,35608,291.176448,291.700736,True
+algorithm gap,35608,35736,291.700736,292.749312,False
+ALG=6 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,35736,35752,292.749312,292.880384,False
+ALG=6 upstream=0 TL=24 MUL=1 mask=7 noise=0,35752,35816,292.880384,293.404672,True
+ALG=6 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,35816,35832,293.404672,293.535744,False
+ALG=6 upstream=0 TL=24 MUL=1 mask=F noise=0,35832,35896,293.535744,294.060032,True
+ALG=6 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,35896,35912,294.060032,294.191104,False
+ALG=6 upstream=0 TL=24 MUL=1 mask=7 noise=1,35912,35976,294.191104,294.715392,True
+ALG=6 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,35976,35992,294.715392,294.846464,False
+ALG=6 upstream=0 TL=24 MUL=1 mask=F noise=1,35992,36056,294.846464,295.370752,True
+ALG=6 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,36056,36072,295.370752,295.501824,False
+ALG=6 upstream=0 TL=0 MUL=1 mask=7 noise=0,36072,36136,295.501824,296.026112,True
+ALG=6 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,36136,36152,296.026112,296.157184,False
+ALG=6 upstream=0 TL=0 MUL=1 mask=F noise=0,36152,36216,296.157184,296.681472,True
+ALG=6 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,36216,36232,296.681472,296.812544,False
+ALG=6 upstream=0 TL=0 MUL=1 mask=7 noise=1,36232,36296,296.812544,297.336832,True
+ALG=6 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,36296,36312,297.336832,297.467904,False
+ALG=6 upstream=0 TL=0 MUL=1 mask=F noise=1,36312,36376,297.467904,297.992192,True
+ALG=6 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,36376,36392,297.992192,298.123264,False
+ALG=6 upstream=0 TL=64 MUL=1 mask=7 noise=0,36392,36456,298.123264,298.647552,True
+ALG=6 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,36456,36472,298.647552,298.778624,False
+ALG=6 upstream=0 TL=64 MUL=1 mask=F noise=0,36472,36536,298.778624,299.302912,True
+ALG=6 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,36536,36552,299.302912,299.433984,False
+ALG=6 upstream=0 TL=64 MUL=1 mask=7 noise=1,36552,36616,299.433984,299.958272,True
+ALG=6 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,36616,36632,299.958272,300.089344,False
+ALG=6 upstream=0 TL=64 MUL=1 mask=F noise=1,36632,36696,300.089344,300.613632,True
+ALG=6 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,36696,36712,300.613632,300.744704,False
+ALG=6 upstream=0 TL=127 MUL=1 mask=7 noise=0,36712,36776,300.744704,301.268992,True
+ALG=6 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,36776,36792,301.268992,301.400064,False
+ALG=6 upstream=0 TL=127 MUL=1 mask=F noise=0,36792,36856,301.400064,301.924352,True
+ALG=6 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,36856,36872,301.924352,302.055424,False
+ALG=6 upstream=0 TL=127 MUL=1 mask=7 noise=1,36872,36936,302.055424,302.579712,True
+ALG=6 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,36936,36952,302.579712,302.710784,False
+ALG=6 upstream=0 TL=127 MUL=1 mask=F noise=1,36952,37016,302.710784,303.235072,True
+ALG=6 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,37016,37032,303.235072,303.366144,False
+ALG=6 upstream=0 TL=24 MUL=4 mask=7 noise=0,37032,37096,303.366144,303.890432,True
+ALG=6 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,37096,37112,303.890432,304.021504,False
+ALG=6 upstream=0 TL=24 MUL=4 mask=F noise=0,37112,37176,304.021504,304.545792,True
+ALG=6 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,37176,37192,304.545792,304.676864,False
+ALG=6 upstream=0 TL=24 MUL=4 mask=7 noise=1,37192,37256,304.676864,305.201152,True
+ALG=6 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,37256,37272,305.201152,305.332224,False
+ALG=6 upstream=0 TL=24 MUL=4 mask=F noise=1,37272,37336,305.332224,305.856512,True
+ALG=6 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,37336,37352,305.856512,305.987584,False
+ALG=6 upstream=0 TL=24 MUL=15 mask=7 noise=0,37352,37416,305.987584,306.511872,True
+ALG=6 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,37416,37432,306.511872,306.642944,False
+ALG=6 upstream=0 TL=24 MUL=15 mask=F noise=0,37432,37496,306.642944,307.167232,True
+ALG=6 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,37496,37512,307.167232,307.298304,False
+ALG=6 upstream=0 TL=24 MUL=15 mask=7 noise=1,37512,37576,307.298304,307.822592,True
+ALG=6 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,37576,37592,307.822592,307.953664,False
+ALG=6 upstream=0 TL=24 MUL=15 mask=F noise=1,37592,37656,307.953664,308.477952,True
+ALG=6 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,37656,37672,308.477952,308.609024,False
+ALG=6 upstream=1 TL=24 MUL=1 mask=7 noise=0,37672,37736,308.609024,309.133312,True
+ALG=6 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,37736,37752,309.133312,309.264384,False
+ALG=6 upstream=1 TL=24 MUL=1 mask=F noise=0,37752,37816,309.264384,309.788672,True
+ALG=6 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,37816,37832,309.788672,309.919744,False
+ALG=6 upstream=1 TL=24 MUL=1 mask=7 noise=1,37832,37896,309.919744,310.444032,True
+ALG=6 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,37896,37912,310.444032,310.575104,False
+ALG=6 upstream=1 TL=24 MUL=1 mask=F noise=1,37912,37976,310.575104,311.099392,True
+ALG=6 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,37976,37992,311.099392,311.230464,False
+ALG=6 upstream=1 TL=0 MUL=1 mask=7 noise=0,37992,38056,311.230464,311.754752,True
+ALG=6 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,38056,38072,311.754752,311.885824,False
+ALG=6 upstream=1 TL=0 MUL=1 mask=F noise=0,38072,38136,311.885824,312.410112,True
+ALG=6 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,38136,38152,312.410112,312.541184,False
+ALG=6 upstream=1 TL=0 MUL=1 mask=7 noise=1,38152,38216,312.541184,313.065472,True
+ALG=6 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,38216,38232,313.065472,313.196544,False
+ALG=6 upstream=1 TL=0 MUL=1 mask=F noise=1,38232,38296,313.196544,313.720832,True
+ALG=6 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,38296,38312,313.720832,313.851904,False
+ALG=6 upstream=1 TL=64 MUL=1 mask=7 noise=0,38312,38376,313.851904,314.376192,True
+ALG=6 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,38376,38392,314.376192,314.507264,False
+ALG=6 upstream=1 TL=64 MUL=1 mask=F noise=0,38392,38456,314.507264,315.031552,True
+ALG=6 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,38456,38472,315.031552,315.162624,False
+ALG=6 upstream=1 TL=64 MUL=1 mask=7 noise=1,38472,38536,315.162624,315.686912,True
+ALG=6 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,38536,38552,315.686912,315.817984,False
+ALG=6 upstream=1 TL=64 MUL=1 mask=F noise=1,38552,38616,315.817984,316.342272,True
+ALG=6 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,38616,38632,316.342272,316.473344,False
+ALG=6 upstream=1 TL=127 MUL=1 mask=7 noise=0,38632,38696,316.473344,316.997632,True
+ALG=6 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,38696,38712,316.997632,317.128704,False
+ALG=6 upstream=1 TL=127 MUL=1 mask=F noise=0,38712,38776,317.128704,317.652992,True
+ALG=6 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,38776,38792,317.652992,317.784064,False
+ALG=6 upstream=1 TL=127 MUL=1 mask=7 noise=1,38792,38856,317.784064,318.308352,True
+ALG=6 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,38856,38872,318.308352,318.439424,False
+ALG=6 upstream=1 TL=127 MUL=1 mask=F noise=1,38872,38936,318.439424,318.963712,True
+ALG=6 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,38936,38952,318.963712,319.094784,False
+ALG=6 upstream=1 TL=24 MUL=4 mask=7 noise=0,38952,39016,319.094784,319.619072,True
+ALG=6 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,39016,39032,319.619072,319.750144,False
+ALG=6 upstream=1 TL=24 MUL=4 mask=F noise=0,39032,39096,319.750144,320.274432,True
+ALG=6 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,39096,39112,320.274432,320.405504,False
+ALG=6 upstream=1 TL=24 MUL=4 mask=7 noise=1,39112,39176,320.405504,320.929792,True
+ALG=6 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,39176,39192,320.929792,321.060864,False
+ALG=6 upstream=1 TL=24 MUL=4 mask=F noise=1,39192,39256,321.060864,321.585152,True
+ALG=6 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,39256,39272,321.585152,321.716224,False
+ALG=6 upstream=1 TL=24 MUL=15 mask=7 noise=0,39272,39336,321.716224,322.240512,True
+ALG=6 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,39336,39352,322.240512,322.371584,False
+ALG=6 upstream=1 TL=24 MUL=15 mask=F noise=0,39352,39416,322.371584,322.895872,True
+ALG=6 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,39416,39432,322.895872,323.026944,False
+ALG=6 upstream=1 TL=24 MUL=15 mask=7 noise=1,39432,39496,323.026944,323.551232,True
+ALG=6 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,39496,39512,323.551232,323.682304,False
+ALG=6 upstream=1 TL=24 MUL=15 mask=F noise=1,39512,39576,323.682304,324.206592,True
+ALG=6 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,39576,39592,324.206592,324.337664,False
+ALG=6 upstream=2 TL=24 MUL=1 mask=7 noise=0,39592,39656,324.337664,324.861952,True
+ALG=6 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,39656,39672,324.861952,324.993024,False
+ALG=6 upstream=2 TL=24 MUL=1 mask=F noise=0,39672,39736,324.993024,325.517312,True
+ALG=6 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,39736,39752,325.517312,325.648384,False
+ALG=6 upstream=2 TL=24 MUL=1 mask=7 noise=1,39752,39816,325.648384,326.172672,True
+ALG=6 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,39816,39832,326.172672,326.303744,False
+ALG=6 upstream=2 TL=24 MUL=1 mask=F noise=1,39832,39896,326.303744,326.828032,True
+ALG=6 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,39896,39912,326.828032,326.959104,False
+ALG=6 upstream=2 TL=0 MUL=1 mask=7 noise=0,39912,39976,326.959104,327.483392,True
+ALG=6 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,39976,39992,327.483392,327.614464,False
+ALG=6 upstream=2 TL=0 MUL=1 mask=F noise=0,39992,40056,327.614464,328.138752,True
+ALG=6 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,40056,40072,328.138752,328.269824,False
+ALG=6 upstream=2 TL=0 MUL=1 mask=7 noise=1,40072,40136,328.269824,328.794112,True
+ALG=6 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,40136,40152,328.794112,328.925184,False
+ALG=6 upstream=2 TL=0 MUL=1 mask=F noise=1,40152,40216,328.925184,329.449472,True
+ALG=6 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,40216,40232,329.449472,329.580544,False
+ALG=6 upstream=2 TL=64 MUL=1 mask=7 noise=0,40232,40296,329.580544,330.104832,True
+ALG=6 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,40296,40312,330.104832,330.235904,False
+ALG=6 upstream=2 TL=64 MUL=1 mask=F noise=0,40312,40376,330.235904,330.760192,True
+ALG=6 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,40376,40392,330.760192,330.891264,False
+ALG=6 upstream=2 TL=64 MUL=1 mask=7 noise=1,40392,40456,330.891264,331.415552,True
+ALG=6 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,40456,40472,331.415552,331.546624,False
+ALG=6 upstream=2 TL=64 MUL=1 mask=F noise=1,40472,40536,331.546624,332.070912,True
+ALG=6 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,40536,40552,332.070912,332.201984,False
+ALG=6 upstream=2 TL=127 MUL=1 mask=7 noise=0,40552,40616,332.201984,332.726272,True
+ALG=6 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,40616,40632,332.726272,332.857344,False
+ALG=6 upstream=2 TL=127 MUL=1 mask=F noise=0,40632,40696,332.857344,333.381632,True
+ALG=6 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,40696,40712,333.381632,333.512704,False
+ALG=6 upstream=2 TL=127 MUL=1 mask=7 noise=1,40712,40776,333.512704,334.036992,True
+ALG=6 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,40776,40792,334.036992,334.168064,False
+ALG=6 upstream=2 TL=127 MUL=1 mask=F noise=1,40792,40856,334.168064,334.692352,True
+ALG=6 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,40856,40872,334.692352,334.823424,False
+ALG=6 upstream=2 TL=24 MUL=4 mask=7 noise=0,40872,40936,334.823424,335.347712,True
+ALG=6 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,40936,40952,335.347712,335.478784,False
+ALG=6 upstream=2 TL=24 MUL=4 mask=F noise=0,40952,41016,335.478784,336.003072,True
+ALG=6 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,41016,41032,336.003072,336.134144,False
+ALG=6 upstream=2 TL=24 MUL=4 mask=7 noise=1,41032,41096,336.134144,336.658432,True
+ALG=6 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,41096,41112,336.658432,336.789504,False
+ALG=6 upstream=2 TL=24 MUL=4 mask=F noise=1,41112,41176,336.789504,337.313792,True
+ALG=6 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,41176,41192,337.313792,337.444864,False
+ALG=6 upstream=2 TL=24 MUL=15 mask=7 noise=0,41192,41256,337.444864,337.969152,True
+ALG=6 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,41256,41272,337.969152,338.100224,False
+ALG=6 upstream=2 TL=24 MUL=15 mask=F noise=0,41272,41336,338.100224,338.624512,True
+ALG=6 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,41336,41352,338.624512,338.755584,False
+ALG=6 upstream=2 TL=24 MUL=15 mask=7 noise=1,41352,41416,338.755584,339.279872,True
+ALG=6 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,41416,41432,339.279872,339.410944,False
+ALG=6 upstream=2 TL=24 MUL=15 mask=F noise=1,41432,41496,339.410944,339.935232,True
+algorithm gap,41496,41624,339.935232,340.983808,False
+ALG=7 upstream=0 TL=24 MUL=1 mask=7 noise=0 settle,41624,41640,340.983808,341.11488,False
+ALG=7 upstream=0 TL=24 MUL=1 mask=7 noise=0,41640,41704,341.11488,341.639168,True
+ALG=7 upstream=0 TL=24 MUL=1 mask=F noise=0 settle,41704,41720,341.639168,341.77024,False
+ALG=7 upstream=0 TL=24 MUL=1 mask=F noise=0,41720,41784,341.77024,342.294528,True
+ALG=7 upstream=0 TL=24 MUL=1 mask=7 noise=1 settle,41784,41800,342.294528,342.4256,False
+ALG=7 upstream=0 TL=24 MUL=1 mask=7 noise=1,41800,41864,342.4256,342.949888,True
+ALG=7 upstream=0 TL=24 MUL=1 mask=F noise=1 settle,41864,41880,342.949888,343.08096,False
+ALG=7 upstream=0 TL=24 MUL=1 mask=F noise=1,41880,41944,343.08096,343.605248,True
+ALG=7 upstream=0 TL=0 MUL=1 mask=7 noise=0 settle,41944,41960,343.605248,343.73632,False
+ALG=7 upstream=0 TL=0 MUL=1 mask=7 noise=0,41960,42024,343.73632,344.260608,True
+ALG=7 upstream=0 TL=0 MUL=1 mask=F noise=0 settle,42024,42040,344.260608,344.39168,False
+ALG=7 upstream=0 TL=0 MUL=1 mask=F noise=0,42040,42104,344.39168,344.915968,True
+ALG=7 upstream=0 TL=0 MUL=1 mask=7 noise=1 settle,42104,42120,344.915968,345.04704,False
+ALG=7 upstream=0 TL=0 MUL=1 mask=7 noise=1,42120,42184,345.04704,345.571328,True
+ALG=7 upstream=0 TL=0 MUL=1 mask=F noise=1 settle,42184,42200,345.571328,345.7024,False
+ALG=7 upstream=0 TL=0 MUL=1 mask=F noise=1,42200,42264,345.7024,346.226688,True
+ALG=7 upstream=0 TL=64 MUL=1 mask=7 noise=0 settle,42264,42280,346.226688,346.35776,False
+ALG=7 upstream=0 TL=64 MUL=1 mask=7 noise=0,42280,42344,346.35776,346.882048,True
+ALG=7 upstream=0 TL=64 MUL=1 mask=F noise=0 settle,42344,42360,346.882048,347.01312,False
+ALG=7 upstream=0 TL=64 MUL=1 mask=F noise=0,42360,42424,347.01312,347.537408,True
+ALG=7 upstream=0 TL=64 MUL=1 mask=7 noise=1 settle,42424,42440,347.537408,347.66848,False
+ALG=7 upstream=0 TL=64 MUL=1 mask=7 noise=1,42440,42504,347.66848,348.192768,True
+ALG=7 upstream=0 TL=64 MUL=1 mask=F noise=1 settle,42504,42520,348.192768,348.32384,False
+ALG=7 upstream=0 TL=64 MUL=1 mask=F noise=1,42520,42584,348.32384,348.848128,True
+ALG=7 upstream=0 TL=127 MUL=1 mask=7 noise=0 settle,42584,42600,348.848128,348.9792,False
+ALG=7 upstream=0 TL=127 MUL=1 mask=7 noise=0,42600,42664,348.9792,349.503488,True
+ALG=7 upstream=0 TL=127 MUL=1 mask=F noise=0 settle,42664,42680,349.503488,349.63456,False
+ALG=7 upstream=0 TL=127 MUL=1 mask=F noise=0,42680,42744,349.63456,350.158848,True
+ALG=7 upstream=0 TL=127 MUL=1 mask=7 noise=1 settle,42744,42760,350.158848,350.28992,False
+ALG=7 upstream=0 TL=127 MUL=1 mask=7 noise=1,42760,42824,350.28992,350.814208,True
+ALG=7 upstream=0 TL=127 MUL=1 mask=F noise=1 settle,42824,42840,350.814208,350.94528,False
+ALG=7 upstream=0 TL=127 MUL=1 mask=F noise=1,42840,42904,350.94528,351.469568,True
+ALG=7 upstream=0 TL=24 MUL=4 mask=7 noise=0 settle,42904,42920,351.469568,351.60064,False
+ALG=7 upstream=0 TL=24 MUL=4 mask=7 noise=0,42920,42984,351.60064,352.124928,True
+ALG=7 upstream=0 TL=24 MUL=4 mask=F noise=0 settle,42984,43000,352.124928,352.256,False
+ALG=7 upstream=0 TL=24 MUL=4 mask=F noise=0,43000,43064,352.256,352.780288,True
+ALG=7 upstream=0 TL=24 MUL=4 mask=7 noise=1 settle,43064,43080,352.780288,352.91136,False
+ALG=7 upstream=0 TL=24 MUL=4 mask=7 noise=1,43080,43144,352.91136,353.435648,True
+ALG=7 upstream=0 TL=24 MUL=4 mask=F noise=1 settle,43144,43160,353.435648,353.56672,False
+ALG=7 upstream=0 TL=24 MUL=4 mask=F noise=1,43160,43224,353.56672,354.091008,True
+ALG=7 upstream=0 TL=24 MUL=15 mask=7 noise=0 settle,43224,43240,354.091008,354.22208,False
+ALG=7 upstream=0 TL=24 MUL=15 mask=7 noise=0,43240,43304,354.22208,354.746368,True
+ALG=7 upstream=0 TL=24 MUL=15 mask=F noise=0 settle,43304,43320,354.746368,354.87744,False
+ALG=7 upstream=0 TL=24 MUL=15 mask=F noise=0,43320,43384,354.87744,355.401728,True
+ALG=7 upstream=0 TL=24 MUL=15 mask=7 noise=1 settle,43384,43400,355.401728,355.5328,False
+ALG=7 upstream=0 TL=24 MUL=15 mask=7 noise=1,43400,43464,355.5328,356.057088,True
+ALG=7 upstream=0 TL=24 MUL=15 mask=F noise=1 settle,43464,43480,356.057088,356.18816,False
+ALG=7 upstream=0 TL=24 MUL=15 mask=F noise=1,43480,43544,356.18816,356.712448,True
+ALG=7 upstream=1 TL=24 MUL=1 mask=7 noise=0 settle,43544,43560,356.712448,356.84352,False
+ALG=7 upstream=1 TL=24 MUL=1 mask=7 noise=0,43560,43624,356.84352,357.367808,True
+ALG=7 upstream=1 TL=24 MUL=1 mask=F noise=0 settle,43624,43640,357.367808,357.49888,False
+ALG=7 upstream=1 TL=24 MUL=1 mask=F noise=0,43640,43704,357.49888,358.023168,True
+ALG=7 upstream=1 TL=24 MUL=1 mask=7 noise=1 settle,43704,43720,358.023168,358.15424,False
+ALG=7 upstream=1 TL=24 MUL=1 mask=7 noise=1,43720,43784,358.15424,358.678528,True
+ALG=7 upstream=1 TL=24 MUL=1 mask=F noise=1 settle,43784,43800,358.678528,358.8096,False
+ALG=7 upstream=1 TL=24 MUL=1 mask=F noise=1,43800,43864,358.8096,359.333888,True
+ALG=7 upstream=1 TL=0 MUL=1 mask=7 noise=0 settle,43864,43880,359.333888,359.46496,False
+ALG=7 upstream=1 TL=0 MUL=1 mask=7 noise=0,43880,43944,359.46496,359.989248,True
+ALG=7 upstream=1 TL=0 MUL=1 mask=F noise=0 settle,43944,43960,359.989248,360.12032,False
+ALG=7 upstream=1 TL=0 MUL=1 mask=F noise=0,43960,44024,360.12032,360.644608,True
+ALG=7 upstream=1 TL=0 MUL=1 mask=7 noise=1 settle,44024,44040,360.644608,360.77568,False
+ALG=7 upstream=1 TL=0 MUL=1 mask=7 noise=1,44040,44104,360.77568,361.299968,True
+ALG=7 upstream=1 TL=0 MUL=1 mask=F noise=1 settle,44104,44120,361.299968,361.43104,False
+ALG=7 upstream=1 TL=0 MUL=1 mask=F noise=1,44120,44184,361.43104,361.955328,True
+ALG=7 upstream=1 TL=64 MUL=1 mask=7 noise=0 settle,44184,44200,361.955328,362.0864,False
+ALG=7 upstream=1 TL=64 MUL=1 mask=7 noise=0,44200,44264,362.0864,362.610688,True
+ALG=7 upstream=1 TL=64 MUL=1 mask=F noise=0 settle,44264,44280,362.610688,362.74176,False
+ALG=7 upstream=1 TL=64 MUL=1 mask=F noise=0,44280,44344,362.74176,363.266048,True
+ALG=7 upstream=1 TL=64 MUL=1 mask=7 noise=1 settle,44344,44360,363.266048,363.39712,False
+ALG=7 upstream=1 TL=64 MUL=1 mask=7 noise=1,44360,44424,363.39712,363.921408,True
+ALG=7 upstream=1 TL=64 MUL=1 mask=F noise=1 settle,44424,44440,363.921408,364.05248,False
+ALG=7 upstream=1 TL=64 MUL=1 mask=F noise=1,44440,44504,364.05248,364.576768,True
+ALG=7 upstream=1 TL=127 MUL=1 mask=7 noise=0 settle,44504,44520,364.576768,364.70784,False
+ALG=7 upstream=1 TL=127 MUL=1 mask=7 noise=0,44520,44584,364.70784,365.232128,True
+ALG=7 upstream=1 TL=127 MUL=1 mask=F noise=0 settle,44584,44600,365.232128,365.3632,False
+ALG=7 upstream=1 TL=127 MUL=1 mask=F noise=0,44600,44664,365.3632,365.887488,True
+ALG=7 upstream=1 TL=127 MUL=1 mask=7 noise=1 settle,44664,44680,365.887488,366.01856,False
+ALG=7 upstream=1 TL=127 MUL=1 mask=7 noise=1,44680,44744,366.01856,366.542848,True
+ALG=7 upstream=1 TL=127 MUL=1 mask=F noise=1 settle,44744,44760,366.542848,366.67392,False
+ALG=7 upstream=1 TL=127 MUL=1 mask=F noise=1,44760,44824,366.67392,367.198208,True
+ALG=7 upstream=1 TL=24 MUL=4 mask=7 noise=0 settle,44824,44840,367.198208,367.32928,False
+ALG=7 upstream=1 TL=24 MUL=4 mask=7 noise=0,44840,44904,367.32928,367.853568,True
+ALG=7 upstream=1 TL=24 MUL=4 mask=F noise=0 settle,44904,44920,367.853568,367.98464,False
+ALG=7 upstream=1 TL=24 MUL=4 mask=F noise=0,44920,44984,367.98464,368.508928,True
+ALG=7 upstream=1 TL=24 MUL=4 mask=7 noise=1 settle,44984,45000,368.508928,368.64,False
+ALG=7 upstream=1 TL=24 MUL=4 mask=7 noise=1,45000,45064,368.64,369.164288,True
+ALG=7 upstream=1 TL=24 MUL=4 mask=F noise=1 settle,45064,45080,369.164288,369.29536,False
+ALG=7 upstream=1 TL=24 MUL=4 mask=F noise=1,45080,45144,369.29536,369.819648,True
+ALG=7 upstream=1 TL=24 MUL=15 mask=7 noise=0 settle,45144,45160,369.819648,369.95072,False
+ALG=7 upstream=1 TL=24 MUL=15 mask=7 noise=0,45160,45224,369.95072,370.475008,True
+ALG=7 upstream=1 TL=24 MUL=15 mask=F noise=0 settle,45224,45240,370.475008,370.60608,False
+ALG=7 upstream=1 TL=24 MUL=15 mask=F noise=0,45240,45304,370.60608,371.130368,True
+ALG=7 upstream=1 TL=24 MUL=15 mask=7 noise=1 settle,45304,45320,371.130368,371.26144,False
+ALG=7 upstream=1 TL=24 MUL=15 mask=7 noise=1,45320,45384,371.26144,371.785728,True
+ALG=7 upstream=1 TL=24 MUL=15 mask=F noise=1 settle,45384,45400,371.785728,371.9168,False
+ALG=7 upstream=1 TL=24 MUL=15 mask=F noise=1,45400,45464,371.9168,372.441088,True
+ALG=7 upstream=2 TL=24 MUL=1 mask=7 noise=0 settle,45464,45480,372.441088,372.57216,False
+ALG=7 upstream=2 TL=24 MUL=1 mask=7 noise=0,45480,45544,372.57216,373.096448,True
+ALG=7 upstream=2 TL=24 MUL=1 mask=F noise=0 settle,45544,45560,373.096448,373.22752,False
+ALG=7 upstream=2 TL=24 MUL=1 mask=F noise=0,45560,45624,373.22752,373.751808,True
+ALG=7 upstream=2 TL=24 MUL=1 mask=7 noise=1 settle,45624,45640,373.751808,373.88288,False
+ALG=7 upstream=2 TL=24 MUL=1 mask=7 noise=1,45640,45704,373.88288,374.407168,True
+ALG=7 upstream=2 TL=24 MUL=1 mask=F noise=1 settle,45704,45720,374.407168,374.53824,False
+ALG=7 upstream=2 TL=24 MUL=1 mask=F noise=1,45720,45784,374.53824,375.062528,True
+ALG=7 upstream=2 TL=0 MUL=1 mask=7 noise=0 settle,45784,45800,375.062528,375.1936,False
+ALG=7 upstream=2 TL=0 MUL=1 mask=7 noise=0,45800,45864,375.1936,375.717888,True
+ALG=7 upstream=2 TL=0 MUL=1 mask=F noise=0 settle,45864,45880,375.717888,375.84896,False
+ALG=7 upstream=2 TL=0 MUL=1 mask=F noise=0,45880,45944,375.84896,376.373248,True
+ALG=7 upstream=2 TL=0 MUL=1 mask=7 noise=1 settle,45944,45960,376.373248,376.50432,False
+ALG=7 upstream=2 TL=0 MUL=1 mask=7 noise=1,45960,46024,376.50432,377.028608,True
+ALG=7 upstream=2 TL=0 MUL=1 mask=F noise=1 settle,46024,46040,377.028608,377.15968,False
+ALG=7 upstream=2 TL=0 MUL=1 mask=F noise=1,46040,46104,377.15968,377.683968,True
+ALG=7 upstream=2 TL=64 MUL=1 mask=7 noise=0 settle,46104,46120,377.683968,377.81504,False
+ALG=7 upstream=2 TL=64 MUL=1 mask=7 noise=0,46120,46184,377.81504,378.339328,True
+ALG=7 upstream=2 TL=64 MUL=1 mask=F noise=0 settle,46184,46200,378.339328,378.4704,False
+ALG=7 upstream=2 TL=64 MUL=1 mask=F noise=0,46200,46264,378.4704,378.994688,True
+ALG=7 upstream=2 TL=64 MUL=1 mask=7 noise=1 settle,46264,46280,378.994688,379.12576,False
+ALG=7 upstream=2 TL=64 MUL=1 mask=7 noise=1,46280,46344,379.12576,379.650048,True
+ALG=7 upstream=2 TL=64 MUL=1 mask=F noise=1 settle,46344,46360,379.650048,379.78112,False
+ALG=7 upstream=2 TL=64 MUL=1 mask=F noise=1,46360,46424,379.78112,380.305408,True
+ALG=7 upstream=2 TL=127 MUL=1 mask=7 noise=0 settle,46424,46440,380.305408,380.43648,False
+ALG=7 upstream=2 TL=127 MUL=1 mask=7 noise=0,46440,46504,380.43648,380.960768,True
+ALG=7 upstream=2 TL=127 MUL=1 mask=F noise=0 settle,46504,46520,380.960768,381.09184,False
+ALG=7 upstream=2 TL=127 MUL=1 mask=F noise=0,46520,46584,381.09184,381.616128,True
+ALG=7 upstream=2 TL=127 MUL=1 mask=7 noise=1 settle,46584,46600,381.616128,381.7472,False
+ALG=7 upstream=2 TL=127 MUL=1 mask=7 noise=1,46600,46664,381.7472,382.271488,True
+ALG=7 upstream=2 TL=127 MUL=1 mask=F noise=1 settle,46664,46680,382.271488,382.40256,False
+ALG=7 upstream=2 TL=127 MUL=1 mask=F noise=1,46680,46744,382.40256,382.926848,True
+ALG=7 upstream=2 TL=24 MUL=4 mask=7 noise=0 settle,46744,46760,382.926848,383.05792,False
+ALG=7 upstream=2 TL=24 MUL=4 mask=7 noise=0,46760,46824,383.05792,383.582208,True
+ALG=7 upstream=2 TL=24 MUL=4 mask=F noise=0 settle,46824,46840,383.582208,383.71328,False
+ALG=7 upstream=2 TL=24 MUL=4 mask=F noise=0,46840,46904,383.71328,384.237568,True
+ALG=7 upstream=2 TL=24 MUL=4 mask=7 noise=1 settle,46904,46920,384.237568,384.36864,False
+ALG=7 upstream=2 TL=24 MUL=4 mask=7 noise=1,46920,46984,384.36864,384.892928,True
+ALG=7 upstream=2 TL=24 MUL=4 mask=F noise=1 settle,46984,47000,384.892928,385.024,False
+ALG=7 upstream=2 TL=24 MUL=4 mask=F noise=1,47000,47064,385.024,385.548288,True
+ALG=7 upstream=2 TL=24 MUL=15 mask=7 noise=0 settle,47064,47080,385.548288,385.67936,False
+ALG=7 upstream=2 TL=24 MUL=15 mask=7 noise=0,47080,47144,385.67936,386.203648,True
+ALG=7 upstream=2 TL=24 MUL=15 mask=F noise=0 settle,47144,47160,386.203648,386.33472,False
+ALG=7 upstream=2 TL=24 MUL=15 mask=F noise=0,47160,47224,386.33472,386.859008,True
+ALG=7 upstream=2 TL=24 MUL=15 mask=7 noise=1 settle,47224,47240,386.859008,386.99008,False
+ALG=7 upstream=2 TL=24 MUL=15 mask=7 noise=1,47240,47304,386.99008,387.514368,True
+ALG=7 upstream=2 TL=24 MUL=15 mask=F noise=1 settle,47304,47320,387.514368,387.64544,False
+ALG=7 upstream=2 TL=24 MUL=15 mask=F noise=1,47320,47384,387.64544,388.169728,True
+tail silence,47384,47512,388.169728,389.218304,False

@@ -1,6 +1,6 @@
-# Independent OPM 0.11b（実測LFO置き換え版）
+# Independent OPM 0.12（実測LFO置き換え版）
 
-YM2151のレジスタ入力からステレオ音声を生成するC++17コアです。本配布は **0BSD**。版番号は0.11bを維持しています。
+YM2151のレジスタ入力からステレオ音声を生成するC++17コアです。本配布は **0BSD**。今回のノイズ音量補正を0.11bからの更新として0.12にまとめました。
 
 Copyright (C) 2026 by I.C.KaZe
 
@@ -121,3 +121,10 @@ Build both architectures with VS2022 using `build_dll_windows.bat`. See `docs/DL
 ## 開発方針と文書の読み方
 
 公開マニュアルの仕様と実機の録音・挙動測定に基づく実装です。過去に外部実装を参照したLFO処理は、測定に基づく処理へ置き換えています。現行配布物の説明は[LICENSING.md](docs/LICENSING.md)、途中段階の作業・訂正記録は[履歴資料](docs/history/README.md)に分離しています。
+
+
+### ノイズ音量の実測補正（0.12 / 2026-09-29）
+
+ノイズ出力を従来の1/4に修正しました。詳細と確認範囲は
+[ノイズ検証資料](research/noise-validation-43-46/analysis/NOISE_VALIDATION.html)を参照してください。
+DLLも同じコアから再ビルドすると修正が反映されます。Windows DLLバイナリは本ソース更新に含みません。

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "43NOISE.flac",
+    "sha256": "b286631493732e1270e94aa27b43be4fa72d9adb6d138a9ed4ad280a1f1cf766",
+    "duration_s": 583.889,
+    "nominal_mdx_s": 555.941888,
+    "offset_s": 13.97,
+    "complete_sections": 448,
+    "missing_sections": 0,
+    "first_missing": [],
+    "peak": 0.24601316452026367,
+    "clipped_samples": 0
+  },
+  {
+    "file": "44NROUTE.flac",
+    "sha256": "405588f84ea1c1d9c49d2fae5ef758467fdb95eb94c729294667c7de6195e9ca",
+    "duration_s": 242.12940625,
+    "nominal_mdx_s": 231.931904,
+    "offset_s": 9.4,
+    "complete_sections": 240,
+    "missing_sections": 0,
+    "first_missing": [],
+    "peak": 0.15262103080749512,
+    "clipped_samples": 0
+  },
+  {
+    "file": "45NMOD.flac",
+    "sha256": "97e4d9ab4f505b037bd09e9cec04cde1bf6f13f6499d27237959e77334362047",
+    "duration_s": 390.7315,
+    "nominal_mdx_s": 389.218304,
+    "offset_s": -0.005,
+    "complete_sections": 576,
+    "missing_sections": 0,
+    "first_missing": [],
+    "peak": 0.42521750926971436,
+    "clipped_samples": 0
+  },
+  {
+    "file": "46NSTATE.flac",
+    "sha256": "540df90076e89ea4f5d60c8e8db0c0871c0bd3496d5e2866197b066a3e191efc",
+    "duration_s": 376.8582916666667,
+    "nominal_mdx_s": 355.663872,
+    "offset_s": 1.52,
+    "complete_sections": 360,
+    "missing_sections": 0,
+    "first_missing": [],
+    "peak": 0.19261527061462402,
+    "clipped_samples": 0
+  }
+]

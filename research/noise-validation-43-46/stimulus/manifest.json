@@ -1,0 +1,13 @@
+{
+  "clock_hz": 4000000,
+  "files": [
+    {
+      "name": "43NOISE",
+      "purpose": "Noise amplitude: sine and noise TL sweeps; all NFRQ at TL0/32",
+      "seconds": 555.941888,
+      "ticks": 67864,
+      "register_writes": 630,
+      "sha256": "d5d196806ef1e994b21414a768eb4e9c5606a15fe210e4d20813f2bdd5b6bbef"
+    }
+  ]
+}

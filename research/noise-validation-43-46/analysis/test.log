@@ -1,0 +1,19 @@
+noise_level
+PASS: hardware noise normalization band / 8 algorithms / 3 frequencies / TL curve
+
+key_on
+@80 ALG6 timing=0 peak=0.0526896559 rms=0.0201701828
+@80 ALG6 timing=1 peak=0.0526896559 rms=0.0201701828
+@83 ALG7 timing=0 peak=0.0399907975 rms=0.00768671246
+@83 ALG7 timing=1 peak=0.0399907975 rms=0.00768671245
+@11 ALG5 timing=0 peak=0.0342302454 rms=0.0220695803
+@11 ALG5 timing=1 peak=0.0342302454 rms=0.0220695081
+PASS: 128 key masks, channel isolation, key-off, CSM, 3 corrected voices
+
+state
+PASS: core full-state roundtrip, four LFO shapes, timers/BUSY/latch/release, corruption atomicity; DLL filter/remainder restore, cross-config restore, identical 4096 frames
+
+dll_equivalence
+DLL vs direct core: 4096 frames identical
+
+Previous core negative control: noise_level exits 1 (noise normalization outside measured band).

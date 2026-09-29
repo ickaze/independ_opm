@@ -1,16 +1,16 @@
 {
-  "version": "0.11b",
-  "variant": "docs-review-20260925",
+  "version": "0.12",
+  "variant": "noise-normalization-20260929",
   "files": [
     {
       "path": "CHANGELOG.md",
-      "bytes": 2656,
-      "sha256": "935d720b651a3fc9b2aa2802b0cac4b963802a942ead259f1bfed67417aad7c0"
+      "bytes": 3401,
+      "sha256": "01aaf80aa858734614471f80f4f38afd324bad5aea38c82ad66e0edac6c0a42e"
     },
     {
       "path": "CMakeLists.txt",
-      "bytes": 3156,
-      "sha256": "7c088623e705156f674019da938e77e33ef0911e63a0e8c89944fa45ccf4384a"
+      "bytes": 3356,
+      "sha256": "531e22933839a773445540ece9cc855162072d623bd8a9f5c7f1b5b78f4eba8c"
     },
     {
       "path": "LICENSE.txt",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6849,
-      "sha256": "fa55364a23d408f2f54ee84676062db8f34a6b9642f959a245efdc8dc436f793"
+      "bytes": 7293,
+      "sha256": "dc40c787237e761a4480a5cca39eacec1361e9ae3347371a22ea489c480db596"
     },
     {
       "path": "build_dll_windows.bat",
@@ -43,14 +43,19 @@
       "sha256": "3fa94e7ab3a63678a0dc50a22f02e343c38159f5f9574a04825f14f15ec92235"
     },
     {
+      "path": "docs/BINARY_RELEASE_0.12.md",
+      "bytes": 777,
+      "sha256": "b22255e6a6f7714a4ae63899fcece96190c707e3fa5ceab1693e5d1300041182"
+    },
+    {
       "path": "docs/COPYRIGHT_NOTICE_UPDATE.md",
       "bytes": 664,
       "sha256": "0f6a9e7e01f31c0992d3214bb474342ce6bc5165065fb218b7fac6457efffc71"
     },
     {
       "path": "docs/DLL_API.md",
-      "bytes": 9491,
-      "sha256": "52c10aeab8c2ef2d6b29df387f8bc4e0998ad18d73cbed2e8791922fe058168c"
+      "bytes": 9523,
+      "sha256": "d48b601d21b11dd814f12fc1308d9213bf56541f953d90ac65fd23d03d3f6893"
     },
     {
       "path": "docs/DLL_API_INVENTORY.json",
@@ -86,6 +91,11 @@
       "path": "docs/LICENSING.md",
       "bytes": 2383,
       "sha256": "42f892bfaa2d774e72a5191c74024aa59f58eb6dcb7e65f692220d4c4cc16e4b"
+    },
+    {
+      "path": "docs/NOISE_LEVEL_UPDATE.md",
+      "bytes": 1091,
+      "sha256": "20b0877636eda2e93028a9b36da81577b1e413fa6f0644a07303a30a75995b3b"
     },
     {
       "path": "docs/PERIODIC_REPLACEMENT.md",
@@ -2213,6 +2223,191 @@
       "sha256": "018751057f3f6cf63195676cc9655ccee53783b86a479d11ba4d61785943f836"
     },
     {
+      "path": "research/noise-validation-43-46/LICENSE.txt",
+      "bytes": 664,
+      "sha256": "35618964ed5a420911eb3797fd0f576e8158abff4d481c6f3a4a19932b3ddeff"
+    },
+    {
+      "path": "research/noise-validation-43-46/README.md",
+      "bytes": 1580,
+      "sha256": "5d7cd06a2903bfa06764e35fbbf99a6d99d7ad88d5fd95261f7cd2787a284eca"
+    },
+    {
+      "path": "research/noise-validation-43-46/SHA256.json",
+      "bytes": 3560,
+      "sha256": "1fd2785f68430a635b51d3d9d11a999786a9937ce57990fb57c04dc5d1fc1c91"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/NOISE_VALIDATION.html",
+      "bytes": 7548,
+      "sha256": "8e1a4208fc26e96e6ffc9230bda347b67e2d997cb348d68d0cad48b7fec0882f"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/analyze.py",
+      "bytes": 2248,
+      "sha256": "702e09aae84430f0b275ac87f1e169f912b05746cbc7bc1e975b0ca5070116c1"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/coverage.png",
+      "bytes": 201673,
+      "sha256": "bce51bd21cd8540a8086199a120e6ee4879d0b1a2f7e9e8843d452660593c111"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/decode_recordings.py",
+      "bytes": 732,
+      "sha256": "f62a2cb5a99b828a6fa33892e41b16b67eaf5ab6d69e25c3e2579835d9ccac6e"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/measurements.csv",
+      "bytes": 271704,
+      "sha256": "7b944a7f8fd0bb3300630e48d279c88a1ac0342b8c689638aa6b633949f0e43f"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/measurements.json",
+      "bytes": 575321,
+      "sha256": "26938cea9563404a6c6cdf888fb7e778872fc6f802b3db838d6d9d1f777666a8"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/noise-level.png",
+      "bytes": 104013,
+      "sha256": "5ac11ac670dadca85e8551af7bc410d0dc5390933cfd9cac14d1a31952ba3104"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/recordings.json",
+      "bytes": 1385,
+      "sha256": "65f2e2244c793a2d224282ff4a578bf47d781dccf212ed6812d4798c52db1c02"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/report.py",
+      "bytes": 9546,
+      "sha256": "e2f8428275e8b5dea839f4972357e23fde027585828a3bace03a34600ed01959"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/routing.png",
+      "bytes": 45062,
+      "sha256": "96c84f463c3d5c8a1c5be56efb13866ddf0b34e8afb7998e18777533efe44487"
+    },
+    {
+      "path": "research/noise-validation-43-46/analysis/test.log",
+      "bytes": 832,
+      "sha256": "44ce08216a75791b0b2181bf87995ea4188f6523aaaa804a45816e9526f6fa1c"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/generate_noise.py",
+      "bytes": 2208,
+      "sha256": "7ccc72b32403e3997bf086b6510c7c33aa96587f4636648cacf7ade7166d683e"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/generate_routes.py",
+      "bytes": 3845,
+      "sha256": "036152547d09db95fcc3a713653fa4d417192a82544a81724b0a03aaea897b5e"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/manifest.json",
+      "bytes": 326,
+      "sha256": "17e3821d78b6d097313132c390ac5a77b79beec796817fe093d6a3536ee286bd"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/mdx/43NOISE.MDX",
+      "bytes": 2490,
+      "sha256": "d5d196806ef1e994b21414a768eb4e9c5606a15fe210e4d20813f2bdd5b6bbef"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/mdx/44NROUTE.MDX",
+      "bytes": 3898,
+      "sha256": "d740fe5a47679a12160cf3247c518df3b37c77288bd7b1af6ce724ae29ef9fac"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/mdx/45NMOD.MDX",
+      "bytes": 11576,
+      "sha256": "0e72bda3c3f5f592068beae935f1af09845051d3366174fb5911fd26268513e8"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/mdx/46NSTATE.MDX",
+      "bytes": 4738,
+      "sha256": "801125c209fb5ed764122f7d9356f853ecbb8da0cbbcf654e65c5e6321241d33"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/mdx_writer.py",
+      "bytes": 3914,
+      "sha256": "af0ff980ce15a520103e6b9736389b131ccae411813547f5f119c1b2107b0706"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/routes_manifest.json",
+      "bytes": 909,
+      "sha256": "92586749136cb8d3246fad70fd829a5f2fce053625a323dfda08f475d8922e17"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/43NOISE.csv",
+      "bytes": 34215,
+      "sha256": "ebfabcae2715a44bb026cc18080ca4f073fb4284831e452e210aa81e32ed488f"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/43NOISE.json",
+      "bytes": 878418,
+      "sha256": "537cbb386b2d4567d8832e1ab92730b3fa1a7a0bfba948f2e7d13dfbcb2e5018"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/44NROUTE.csv",
+      "bytes": 33446,
+      "sha256": "bcd3fbe0300ff8136065f3b1546b4418fbb373539790d5ddfb7a3072cf8ee3b1"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/44NROUTE.json",
+      "bytes": 930238,
+      "sha256": "64dc8e8551d2c8e87c8c5d6cddb8f88ff3f33edc7969cc24fc49447be97cc9a0"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/45NMOD.csv",
+      "bytes": 100786,
+      "sha256": "bb1ab251864114291aa513de64ff008e3ab6d668497bb2c8065294551ee7f6ad"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/45NMOD.json",
+      "bytes": 2215730,
+      "sha256": "08b3c15b0eaeca70079be5cb87afad17c4deb86fbbb5eb307234ee120a6ee95c"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/46NSTATE.csv",
+      "bytes": 42870,
+      "sha256": "b7245e9f62342368e3d04dd3dbe9ae8cdba753ded2f8280b377aadf7e93d7ec5"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/schedule/46NSTATE.json",
+      "bytes": 1186464,
+      "sha256": "5435c52c8d26fcc783cb563cb80a8487afdcb980d42bd17b016541575a331eca"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/traces/43NOISE.trace",
+      "bytes": 12244,
+      "sha256": "d2a091968863c61bbc4a8c0430011fb713e99a279062e15336a2530005cffbf4"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/traces/44NROUTE.trace",
+      "bytes": 23202,
+      "sha256": "52799fd96b08ecd8d9ab60c6dcece2598949efd3dbe99f722d8b060c1e522ac9"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/traces/45NMOD.trace",
+      "bytes": 73281,
+      "sha256": "a34a2379c296887796a4462cc465da70c308587ecf484ca15feccc059c725e45"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/traces/46NSTATE.trace",
+      "bytes": 28369,
+      "sha256": "4d269197d2b82605cc47210e652d1b7cb436e2a89e7c4eaee1d1956aabb6f3bb"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/verify.py",
+      "bytes": 2669,
+      "sha256": "2232cd61c2804a6ace1fee7247d38b147e56ccca06c312190cd02d6d50803be8"
+    },
+    {
+      "path": "research/noise-validation-43-46/stimulus/verify_routes.py",
+      "bytes": 2672,
+      "sha256": "5fb6ea1c05f79761dd751f11db5a8f276cceb9e85bcd22e1256b2993a14cf3ad"
+    },
+    {
       "path": "research/periodic/LICENSE.txt",
       "bytes": 664,
       "sha256": "35618964ed5a420911eb3797fd0f576e8158abff4d481c6f3a4a19932b3ddeff"
@@ -2534,8 +2729,8 @@
     },
     {
       "path": "src/dll_api.cpp",
-      "bytes": 7003,
-      "sha256": "cb29ee10063989403cdc9e11c42a0af0d7a68fb73f2698b7cb8360f9e054d849"
+      "bytes": 7002,
+      "sha256": "f1a5a0c5cfd68c9c33e020da713c851cb6a9fa1ff994a298944bc3b311e2caae"
     },
     {
       "path": "src/envelope_times.hpp",
@@ -2554,8 +2749,8 @@
     },
     {
       "path": "src/ym2151.cpp",
-      "bytes": 18427,
-      "sha256": "270fb2c7e99243660639837eb5d809912c736403673f68fa68935627b089385b"
+      "bytes": 18619,
+      "sha256": "4412403f7857a809734e56b34ec948314219393dac36ebe917555bf89add6fc8"
     },
     {
       "path": "tests/make_periodic_vectors.py",
@@ -2586,6 +2781,11 @@
       "path": "tests/test_key_on.cpp",
       "bytes": 2257,
       "sha256": "3663c485bddf83814e358da49f83e5e395292bf38d53038bf6f45dbfb6fe77ec"
+    },
+    {
+      "path": "tests/test_noise_level.cpp",
+      "bytes": 1704,
+      "sha256": "8494d4aaa4887389773f263164f6e80dcdf8c04b49da1e0bbb7224d8655fbc83"
     },
     {
       "path": "tests/test_output_timing.cpp",

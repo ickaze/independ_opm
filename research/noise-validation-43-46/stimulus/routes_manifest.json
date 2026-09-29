@@ -1,0 +1,29 @@
+{
+  "clock_hz": 4000000,
+  "files": [
+    {
+      "name": "44NROUTE",
+      "purpose": "All algorithms, every nonzero operator key subset, noise off/on",
+      "seconds": 231.931904,
+      "ticks": 28312,
+      "register_writes": 1192,
+      "sha256": "d740fe5a47679a12160cf3247c518df3b37c77288bd7b1af6ce724ae29ef9fac"
+    },
+    {
+      "name": "45NMOD",
+      "purpose": "Upstream parameter changes with C2 on/off controls, noise off/on",
+      "seconds": 389.218304,
+      "ticks": 47512,
+      "register_writes": 3640,
+      "sha256": "0e72bda3c3f5f592068beae935f1af09845051d3366174fb5911fd26268513e8"
+    },
+    {
+      "name": "46NSTATE",
+      "purpose": "Feedback sweep with C2 controls and sustained noise/key transitions",
+      "seconds": 355.663872,
+      "ticks": 43416,
+      "register_writes": 1432,
+      "sha256": "801125c209fb5ed764122f7d9356f853ecbb8da0cbbcf654e65c5e6321241d33"
+    }
+  ]
+}
